@@ -1,0 +1,45 @@
+title: Tanujit Chakraborty
+description: Academic website of Tanujit Chakraborty.
+url: https://www.ctanujit.org
+baseurl: ""
+lang: en
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+permalink: pretty
+sass:
+  style: compressed
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - MIGRATION_MANIFEST.md
+  - LEGACY_URL_MAP.md
+  - CONTENT_AUDIT.md
+  - ASSET_AUDIT.md
+  - ASSET_PREFLIGHT.md
+  - STATS_DESIGN.md
+  - ARCHITECTURE.md
+  - MAINTENANCE_GUIDE.md
+  - CONTENT_FILE_MAP.md
+  - IMAGE_MAP.md
+  - ROUTE_MAP.md
+  - COMPONENT_MAP.md
+  - LINK_AUDIT.md
+  - scripts
+  - vendor
+  - _tools
+  - website-quarto
+  - Software_Images
+  - pil_check.txt
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: teaching/statistical-inference/notes
+    values:
+      layout: null
+      permalink: /:path/:basename:output_ext

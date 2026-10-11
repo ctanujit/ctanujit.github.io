@@ -1,0 +1,19 @@
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Bundler / local Ruby
+.bundle/
+vendor/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*~

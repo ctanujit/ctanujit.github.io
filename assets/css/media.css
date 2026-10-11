@@ -1,0 +1,445 @@
+
+/* =========================================================
+   MEDIA PAGE — aligned editorial layout
+   ========================================================= */
+
+.media-page {
+  width: min(1440px, 93vw);
+  margin-inline: auto;
+  padding: 0 0 3.6rem;
+}
+
+/* ---------- Hero ---------- */
+
+.media-hero {
+  position: relative;
+  min-height: 22rem;
+  margin: 0 0 2.6rem;
+  overflow: hidden;
+}
+
+.media-hero-copy {
+  position: relative;
+  z-index: 2;
+  width: min(31rem, 39%);
+  padding: 3.4rem 0 2.6rem;
+}
+
+.media-eyebrow {
+  margin: 0 0 .4rem;
+  color: var(--terracotta);
+  font-family: system-ui, "Segoe UI", sans-serif;
+  font-size: .73rem;
+  font-weight: 700;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+}
+
+.media-hero h1 {
+  margin: 0;
+  color: var(--primary-deep);
+  font-size: clamp(3.7rem, 6.4vw, 5.5rem);
+  line-height: .95;
+  letter-spacing: -.035em;
+}
+
+.media-hero-lead {
+  max-width: 25rem;
+  margin: 1rem 0 0;
+  color: #53697d;
+  font-size: clamp(1.08rem, 1.55vw, 1.35rem);
+  line-height: 1.48;
+}
+
+.media-hero-art {
+  position: absolute;
+  inset: 0 -1.5% 0 34%;
+  margin: 0;
+  overflow: hidden;
+  pointer-events: none;
+
+  -webkit-mask-image:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(0,0,0,.10) 8%,
+      rgba(0,0,0,.44) 20%,
+      rgba(0,0,0,.84) 35%,
+      #000 51%,
+      #000 100%
+    );
+
+  mask-image:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(0,0,0,.10) 8%,
+      rgba(0,0,0,.44) 20%,
+      rgba(0,0,0,.84) 35%,
+      #000 51%,
+      #000 100%
+    );
+}
+
+.media-hero-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg,
+      rgba(246,243,238,.02) 0%,
+      transparent 72%,
+      var(--paper) 100%);
+}
+
+.media-hero-art img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  display: block;
+  object-fit: cover;
+  object-position: 54% 50%;
+}
+
+/* ---------- Shared section heading ---------- */
+
+.media-section {
+  margin-top: 2.3rem;
+}
+
+.media-section-heading {
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 1.2rem;
+  padding: 0 0 .8rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.media-section-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .18rem;
+  width: 3px;
+  height: 2.45rem;
+  background: var(--terracotta);
+}
+
+.media-section-heading h2 {
+  margin: 0;
+  padding-left: 0;
+  border-left: 0;
+  color: var(--primary-deep);
+  font-size: clamp(1.75rem, 2.35vw, 2.3rem);
+  line-height: 1.05;
+}
+
+.media-section-heading p {
+  margin: .35rem 0 0;
+  color: var(--muted);
+  font-size: .94rem;
+  line-height: 1.45;
+}
+
+/* ---------- Media Coverage ---------- */
+
+.media-coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.05rem;
+  align-items: start;
+}
+
+.media-coverage-card {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: rgba(255,252,248,.86);
+  border: 1px solid var(--line);
+  border-radius: .5rem;
+  transition:
+    transform .16s ease,
+    border-color .16s ease,
+    box-shadow .16s ease;
+}
+
+.media-coverage-card:hover {
+  transform: translateY(-2px);
+  border-color: #c9baa8;
+  box-shadow: 0 9px 24px rgba(22,54,84,.07);
+}
+
+.media-coverage-image {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding: .65rem;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.media-coverage-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.media-coverage-copy {
+  display: flex;
+  flex-direction: column;
+  padding: .95rem 1.05rem 1rem;
+}
+
+.media-source {
+  margin: 0 0 .32rem;
+  color: var(--terracotta);
+  font-family: system-ui, "Segoe UI", sans-serif;
+  font-size: .71rem;
+  font-weight: 700;
+  letter-spacing: .085em;
+  text-transform: uppercase;
+}
+
+.media-coverage-copy h3 {
+  min-height: 2.9em;
+  margin: 0;
+  color: var(--primary-deep);
+  font-size: 1.13rem;
+  line-height: 1.3;
+}
+
+.media-coverage-copy h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.media-coverage-copy h3 a:hover {
+  color: var(--terracotta);
+}
+
+.media-action {
+  align-self: flex-start;
+  margin-top: .75rem;
+  padding-top: 0;
+  color: var(--primary);
+  font-size: .92rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.media-action:hover {
+  color: var(--terracotta);
+}
+
+/* ---------- Personal Corner ---------- */
+
+.personal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.05rem;
+  align-items: start;
+}
+
+.personal-card {
+  min-width: 0;
+  padding: 1rem;
+  overflow: hidden;
+  background: rgba(255,252,248,.86);
+  border: 1px solid var(--line);
+  border-radius: .5rem;
+}
+
+.personal-card-head {
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: .85rem;
+  margin-bottom: .8rem;
+}
+
+.personal-card-head h3 {
+  margin: 0;
+  color: var(--primary-deep);
+  font-size: 1.18rem;
+  line-height: 1.2;
+}
+
+.personal-card-head p {
+  margin: .22rem 0 0;
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.4;
+}
+
+.personal-toggle {
+  flex: none;
+  margin: .05rem 0 0;
+  padding: .15rem 0;
+  border: 0;
+  background: none;
+  color: var(--primary);
+  font: inherit;
+  font-size: .83rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.personal-toggle:hover {
+  color: var(--terracotta);
+}
+
+/* Exactly two visible rows on desktop: 3 columns x 2 rows. */
+.personal-preview,
+.personal-extra {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .42rem;
+}
+
+.personal-preview-item,
+.personal-extra a {
+  display: block;
+  min-width: 0;
+  aspect-ratio: 1.16 / 1;
+  overflow: hidden;
+  background: #eee8e0;
+  border-radius: .18rem;
+}
+
+.personal-preview img,
+.personal-extra img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Poems are scans/text: never crop them. */
+.personal-card[data-media-gallery]:nth-child(2) .personal-preview-item,
+.personal-card[data-media-gallery]:nth-child(2) .personal-extra a {
+  background: #fff;
+}
+
+.personal-card[data-media-gallery]:nth-child(2) .personal-preview img,
+.personal-card[data-media-gallery]:nth-child(2) .personal-extra img {
+  object-fit: contain;
+  background: #fff;
+}
+
+.personal-extra {
+  margin-top: .42rem;
+}
+
+.personal-extra[hidden] {
+  display: none;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 1180px) {
+  .media-coverage-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .personal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .personal-card-head {
+    min-height: 0;
+  }
+
+  .personal-preview,
+  .personal-extra {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .personal-preview-item,
+  .personal-extra a {
+    aspect-ratio: 1.45 / 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .media-page {
+    width: min(1440px, 91vw);
+  }
+
+  .media-hero {
+    min-height: 30rem;
+    margin-bottom: 2rem;
+  }
+
+  .media-hero-copy {
+    width: 100%;
+    max-width: 31rem;
+    padding-top: 1.8rem;
+  }
+
+  .media-hero-art {
+    inset: 10.8rem -10% 0 -10%;
+    -webkit-mask-image:
+      linear-gradient(
+        180deg,
+        transparent 0%,
+        rgba(0,0,0,.68) 16%,
+        #000 36%,
+        #000 85%,
+        transparent 100%
+      );
+    mask-image:
+      linear-gradient(
+        180deg,
+        transparent 0%,
+        rgba(0,0,0,.68) 16%,
+        #000 36%,
+        #000 85%,
+        transparent 100%
+      );
+  }
+
+  .media-hero-art img {
+    object-position: 58% center;
+  }
+}
+
+@media (max-width: 640px) {
+  .media-page {
+    width: min(1440px, calc(100% - 2rem));
+  }
+
+  .media-hero {
+    min-height: 27rem;
+  }
+
+  .media-hero h1 {
+    font-size: clamp(3rem, 17vw, 4rem);
+  }
+
+  .media-hero-lead {
+    font-size: 1rem;
+  }
+
+  .media-coverage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .personal-preview,
+  .personal-extra {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .personal-preview-item,
+  .personal-extra a {
+    aspect-ratio: 1.08 / 1;
+  }
+}

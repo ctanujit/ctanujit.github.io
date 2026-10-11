@@ -1,0 +1,482 @@
+/* =========================================================
+   CURRICULUM VITAE PAGE
+   Scoped entirely to .cv-page
+   ========================================================= */
+
+.cv-page {
+  --cv-navy: #12385b;
+  --cv-deep: #0d3153;
+  --cv-muted: #5e7283;
+  --cv-paper: #f7f4ee;
+  --cv-card: rgba(255,252,248,.88);
+  --cv-line: #ddd4c8;
+  --cv-terracotta: #c45124;
+  width: min(1220px, calc(100% - 2.5rem));
+  margin: 0 auto;
+  padding: 1.7rem 0 3rem;
+  color: var(--cv-deep);
+}
+
+/* Hero */
+.cv-hero {
+  display: grid;
+  grid-template-columns: 190px minmax(0,1fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem .3rem 1.4rem;
+}
+
+.cv-hero-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 4.65;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: .24rem;
+  background: #ece8e1;
+}
+
+.cv-kicker {
+  margin: 0 0 .25rem;
+  color: var(--cv-terracotta);
+  font-family: system-ui, "Segoe UI", sans-serif;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.cv-hero h1 {
+  margin: 0;
+  color: var(--cv-deep);
+  font-size: clamp(2.6rem, 5vw, 4.3rem);
+  line-height: .98;
+  letter-spacing: -.035em;
+}
+
+.cv-hero-summary {
+  max-width: 56rem;
+  margin: .72rem 0 0;
+  color: #435f76;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+.cv-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin-top: 1rem;
+}
+
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.7rem;
+  padding: .62rem .95rem;
+  border-radius: .28rem;
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cv-btn-primary {
+  border: 1px solid var(--cv-terracotta);
+  background: var(--cv-terracotta);
+  color: white;
+}
+
+.cv-btn-secondary {
+  border: 1px solid #8799aa;
+  background: transparent;
+  color: var(--cv-deep);
+}
+
+.cv-btn:hover,
+.cv-btn:focus-visible {
+  transform: translateY(-1px);
+}
+
+/* Anchor nav */
+.cv-anchor-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .1rem 1.55rem;
+  padding: .75rem .5rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid var(--cv-line);
+  border-bottom: 1px solid var(--cv-line);
+  background: rgba(247,244,238,.95);
+  backdrop-filter: blur(9px);
+}
+
+.cv-anchor-nav a {
+  position: relative;
+  padding: .25rem 0;
+  color: var(--cv-deep);
+  font-size: .76rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cv-anchor-nav a:hover {
+  color: var(--cv-terracotta);
+}
+
+/* Sections */
+.cv-section {
+  scroll-margin-top: 4rem;
+  margin-top: 1.15rem;
+}
+
+.cv-section h2 {
+  margin: 0 0 .55rem;
+  padding-left: .8rem;
+  border-left: 3px solid var(--cv-terracotta);
+  color: var(--cv-deep);
+  font-size: 1.72rem;
+  line-height: 1.15;
+}
+
+.cv-section h2::before,
+.cv-section h2::after {
+  content: none !important;
+  display: none !important;
+}
+
+.cv-section-card,
+.cv-bio-card {
+  border: 1px solid var(--cv-line);
+  border-radius: .35rem;
+  background: var(--cv-card);
+}
+
+/* Bio */
+.cv-bio-card {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) 150px;
+  gap: 1.2rem;
+  align-items: start;
+  padding: 1rem 1.05rem;
+}
+
+.cv-media-permission {
+  margin: 0 0 .7rem;
+  padding: .65rem .75rem;
+  border-left: 3px solid #d6b39f;
+  background: #faf1eb;
+  color: #4f6272;
+  font-size: .82rem;
+  line-height: 1.45;
+}
+
+.cv-media-permission p,
+.cv-bio-copy p {
+  margin: 0;
+}
+
+.cv-media-permission a {
+  color: #075baa;
+  text-underline-offset: 2px;
+}
+
+.cv-bio-copy {
+  color: #405c72;
+  font-size: .87rem;
+  line-height: 1.55;
+
+  /* Word-document style alignment */
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.cv-bio-copy a {
+  color: #075baa;
+  text-underline-offset: 2px;
+}
+
+.cv-bio-photo {
+  color: var(--cv-deep);
+  text-decoration: none;
+  font-size: .68rem;
+  font-weight: 700;
+}
+
+.cv-bio-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 4.7;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: .22rem;
+  background: #ece8e1;
+}
+
+.cv-bio-photo span {
+  display: block;
+  margin-top: .4rem;
+}
+
+/* Timeline entries */
+.cv-entry {
+  display: grid;
+  grid-template-columns: 150px minmax(0,1fr);
+  gap: 1rem;
+  padding: .58rem .8rem;
+}
+
+.cv-entry + .cv-entry {
+  border-top: 1px solid var(--cv-line);
+}
+
+.cv-entry-period {
+  align-self: start;
+  width: fit-content;
+  min-width: 116px;
+  padding: .28rem .55rem;
+  border-radius: .22rem;
+  background: #faeae2;
+  color: #ba4425;
+  font-size: .72rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cv-entry-main {
+  min-width: 0;
+}
+
+.cv-entry-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem .75rem;
+  align-items: baseline;
+}
+
+.cv-entry-title {
+  color: #b43f25;
+  font-size: .83rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.cv-entry-title p {
+  margin: 0;
+}
+
+
+/* Awards: normal sentence is navy */
+.cv-section--awards .cv-entry-title {
+  color: var(--cv-deep);
+  font-weight: 400;
+}
+
+
+/* Only **bold text** in Awards becomes orange */
+.cv-section--awards .cv-entry-title strong {
+  color: #b43f25;
+  font-weight: 700;
+}
+
+.cv-entry-heading span {
+  color: #49657a;
+  font-size: .78rem;
+  line-height: 1.35;
+}
+
+.cv-entry-details {
+  margin-top: .18rem;
+}
+
+.cv-entry-details > div {
+  color: #405c72;
+  font-size: .75rem;
+  line-height: 1.36;
+}
+
+.cv-entry-details p {
+  margin: .07rem 0;
+}
+
+/* Reviewer/service detail */
+.cv-reviewing {
+  padding: .4rem .8rem .85rem;
+  border-top: 1px solid var(--cv-line);
+}
+
+.cv-reviewing-block {
+  display: grid;
+  grid-template-columns: 150px minmax(0,1fr);
+  gap: 1rem;
+  padding: .45rem 0;
+}
+
+.cv-reviewing-block + .cv-reviewing-block {
+  border-top: 1px solid rgba(221,212,200,.7);
+}
+
+.cv-reviewing h3 {
+  margin: 0;
+  color: #b43f25;
+  font-size: .72rem;
+  line-height: 1.35;
+}
+
+.cv-reviewing p {
+  margin: 0;
+  color: #405c72;
+  font-size: .72rem;
+  line-height: 1.42;
+}
+
+/* Print */
+@media print {
+  header.site-header,
+  footer,
+  .cv-anchor-nav,
+  .cv-hero-actions {
+    display: none !important;
+  }
+
+  .cv-page {
+    width: 100%;
+    padding: 0;
+  }
+
+  .cv-section,
+  .cv-entry,
+  .cv-bio-card {
+    break-inside: avoid;
+  }
+}
+
+@media (max-width: 760px) {
+  .cv-page {
+    width: min(100% - 1.2rem, 720px);
+  }
+
+  .cv-hero {
+    grid-template-columns: 120px minmax(0,1fr);
+    gap: 1rem;
+  }
+
+  .cv-hero h1 {
+    font-size: 2.65rem;
+  }
+
+  .cv-anchor-nav {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+
+  .cv-bio-card {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-bio-photo {
+    width: 130px;
+  }
+
+  .cv-entry,
+  .cv-reviewing-block {
+    grid-template-columns: 1fr;
+    gap: .32rem;
+  }
+
+  .cv-entry-period {
+    min-width: 0;
+  }
+
+  .cv-bio-copy {
+    text-align: left;
+    hyphens: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-hero-photo {
+    width: 145px;
+  }
+}
+.cv-download-menu {
+  position: relative;
+}
+
+.cv-download-trigger {
+  gap: .55rem;
+}
+
+.cv-download-options {
+  position: absolute;
+  top: calc(100% + .45rem);
+  left: 0;
+  z-index: 30;
+
+  width: 10.5rem;
+  padding: .4rem;
+
+  border: 1px solid var(--cv-line);
+  border-radius: .4rem;
+
+  background: #fffdf9;
+  box-shadow: 0 10px 28px rgba(22, 54, 84, .12);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5px);
+
+  transition:
+    opacity .15s ease,
+    transform .15s ease,
+    visibility .15s ease;
+}
+
+.cv-download-menu.is-open .cv-download-options {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.cv-download-options a {
+  display: block;
+  padding: .72rem .78rem;
+
+  border-radius: .3rem;
+
+  color: var(--cv-deep);
+  text-decoration: none;
+}
+
+.cv-download-options a + a {
+  border-top: 1px solid var(--cv-line);
+}
+
+.cv-download-options a:hover {
+  background: #f8eee8;
+}
+
+.cv-download-options strong {
+  display: block;
+  font-size: .82rem;
+}
+
+.cv-download-options span {
+  display: block;
+  margin-top: .15rem;
+
+  color: var(--cv-muted);
+  font-size: .68rem;
+  font-weight: 400;
+}

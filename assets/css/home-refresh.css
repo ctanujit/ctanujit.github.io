@@ -1,0 +1,524 @@
+/* =========================================================
+   HOME PAGE REDESIGN
+   Scoped to .home-redesign only.
+   ========================================================= */
+
+.home-redesign {
+  --home-navy: #12385b;
+  --home-deep: #0f3457;
+  --home-muted: #607486;
+  --home-paper: #f7f4ee;
+  --home-card: rgba(255,252,248,.84);
+  --home-line: #ddd4c9;
+  --home-terracotta: #c45124;
+  padding: 1.75rem 0 3rem;
+}
+
+.home-shell {
+  width: min(1280px, calc(100% - 3rem));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 260px minmax(0,1fr);
+  gap: clamp(2.2rem, 4vw, 3.5rem);
+  align-items: start;
+}
+
+.home-sidebar {
+  position: relative;
+}
+
+.home-profile-card {
+  position: sticky;
+  top: 1.5rem;
+  padding: .85rem .85rem 1rem;
+  border: 1px solid var(--home-line);
+  border-radius: .42rem;
+  background: rgba(255,252,248,.7);
+}
+
+.home-profile-photo-link {
+  display: block;
+}
+
+.home-profile-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: .2rem;
+  background: #ece8e1;
+}
+
+.home-profile-name {
+  margin: .8rem 0 .25rem;
+  color: var(--home-deep);
+  font-size: 1.34rem;
+  line-height: 1.15;
+}
+
+.home-profile-title,
+.home-profile-institution {
+  margin: 0;
+  color: #5c6e7e;
+  font-size: .84rem;
+  line-height: 1.45;
+}
+
+.home-profile-institution {
+  margin-top: .18rem;
+}
+
+.home-profile-links {
+  display: grid;
+  gap: .48rem;
+  margin-top: 1rem;
+  padding: .95rem 0;
+  border-top: 1px solid var(--home-line);
+  border-bottom: 1px solid var(--home-line);
+}
+
+.home-profile-links a {
+  color: var(--home-navy);
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+.home-profile-links a:hover {
+  color: var(--home-terracotta);
+}
+
+.home-cv-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .65rem;
+  min-height: 2.7rem;
+  margin-top: .95rem;
+  padding: .62rem .75rem;
+  border: 1px solid var(--home-terracotta);
+  border-radius: .28rem;
+  background: var(--home-terracotta);
+  color: #fff;
+  font-size: .8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-cv-button:hover,
+.home-cv-button:focus-visible {
+  background: #a94320;
+  color: #fff;
+  outline: none;
+}
+
+/* Main content */
+.home-main {
+  min-width: 0;
+}
+
+.home-section {
+  margin-bottom: 2rem;
+}
+
+.home-section h2 {
+  position: relative;
+  margin: 0 0 .8rem;
+  padding-left: .85rem;
+  border-left: 3px solid var(--home-terracotta);
+  color: var(--home-deep);
+  font-size: clamp(1.55rem, 2.2vw, 2rem);
+  line-height: 1.1;
+}
+
+/* Prevent any global/page pseudo-element rule from creating a second bar. */
+.home-section h2::before,
+.home-section h2::after {
+  content: none !important;
+  display: none !important;
+}
+
+.home-introduction-copy,
+.home-research-copy {
+  margin: 0;
+  color: #35546c;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.home-introduction-copy p {
+  margin: 0;
+}
+
+.home-introduction-copy a {
+  color: #075baa;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.home-introduction-copy a:hover {
+  color: var(--home-terracotta);
+}
+
+/* Affiliations */
+.home-affiliations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: .8rem;
+}
+
+.home-affiliation-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7.25rem minmax(0,1fr);
+  gap: .85rem;
+  align-items: center;
+  min-height: 8rem;
+  padding: .9rem 2.2rem .9rem .85rem;
+  border: 1px solid var(--home-line);
+  border-radius: .42rem;
+  background: var(--home-card);
+  color: inherit;
+  text-decoration: none;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+a.home-affiliation-card:hover,
+a.home-affiliation-card:focus-visible {
+  color: inherit;
+  transform: translateY(-1px);
+  border-color: #c9bbae;
+  box-shadow: 0 6px 16px rgba(22,54,84,.05);
+  outline: none;
+}
+
+.home-affiliation-logo-wrap {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 5.6rem;
+  padding: .35rem;
+  border-radius: .25rem;
+  background: #fff;
+}
+
+.home-affiliation-logo {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+/*
+  Any future replacement logo can use a different aspect ratio.
+  object-fit: contain keeps it inside the same visual frame automatically.
+*/
+.home-affiliation-copy {
+  min-width: 0;
+}
+
+.home-affiliation-copy h3 {
+  margin: 0;
+  color: var(--home-deep);
+  font-size: .93rem;
+  line-height: 1.3;
+}
+
+.home-affiliation-copy p {
+  margin: .28rem 0 0;
+  color: #607486;
+  font-size: .76rem;
+  line-height: 1.38;
+}
+
+.home-affiliation-copy strong {
+  display: block;
+  margin-top: .5rem;
+  color: var(--home-navy);
+  font-size: .79rem;
+  line-height: 1.32;
+}
+
+.home-affiliation-arrow {
+  position: absolute;
+  right: .8rem;
+  bottom: .8rem;
+  color: var(--home-navy);
+}
+
+/* Education */
+.home-education-list {
+  border-top: 1px solid var(--home-line);
+}
+
+.home-education-row {
+  display: grid;
+  grid-template-columns: 5rem minmax(0,1fr);
+  gap: .85rem;
+  align-items: center;
+  min-height: 2.8rem;
+  border-bottom: 1px solid var(--home-line);
+  color: #35546c;
+}
+
+.home-degree {
+  display: inline-flex;
+  width: fit-content;
+  padding: .2rem .6rem;
+  border-radius: .2rem;
+  background: #f7e8df;
+  color: var(--home-terracotta);
+  font-weight: 700;
+}
+
+/* Research */
+.home-research-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: .7rem;
+  margin-top: 1rem;
+}
+
+.home-research-card {
+  overflow: hidden;
+  border: 1px solid var(--home-line);
+  border-radius: .38rem;
+  background: var(--home-card);
+  color: inherit;
+  text-decoration: none;
+  transition: transform .15s ease, border-color .15s ease;
+}
+
+.home-research-card:hover,
+.home-research-card:focus-visible {
+  color: inherit;
+  transform: translateY(-2px);
+  border-color: #c6b7aa;
+  outline: none;
+}
+
+.home-research-card figure {
+  margin: 0;
+  aspect-ratio: 16 / 8.2;
+  overflow: hidden;
+  background: #f1f3f2;
+}
+
+.home-research-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Research imagery is data-driven from _data/research.yml.
+   Replace a theme image there and Home updates automatically. */
+.home-research-card-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .45rem;
+  min-height: 3.1rem;
+  padding: .55rem .65rem;
+  color: var(--home-deep);
+  font-size: .73rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.home-inline-link {
+  display: inline-block;
+  margin-top: .7rem;
+  color: #075baa;
+  font-size: .82rem;
+}
+
+/* News */
+.home-news-list {
+  border-top: 1px solid var(--home-line);
+}
+
+.home-news-row {
+  display: grid;
+  grid-template-columns: 7rem minmax(0,1fr);
+  gap: .8rem;
+  padding: .58rem 0;
+  border-bottom: 1px solid var(--home-line);
+}
+
+.home-news-row time {
+  color: #b6442d;
+  font-size: .7rem;
+  font-weight: 700;
+}
+
+.home-news-text {
+  min-width: 0;
+  color: #35546c;
+  font-size: .79rem;
+  line-height: 1.45;
+}
+
+.home-news-text p {
+  margin: 0;
+}
+
+/* Markdown formatting in _data/news.yml */
+.home-news-text strong {
+  color: #b6442d;
+  font-weight: 700;
+}
+
+.home-news-text em {
+  color: #314f69;
+}
+
+/* Optional inline colour helpers that can be used directly in news text:
+   <span class="news-red">...</span>, etc. */
+.home-news-text .news-red { color: #b6442d; font-weight: 700; }
+.home-news-text .news-blue { color: #075baa; font-weight: 700; }
+.home-news-text .news-green { color: #28735c; font-weight: 700; }
+.home-news-text .news-gold { color: #9a6a13; font-weight: 700; }
+.home-news-text .news-purple { color: #6f4a8e; font-weight: 700; }
+
+/* Optional whole-entry tones in news.yml: tone: award / paper / people */
+.home-news-row--award .home-news-text { color: #8e3d25; }
+.home-news-row--paper .home-news-text { color: #244f73; }
+.home-news-row--people .home-news-text { color: #385e51; }
+
+.home-news-text a {
+  color: #075baa;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.home-news-extra {
+  display: none;
+}
+
+.home-news-list.is-expanded .home-news-extra {
+  display: grid;
+}
+
+.home-news-toggle {
+  margin-top: .65rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #075baa;
+  cursor: pointer;
+  font: inherit;
+  font-size: .76rem;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Highlights */
+.home-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: .55rem;
+}
+
+.home-highlight {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--home-line);
+  border-radius: .3rem;
+  background: #eeeae3;
+}
+
+.home-highlight img {
+  width: 100%;
+  aspect-ratio: 4 / 2.7;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1050px) {
+  .home-shell {
+    grid-template-columns: 220px minmax(0,1fr);
+    gap: 2rem;
+  }
+
+  .home-affiliations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-research-grid {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .home-redesign {
+    padding-top: 1rem;
+  }
+
+  .home-shell {
+    width: min(100% - 1.5rem, 720px);
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+
+  .home-profile-card {
+    position: static;
+    display: grid;
+    grid-template-columns: 9rem minmax(0,1fr);
+    column-gap: 1rem;
+  }
+
+  .home-profile-photo-link {
+    grid-row: span 4;
+  }
+
+  .home-profile-links,
+  .home-cv-button {
+    grid-column: 1 / -1;
+  }
+
+  .home-affiliation-card {
+    grid-template-columns: 6.5rem minmax(0,1fr);
+  }
+
+  .home-research-grid,
+  .home-highlight-grid {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .home-profile-card {
+    display: block;
+  }
+
+  .home-profile-photo {
+    width: min(15rem, 72%);
+  }
+
+  .home-research-grid,
+  .home-highlight-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-news-row {
+    grid-template-columns: 1fr;
+    gap: .2rem;
+  }
+
+  .home-affiliation-card {
+    grid-template-columns: 1fr;
+    padding-right: .85rem;
+  }
+
+  .home-affiliation-logo-wrap {
+    justify-items: start;
+  }
+
+  .home-affiliation-logo {
+    width: min(13rem, 100%);
+  }
+}

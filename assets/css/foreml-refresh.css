@@ -1,0 +1,604 @@
+/* =========================================================
+   FOREML LAB REDESIGN
+   Page-scoped styles only. Global navigation/base styles are untouched.
+   ========================================================= */
+
+.foreml-hero {
+  width: 100%;
+  overflow: hidden;
+  background: #17365b;
+  color: #f7f4ef;
+}
+.foreml-hero-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 8.3rem minmax(0, 1.35fr) minmax(18rem, .9fr);
+  gap: 1.55rem 2rem;
+  align-items: center;
+  width: min(82rem, 93vw);
+  min-height: 18rem;
+  margin: 0 auto;
+  padding: 2rem 0 2.15rem;
+}
+.foreml-brand { position: relative; z-index: 2; }
+.foreml-logo { display: block; width: 100%; height: auto; object-fit: contain; }
+.foreml-hero-copy { position: relative; z-index: 2; min-width: 0; }
+.foreml-eyebrow,
+.foreml-join-kicker,
+.foreml-paper-year {
+  margin: 0;
+  color: #d9ec61;
+  font-family: system-ui, "Segoe UI", sans-serif;
+  font-size: .7rem;
+  font-weight: 750;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.foreml-hero h1 {
+  margin: .25rem 0 0;
+  color: #fff;
+  font-size: clamp(2.55rem, 4.5vw, 4rem);
+  line-height: .98;
+  letter-spacing: -.035em;
+}
+.foreml-fuse {
+  margin: .7rem 0 0;
+  color: #f3e1c5;
+  font-family: var(--font-heading);
+  font-size: clamp(1.02rem, 1.55vw, 1.3rem);
+  line-height: 1.45;
+}
+.foreml-fuse strong { color: #fff; font-weight: 600; }
+.foreml-caret {
+  display: inline-block;
+  width: 2px;
+  height: .88em;
+  margin-left: 3px;
+  background: #d9ec61;
+  vertical-align: -.06em;
+  animation: foreml-blink .9s steps(1) infinite;
+}
+@keyframes foreml-blink { 50% { opacity: 0; } }
+.foreml-lead {
+  max-width: 45rem;
+  margin: .85rem 0 0;
+  color: #d9e3ec;
+  font-size: .98rem;
+  line-height: 1.55;
+}
+.foreml-science { position: relative; z-index: 1; align-self: stretch; min-width: 0; opacity: .96; }
+.foreml-science svg { width: 100%; height: 100%; display: block; }
+.fm-wave { fill: none; stroke-linecap: round; }
+.fm-wave-a { stroke: url(#fm-wave-a); stroke-width: 2.6; }
+.fm-wave-b { stroke: url(#fm-wave-b); stroke-width: 2; }
+.fm-wave-c { stroke: #d9ec61; stroke-width: 1.2; opacity: .4; }
+.fm-network line { stroke: #86bdd6; stroke-width: 1.2; opacity: .48; }
+.fm-network circle { fill: #d9ec61; opacity: .82; }
+.fm-dots circle { fill: #fff; opacity: .4; }
+
+.foreml-page { width: min(82rem, 93vw); margin: 0 auto 4rem; }
+.foreml-group {
+  width: min(74%, 61rem);
+  margin: 2rem auto 0;
+}
+.foreml-group img,
+.foreml-people-group img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: .45rem;
+}
+.foreml-group figcaption,
+.foreml-people-group figcaption {
+  margin-top: .45rem;
+  color: var(--muted);
+  font-size: .78rem;
+  text-align: right;
+}
+
+.foreml-section { padding-top: clamp(2.6rem, 4.5vw, 3.7rem); }
+.foreml-section-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 .65rem;
+}
+.foreml-section-head h2 {
+  flex: none;
+  margin: 0;
+  padding: 0 0 0 .65rem;
+  border-left: 4px solid var(--terracotta);
+  color: var(--primary-deep);
+  font-size: clamp(1.8rem, 2.5vw, 2.25rem);
+  line-height: 1.08;
+}
+.foreml-section-head > span {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--terracotta) 0 3.4rem, var(--line) 3.4rem 100%);
+}
+.foreml-section-head-compact { margin-bottom: 1rem; }
+.foreml-section-intro {
+  max-width: 63rem;
+  margin: .4rem 0 1.25rem;
+  color: #50677a;
+  line-height: 1.5;
+}
+
+.foreml-research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+.foreml-research-card {
+  display: grid;
+  grid-template-columns: minmax(11rem, 39%) minmax(0, 1fr);
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: .45rem;
+  background: rgba(255,252,248,.78);
+  color: inherit;
+  text-decoration: none;
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+.foreml-research-card:hover,
+.foreml-research-card:focus-visible {
+  color: inherit;
+  transform: translateY(-2px);
+  border-color: #c7b9ab;
+  box-shadow: 0 8px 22px rgba(22,54,84,.07);
+  outline: none;
+}
+.foreml-research-card figure { margin: 0; min-height: 12rem; overflow: hidden; background: #f5f7f7; }
+.foreml-research-card figure img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.foreml-research-copy { display: flex; flex-direction: column; padding: 1.05rem 1.1rem; }
+.foreml-research-copy h3 { margin: 0; color: var(--primary-deep); font-size: 1.28rem; line-height: 1.18; }
+.foreml-research-copy p { margin: .45rem 0 0; color: #52697a; font-size: .9rem; line-height: 1.48; }
+.foreml-research-copy span { margin-top: auto; padding-top: .8rem; color: var(--terracotta); font-weight: 650; font-size: .86rem; }
+
+.foreml-featured-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; }
+.foreml-paper {
+  display: grid;
+  grid-template-columns: minmax(10rem, 35%) minmax(0,1fr);
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: .45rem;
+  background: rgba(255,252,248,.8);
+}
+.foreml-paper figure { margin: 0; min-height: 13.2rem; overflow: hidden; background: #f5f7f7; }
+.foreml-paper figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--fm-paper-position, center);
+}
+.foreml-paper-copy { min-width: 0; padding: 1rem 1.05rem; }
+.foreml-paper-year { color: var(--terracotta); }
+.foreml-paper h3 { margin: .25rem 0 0; color: var(--primary-deep); font-size: 1.06rem; line-height: 1.3; }
+.foreml-paper-authors,
+.foreml-paper-venue { margin: .4rem 0 0; color: #536979; font-size: .78rem; line-height: 1.4; }
+.foreml-paper-venue { font-style: italic; }
+.foreml-paper-links { display: flex; flex-wrap: wrap; gap: .38rem; margin-top: .75rem; }
+.foreml-paper-links a {
+  padding: .28rem .48rem;
+  border: 1px solid #bfd0dc;
+  border-radius: .3rem;
+  color: var(--primary);
+  font-size: .72rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.foreml-subhead {
+  margin: 1.55rem 0 .85rem;
+  color: var(--primary-deep);
+  font-size: 1.28rem;
+}
+
+/* INVESTIGATORS
+   Two strong cards fill the entire row. No artificial max-width. */
+.foreml-investigators {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: none;
+}
+
+/* CURRENT MEMBERS
+   Three compact cards per row on desktop. */
+.foreml-current-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .9rem;
+}
+
+.foreml-person {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: .5rem;
+  background: rgba(255,252,248,.84);
+}
+
+.foreml-person img {
+  display: block;
+  object-fit: cover;
+  background: #ede9e2;
+}
+
+/* Investigator card: large horizontal profile */
+.foreml-person-investigator {
+  display: grid;
+  grid-template-columns: 11.75rem minmax(0, 1fr);
+  align-items: center;
+  min-height: 13.7rem;
+  padding: 1rem;
+}
+
+.foreml-person-investigator img {
+  width: 10.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.foreml-person-investigator .foreml-person-copy {
+  padding: .55rem .65rem .55rem 1rem;
+}
+
+.foreml-person-investigator h4,
+.foreml-person-investigator h3 {
+  font-size: 1.22rem;
+}
+
+.foreml-person-investigator .foreml-person-role {
+  margin-top: .48rem;
+  font-size: .83rem;
+}
+
+.foreml-person-investigator .foreml-person-affiliation {
+  font-size: .78rem;
+}
+
+/* Current member card: intentionally smaller than investigators.
+   Horizontal layout prevents photographs from dominating the page. */
+.foreml-person-current {
+  display: grid;
+  grid-template-columns: 7.4rem minmax(0, 1fr);
+  align-items: center;
+  min-height: 9.25rem;
+  padding: .7rem;
+}
+
+.foreml-person-current img {
+  width: 7rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.foreml-person-current .foreml-person-copy {
+  padding: .35rem .45rem .4rem .55rem;
+}
+
+.foreml-person-current h4,
+.foreml-person-current h3 {
+  font-size: .94rem;
+}
+
+.foreml-person-copy {
+  min-width: 0;
+}
+
+.foreml-person h4,
+.foreml-person h3 {
+  margin: 0;
+  color: var(--primary-deep);
+  line-height: 1.2;
+}
+
+.foreml-person h4 a,
+.foreml-person h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.foreml-person h4 a:hover,
+.foreml-person h3 a:hover {
+  color: var(--terracotta);
+}
+
+.foreml-person-role {
+  margin: .32rem 0 0;
+  color: var(--primary-deep);
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+.foreml-person-affiliation,
+.foreml-person-detail,
+.foreml-person-period {
+  margin: .14rem 0 0;
+  color: #607383;
+  font-size: .69rem;
+  line-height: 1.34;
+}
+
+.foreml-person-detail {
+  color: #7b6f63;
+}
+
+/* Multiple research tags.
+   Each pill has its own margin as a fallback, so tags never visually merge
+   even if an older wrapper rule is cached. */
+.foreml-topics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: .55rem;
+}
+
+.foreml-topic {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  margin: .12rem .38rem .12rem 0 !important;
+  padding: .24rem .52rem;
+  border-radius: 999px;
+  background: #eaf1f5;
+  color: #245879;
+  font-family: system-ui, "Segoe UI", sans-serif;
+  font-size: .61rem;
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+
+/* Split historical affiliation/period and current status onto separate lines. */
+.foreml-person-role-lines {
+  display: block;
+}
+
+.foreml-person-history,
+.foreml-person-now {
+  display: block;
+}
+
+.foreml-person-now {
+  margin-top: .24rem;
+  color: var(--primary-deep);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.foreml-directory-item .foreml-person-now {
+  margin-top: .28rem;
+  font-size: .72rem;
+}
+
+/* Full People page: same visual hierarchy */
+.foreml-people-full-investigators {
+  width: 100%;
+  max-width: none;
+}
+
+.foreml-current-grid-full {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* Alumni / former thesis students:
+   four modest cards per row; portraits are deliberately restrained. */
+.foreml-alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .85rem;
+}
+
+.foreml-person-compact {
+  padding: .75rem .72rem .8rem;
+}
+
+.foreml-person-compact img {
+  width: 6.8rem;
+  aspect-ratio: 1;
+  margin: 0 auto .55rem;
+  border-radius: 50%;
+}
+
+.foreml-person-compact .foreml-person-copy {
+  padding: .15rem .05rem 0;
+}
+
+.foreml-person-compact h3,
+.foreml-person-compact h4 {
+  font-size: .91rem;
+}
+
+.foreml-person-compact .foreml-person-affiliation {
+  font-size: .68rem;
+  line-height: 1.36;
+}
+
+.foreml-more { margin: 1rem 0 0; text-align: right; }
+.foreml-more a { color: var(--primary); font-weight: 650; text-decoration: none; }
+
+.foreml-join {
+  display: grid;
+  grid-template-columns: minmax(0,1.05fr) minmax(22rem,.95fr);
+  gap: 1.4rem;
+  align-items: center;
+  margin-top: clamp(3rem, 5vw, 4.5rem);
+  padding: 1.55rem 1.6rem;
+  border: 1px solid #d7e2ea;
+  border-left: 4px solid var(--primary);
+  border-radius: .45rem;
+  background: #eef4f7;
+}
+.foreml-join h2 { margin: .25rem 0 0; color: var(--primary-deep); font-size: 2rem; }
+.foreml-join-copy > p:not(.foreml-join-kicker) { max-width: 43rem; color: #4e6576; line-height: 1.55; }
+.foreml-join-kicker { color: var(--terracotta); }
+.foreml-join-actions { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1rem; }
+.foreml-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: .55rem .85rem;
+  border-radius: .35rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.foreml-btn-primary { background: var(--terracotta); color: #fff; border: 1px solid var(--terracotta); }
+.foreml-btn-secondary { background: #fff; color: var(--primary-deep); border: 1px solid #bfd0dc; }
+.foreml-montage { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .4rem; }
+.foreml-montage figure { margin: 0; aspect-ratio: 16/9; overflow: hidden; border-radius: .24rem; background: #fff; }
+.foreml-montage img { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+/* ---------------- People page ---------------- */
+.foreml-simple-hero { padding: 2.5rem 0 1.5rem; border-bottom: 1px solid var(--line); }
+.foreml-simple-hero h1 { margin: 0; color: var(--primary-deep); font-size: clamp(2.7rem,5vw,4.2rem); line-height: 1; }
+.foreml-simple-hero p { max-width: 47rem; margin: .75rem 0 0; color: #52697a; font-size: 1rem; line-height: 1.52; }
+.foreml-people-group { width: min(72%, 60rem); margin: 1.6rem auto 2rem; }
+.foreml-people-section { margin-top: 2.5rem; }
+.foreml-directory { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .65rem; }
+.foreml-directory-item { padding: .8rem .85rem; border-top: 2px solid var(--primary); background: rgba(255,252,248,.75); }
+.foreml-directory-item h3 { margin: 0; font-size: .92rem; color: var(--primary-deep); }
+.foreml-directory-item h3 a { color: inherit; text-decoration: none; }
+.foreml-directory-item p { margin: .28rem 0 0; color: #657786; font-size: .73rem; line-height: 1.4; }
+
+/* ---------------- Apply page ---------------- */
+.foreml-apply-page { max-width: 72rem; }
+.foreml-apply-hero { margin-bottom: 1rem; }
+.foreml-apply-step { display: grid; grid-template-columns: 3rem minmax(0,1fr); gap: 1rem; padding: 2rem 0; border-bottom: 1px solid var(--line); }
+.foreml-step-number { display: grid; place-items: center; width: 2.45rem; height: 2.45rem; border-radius: 50%; background: var(--terracotta); color: #fff; font-family: system-ui, sans-serif; font-weight: 800; font-size: .78rem; }
+.foreml-apply-step h2 { margin: 0; padding: 0; border: 0; color: var(--primary-deep); font-size: 1.7rem; }
+.foreml-apply-step > div:last-child > p { color: #52697a; line-height: 1.55; }
+.foreml-apply-themes { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .55rem; margin-top: .8rem; }
+.foreml-apply-themes a { padding: .7rem .8rem; border: 1px solid var(--line); background: #fffdfa; color: var(--primary-deep); font-weight: 650; text-decoration: none; }
+.foreml-reading-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .9rem; margin-top: 1rem; }
+.foreml-reading-grid article { padding: .9rem 1rem; border: 1px solid var(--line); background: #fffdfa; }
+.foreml-reading-grid h3 { margin: 0; color: var(--primary-deep); font-size: 1rem; }
+.foreml-reading-grid ul { margin: .6rem 0 0; padding-left: 1.1rem; }
+.foreml-reading-grid li { margin: .32rem 0; color: #536979; font-size: .82rem; }
+.foreml-checklist { margin: .85rem 0 0; padding: 0; list-style: none; }
+.foreml-checklist li { position: relative; margin: .55rem 0; padding-left: 1.5rem; color: #52697a; line-height: 1.48; }
+.foreml-checklist li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--green); font-weight: 800; }
+.foreml-apply-final { border-bottom: 0; padding-bottom: 0; }
+
+.reveal.is-waiting { opacity: 0; transform: translateY(10px); }
+.reveal.is-in { opacity: 1; transform: none; transition: opacity .42s ease, transform .42s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  .foreml-caret { animation: none; }
+  .reveal, .reveal.is-waiting, .reveal.is-in { opacity: 1; transform: none; transition: none; }
+}
+
+@media (max-width: 1050px) {
+  .foreml-hero-inner { grid-template-columns: 7rem minmax(0,1fr); }
+  .foreml-science { position: absolute; right: -5%; width: 42%; opacity: .48; }
+  .foreml-group { width: 88%; }
+  .foreml-research-card { grid-template-columns: 1fr; }
+  .foreml-research-card figure { aspect-ratio: 16/8; min-height: 0; }
+  .foreml-featured-grid { grid-template-columns: 1fr; }
+  .foreml-current-grid,
+  .foreml-current-grid-full { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .foreml-alumni-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .foreml-join { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 760px) {
+  .foreml-page { width: min(100% - 2rem, 82rem); }
+  .foreml-hero-inner { grid-template-columns: 4.8rem minmax(0,1fr); width: min(100% - 2rem,82rem); padding: 1.5rem 0 1.65rem; }
+  .foreml-science { display: none; }
+  .foreml-fuse { white-space: normal; }
+  .foreml-lead { font-size: .9rem; }
+  .foreml-group,
+  .foreml-people-group { width: 100%; }
+  .foreml-research-grid { grid-template-columns: 1fr; }
+  .foreml-paper { grid-template-columns: 1fr; }
+  .foreml-paper figure { aspect-ratio: 16/8; min-height: 0; }
+  .foreml-investigators,
+  .foreml-current-grid,
+  .foreml-current-grid-full,
+  .foreml-alumni-grid { grid-template-columns: 1fr; }
+  .foreml-person-investigator {
+    grid-template-columns: 8.2rem minmax(0,1fr);
+    min-height: 0;
+  }
+  .foreml-person-investigator img { width: 7.5rem; }
+  .foreml-person-current {
+    grid-template-columns: 6.8rem minmax(0,1fr);
+    min-height: 0;
+  }
+  .foreml-person-current img { width: 6.4rem; }
+  .foreml-directory { grid-template-columns: 1fr; }
+  .foreml-apply-themes,
+  .foreml-reading-grid { grid-template-columns: 1fr; }
+}
+
+
+/* =========================================================
+   STRUCTURED PEOPLE METADATA
+   ========================================================= */
+
+.foreml-person-meta {
+  margin-top: .34rem;
+}
+
+.foreml-person-meta p {
+  margin: .14rem 0 0;
+  line-height: 1.36;
+}
+
+.foreml-person-position,
+.foreml-person-program {
+  color: var(--primary-deep);
+  font-size: .7rem;
+  font-weight: 700;
+}
+
+.foreml-person-supervision,
+.foreml-person-detail {
+  color: #746a61;
+  font-size: .68rem;
+}
+
+.foreml-person-period {
+  color: #607383;
+  font-size: .68rem;
+}
+
+.foreml-person-current-status {
+  margin-top: .34rem !important;
+  padding-top: .28rem;
+  border-top: 1px solid rgba(32, 73, 105, .10);
+  color: #334f68;
+  font-size: .68rem;
+}
+
+.foreml-person-current-status span {
+  color: var(--primary-deep);
+  font-weight: 700;
+}
+
+/* Directory / capstone entries remain compact */
+.foreml-directory-item .foreml-person-meta {
+  margin-top: .28rem;
+}
+
+.foreml-directory-item .foreml-person-program,
+.foreml-directory-item .foreml-person-affiliation,
+.foreml-directory-item .foreml-person-period,
+.foreml-directory-item .foreml-person-current-status {
+  font-size: .72rem;
+}
+
+.foreml-directory-item .foreml-person-current-status {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: .22rem !important;
+}

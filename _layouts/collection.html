@@ -1,0 +1,25 @@
+---
+layout: page
+---
+{{ content }}
+{% if page.collection == "publications" %}{% include publications-list.html %}{% endif %}
+{% if page.collection == "areas" %}{% include area-list.html %}{% endif %}
+{% if page.collection == "people" %}
+  {% include img.html image=page.hero_image class="visual-wide" %}
+  {% include people-list.html %}
+{% endif %}
+{% if page.collection == "talks" %}{% include talks-list.html %}{% endif %}
+{% if page.collection == "software" %}{% include software-grid.html %}{% endif %}
+{% if page.collection == "workshops" %}{% include workshops-list.html %}{% endif %}
+{% if page.galleries %}
+  {% for gallery in page.galleries %}
+  <h2>{{ gallery.heading }}</h2>
+  <div class="masonry">
+    {% for image in gallery.items %}
+    {% if image.src %}
+    <a href="{{ image.full | default: image.src }}"><img src="{{ image.src }}" alt="{{ image.alt | default: '' }}"></a>
+    {% endif %}
+    {% endfor %}
+  </div>
+  {% endfor %}
+{% endif %}

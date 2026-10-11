@@ -1,0 +1,16 @@
+---
+layout: page
+---
+<ul class="stat-grid" id="stats-cards">
+  <li class="stat-card"><b id="card-journal">—</b><span>Journal papers</span></li>
+  <li class="stat-card"><b id="card-conference">—</b><span>Conference papers</span></li>
+  <li class="stat-card"><b>{{ site.data.stats.scholar.citations_all }}</b><span>Citations</span><span class="as-of">as of {{ site.data.stats.scholar.as_of }}</span></li>
+  <li class="stat-card"><b>{{ site.data.stats.scholar.h_index_all }}</b><span>h-index</span><span class="as-of">as of {{ site.data.stats.scholar.as_of }}</span></li>
+  <li class="stat-card"><b>{{ site.data.stats.scholar.i10_index_all }}</b><span>i10-index</span><span class="as-of">as of {{ site.data.stats.scholar.as_of }}</span></li>
+</ul>
+{{ content }}
+<div id="stats-network" data-owner="{{ site.data.profile.name }}"></div>
+<noscript>
+  <p>The network needs JavaScript. The bibliography itself is on the publications page.</p>
+</noscript>
+<script src="{{ '/assets/js/stats.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>

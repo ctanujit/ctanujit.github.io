@@ -1,0 +1,181 @@
+---
+layout: default
+---
+{% assign foreml = site.data.foreml %}
+<link rel="stylesheet" href="{{ '/assets/css/foreml-refresh.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+
+<section class="foreml-hero" aria-labelledby="foreml-title">
+  <div class="foreml-hero-inner">
+    <div class="foreml-brand">
+      <img class="foreml-logo" src="{{ foreml.hero.logo.src | relative_url }}" alt="{{ foreml.hero.logo.alt }}">
+    </div>
+
+    <div class="foreml-hero-copy">
+      <p class="foreml-eyebrow">{{ foreml.hero.eyebrow }}</p>
+      <h1 id="foreml-title">{{ foreml.hero.title }}</h1>
+      <p class="foreml-fuse">
+        <span>{{ foreml.hero.rotating_prefix }} </span>
+        <strong id="foreml-phrase">{{ foreml.hero.rotating_lines.first }}</strong><span class="foreml-caret" aria-hidden="true"></span>
+      </p>
+      <p class="foreml-lead">{{ foreml.hero.lead }}</p>
+    </div>
+
+    <div class="foreml-science" aria-hidden="true">
+      <svg viewBox="0 0 560 250" role="presentation">
+        <defs>
+          <linearGradient id="fm-wave-a" x1="0" x2="1">
+            <stop offset="0" stop-color="#83d1e6" stop-opacity=".08"/>
+            <stop offset=".45" stop-color="#83d1e6" stop-opacity=".72"/>
+            <stop offset="1" stop-color="#b8dd42" stop-opacity=".78"/>
+          </linearGradient>
+          <linearGradient id="fm-wave-b" x1="0" x2="1">
+            <stop offset="0" stop-color="#fff" stop-opacity=".04"/>
+            <stop offset=".55" stop-color="#fff" stop-opacity=".52"/>
+            <stop offset="1" stop-color="#83d1e6" stop-opacity=".42"/>
+          </linearGradient>
+        </defs>
+        <path class="fm-wave fm-wave-a" d="M8 151C82 118 125 178 191 144S294 79 360 115s101 76 190 16"/>
+        <path class="fm-wave fm-wave-b" d="M8 177c70-49 132-8 190-38s94-85 164-50 105 89 188 62"/>
+        <path class="fm-wave fm-wave-c" d="M13 123c71-18 119 36 176 22s94-74 163-68 109 59 195 38"/>
+        <g class="fm-network">
+          <line x1="324" y1="82" x2="386" y2="49"/><line x1="386" y1="49" x2="448" y2="91"/>
+          <line x1="324" y1="82" x2="374" y2="132"/><line x1="374" y1="132" x2="448" y2="91"/>
+          <line x1="374" y1="132" x2="454" y2="167"/><line x1="448" y1="91" x2="506" y2="128"/>
+          <circle cx="324" cy="82" r="6"/><circle cx="386" cy="49" r="8"/><circle cx="448" cy="91" r="5"/>
+          <circle cx="374" cy="132" r="7"/><circle cx="454" cy="167" r="5"/><circle cx="506" cy="128" r="8"/>
+        </g>
+        <g class="fm-dots">
+          <circle cx="263" cy="62" r="2"/><circle cx="282" cy="57" r="3"/><circle cx="301" cy="56" r="2"/>
+          <circle cx="270" cy="78" r="3"/><circle cx="291" cy="77" r="2"/><circle cx="309" cy="73" r="4"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<main class="foreml-page">
+  <figure class="foreml-group reveal">
+    <img src="{{ foreml.group_photo.src | relative_url }}" alt="{{ foreml.group_photo.alt }}" loading="eager" decoding="async">
+    {% if foreml.group_photo.caption %}<figcaption>{{ foreml.group_photo.caption }}</figcaption>{% endif %}
+  </figure>
+
+  <section class="foreml-section reveal" aria-labelledby="foreml-research-heading">
+    <div class="foreml-section-head">
+      <h2 id="foreml-research-heading">Research Areas</h2><span aria-hidden="true"></span>
+    </div>
+    <p class="foreml-section-intro">We develop statistical and machine-learning methods for real-world problems in forecasting, health, climate and complex systems.</p>
+
+    <div class="foreml-research-grid">
+      {% for theme in site.data.research.themes %}
+        {% assign area_slug = theme.publication_area | default: theme.title | slugify %}
+        <a class="foreml-research-card" href="{{ '/publications/' | relative_url }}?area={{ area_slug | url_encode }}" aria-label="View {{ theme.title }} publications">
+          <figure><img src="{{ theme.image | relative_url }}" alt="{{ theme.alt }}" loading="lazy" decoding="async"></figure>
+          <div class="foreml-research-copy">
+            <h3>{{ theme.title }}</h3>
+            <p>{{ theme.description }}</p>
+            <span>Explore research</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="foreml-section reveal" aria-labelledby="foreml-featured-heading">
+    <div class="foreml-section-head">
+      <h2 id="foreml-featured-heading">Featured Research</h2><span aria-hidden="true"></span>
+    </div>
+    <p class="foreml-section-intro">Selected work from the group spanning forecasting, spatiotemporal modeling, imbalanced learning and probabilistic generative methods.</p>
+
+    <div class="foreml-featured-grid">
+      {% for item in foreml.featured_research %}
+        {% assign matches = site.data.publications | where: "id", item.publication_id %}
+        {% assign pub = matches | first %}
+        {% if pub %}
+        <article class="foreml-paper">
+          <figure style="--fm-paper-position: {{ item.image_position | default: 'center' }};">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt }}" loading="lazy" decoding="async">
+          </figure>
+          <div class="foreml-paper-copy">
+            {% if pub.year %}<p class="foreml-paper-year">{{ pub.year }}</p>{% endif %}
+            <h3>{{ pub.title }}</h3>
+            <p class="foreml-paper-authors">{{ pub.authors_display }}</p>
+            {% if pub.venue %}<p class="foreml-paper-venue">{{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}.</p>{% endif %}
+            {% if pub.links.size > 0 %}
+            <div class="foreml-paper-links">
+              {% for link in pub.links %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>{% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="foreml-section reveal" aria-labelledby="foreml-people-heading">
+    <div class="foreml-section-head">
+      <h2 id="foreml-people-heading">People</h2><span aria-hidden="true"></span>
+    </div>
+
+    {% for group in site.data.people %}
+      {% if group.listed != false and group.group == "Investigators" %}
+        <h3 class="foreml-subhead">Investigators</h3>
+        <div class="foreml-investigators">
+          {% for person in group.people %}{% unless person.listed == false %}
+          <article class="foreml-person foreml-person-investigator">
+            {% include person-photo.html person=person %}
+            <div class="foreml-person-copy">
+              <h4>{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+              {% if person.designation %}<p class="foreml-person-role">{{ person.designation }}</p>{% endif %}
+              {% if person.affiliation %}<p class="foreml-person-affiliation">{{ person.affiliation }}</p>{% elsif person.role %}<p class="foreml-person-affiliation">{{ person.role }}</p>{% endif %}
+              {% include person-topics.html person=person %}
+            </div>
+          </article>
+          {% endunless %}{% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% for group in site.data.people %}
+      {% if group.listed != false and group.group == "Current members" %}
+        <h3 class="foreml-subhead">Current Members</h3>
+        <div class="foreml-current-grid">
+          {% for person in group.people %}{% unless person.listed == false %}
+          <article class="foreml-person foreml-person-current">
+            {% include person-photo.html person=person %}
+            <div class="foreml-person-copy">
+              <h4>{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+              {% if person.designation %}<p class="foreml-person-role">{{ person.designation }}</p>{% endif %}
+              {% if person.affiliation %}<p class="foreml-person-affiliation">{{ person.affiliation }}</p>{% else %}<p class="foreml-person-affiliation">{{ person.role }}</p>{% endif %}
+              {% if person.period %}<p class="foreml-person-period">{{ person.period }}</p>{% endif %}
+              {% include person-topics.html person=person %}
+            </div>
+          </article>
+          {% endunless %}{% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    <p class="foreml-more"><a href="{{ '/people/' | relative_url }}">View all people →</a></p>
+  </section>
+
+  <section class="foreml-join reveal" aria-labelledby="foreml-join-heading">
+    <div class="foreml-join-copy">
+      <p class="foreml-join-kicker">Join the lab</p>
+      <h2 id="foreml-join-heading">{{ foreml.join.heading }}</h2>
+      <p>{{ foreml.join.text }}</p>
+      <div class="foreml-join-actions">
+        <a class="foreml-btn foreml-btn-primary" href="{{ foreml.join.primary.url | relative_url }}">{{ foreml.join.primary.label }}</a>
+        <a class="foreml-btn foreml-btn-secondary" href="{{ foreml.join.secondary.url | relative_url }}">{{ foreml.join.secondary.label }}</a>
+      </div>
+    </div>
+    <div class="foreml-montage" aria-label="ForeML research montage">
+      {% for item in foreml.featured_research %}
+      <figure><img src="{{ item.image | relative_url }}" alt="" loading="lazy" decoding="async"></figure>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+
+<script type="application/json" id="foreml-phrases">{{ foreml.hero.rotating_lines | jsonify }}</script>
+<script src="{{ '/assets/js/foreml.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" defer></script>

@@ -1,0 +1,33 @@
+- label: Home
+  url: /
+
+- label: Research
+  url: /research/
+  children:
+    - label: Research Interests
+      url: /research/
+    - label: Publications
+      url: /publications/
+    - label: Software
+      url: /software/
+    - label: Stats
+      url: /stats/
+
+- label: Teaching
+  url: /teaching/
+
+- label: Talks
+  url: /talks/
+
+- label: ForeML Lab
+  url: /foreml/
+  children:
+    - label: Overview
+      url: /foreml/
+    - label: People
+      url: /people/
+    - label: Apply
+      url: /foreml/apply/
+
+- label: Media
+  url: /media/

@@ -1,0 +1,75 @@
+hero:
+  eyebrow: MEDIA
+  title: Media
+  subtitle: Interviews, articles, features, and a personal creative corner.
+  image: /assets/images/media/media-hero.jpg
+  image_alt: "Tanujit Chakraborty teaching in front of a presentation on graph theory"
+
+coverage:
+  - id: times-higher-education
+    source: Times Higher Education
+    title: "What can we expect from advances in biomedical AI?"
+    image: /assets/images/media/coverage/times-higher-education.png
+    image_alt: "Times Higher Education feature on biomedical AI"
+    url: https://www.timeshighereducation.com/research/sorbonne-university-abu-dhabi/what-can-we-expect-advances-biomedical-ai
+    action: Read interview
+
+  - id: business-guardian
+    source: The Business Guardian
+    title: "India's SDG Push: The Role of Human-AI Synergy"
+    image: /assets/images/media/coverage/business-guardian.png
+    image_alt: "Business Guardian newspaper article on human-AI synergy"
+    url: https://www.magzter.com/stories/newspaper/The-Business-Guardian/INDIAS-SDG-PUSH-THE-ROLE-OF-HUMANAI-SYNERGY
+    action: Read article
+
+  - id: faculti
+    source: Faculti
+    title: "Nowcasting of COVID-19 Confirmed Cases: Foundations, Trends and Challenges"
+    image: /assets/images/media/coverage/faculti.png
+    image_alt: "Faculti interview on nowcasting of COVID-19 confirmed cases"
+    url: https://faculti.net/nowcasting-of-covid-19-confirmed-cases-foundations-trends-and-challenges
+    action: View interview
+
+  - id: uninewsletter
+    source: UniNewsletter
+    title: UniNewsletter Interview
+    image: /assets/images/media/coverage/uninewsletter.png
+    image_alt: "UniNewsletter interview with Tanujit Chakraborty"
+    url: https://issuu.com/uninewsletter/docs/english_uninewsletter/12
+    action: Read interview
+
+personal:
+  - id: paintings
+    title: Paintings
+    description: Selected paintings and sketches.
+    items:
+      - {src: /assets/images/media/personal/paintings/painting-2.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/painting-4.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/painting-6.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/painting-3.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/painting-1.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/painting-1-12.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/painting-7.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/img-20180115-wa0009.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/img-20180115-wa0011.jpg, alt: "Painting by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/paintings/painting-1-1.jpg, alt: "Painting by Tanujit Chakraborty"}
+
+  - id: poems
+    title: Poems
+    description: Poems from the personal archive.
+    items:
+      - {src: /assets/images/media/personal/poems/kobita1.jpg, alt: "Poem by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/poems/kobita-4.jpg, alt: "Poem by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/poems/kobita-2.jpg, alt: "Poem by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/poems/kobita-5.jpg, alt: "Poem by Tanujit Chakraborty"}
+      - {src: /assets/images/media/personal/poems/kobita-3.jpg, alt: "Poem by Tanujit Chakraborty"}
+
+  - id: isi-diaries
+    title: ISI Diaries
+    description: Favorite images from ISI diaries.
+    items:
+      - {src: /assets/images/media/personal/isi-diaries/pcm-1.jpg, alt: "Image from ISI diaries"}
+      - {src: /assets/images/media/personal/isi-diaries/annotation-2019-12-26-121223.png, alt: "Image from ISI diaries"}
+      - {src: /assets/images/media/personal/isi-diaries/isi-2.jpg, alt: "Image from ISI diaries"}
+      - {src: /assets/images/media/personal/isi-diaries/isi.jpg, alt: "Image from ISI diaries"}
+      - {src: /assets/images/media/personal/isi-diaries/dianosor.jpg, alt: "Image from ISI diaries"}

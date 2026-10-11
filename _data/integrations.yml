@@ -1,0 +1,4 @@
+# Removable embeds. Set enabled to false, then delete the matching folder.
+# si_notes: teaching/statistical-inference/notes (copy of the MATH350 Quarto book).
+si_notes:
+  enabled: true

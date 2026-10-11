@@ -1,0 +1,9 @@
+# Stats only. Publication pages print the author string as transcribed.
+# Add an alias only for a formatting variant of the same person.
+# Do not add a person here merely because they share a surname.
+- canonical_id: tanujit-chakraborty
+  display: "Chakraborty, T."
+  exclude_from_collaborators: true
+  aliases:
+    - "Chakraborty, T."
+    - "Chakraborty, T"

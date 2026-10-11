@@ -1,0 +1,109 @@
+# Lines from https://www.ctanujit.org/publicationbyarea.html that are not
+# exact title matches to _data/publications.yml.
+#
+# /publications/by-area/ prints each heading in the order below:
+# a publication_id entry is the canonical record; a legacy entry is the
+# area-page text stored here. Do not copy legacy lines into publications.yml.
+#
+# Stats ignores this file. Area counts use research_areas on canonical
+# records only. These lines do not add publication or collaborator counts.
+- research_area: statistical-learning
+  heading: "Statistical Learning"
+  entries:
+    - publication_id: wang-2026-bayesian-machine-learning-for-estimating-optimal
+    - citation: "Sadhukhan, P., Chakraborty, T. (2025+) Footprints of Data in a Classifier Model: The Privacy Issues and Their Mitigation through Data Obfuscation."
+      links:
+        - label: "Preprint"
+          type: preprint
+          url: "https://arxiv.org/abs/2407.02268"
+    - citation: "Wang, Z., Lee, J. W., Chakraborty, T., Ning, Y., Liu, M., Feng, X., Ong, M. E. H., Liu, N. (2025+) Survival modeling using deep learning, machine learning and statistical methods: A comparative analysis for predicting mortality after hospital admission."
+      links:
+        - label: "Preprint"
+          type: preprint
+          url: "https://arxiv.org/pdf/2403.06999"
+        - label: "Code"
+          type: code
+          url: "https://github.com/nliulab/Survival-Benchmark"
+    - publication_id: liu-2025-thompson-sampling-for-zero-inflated-count
+    - publication_id: naik-2025-skew-probabilistic-neural-networks-for-learning
+    - publication_id: goswami-2025-shape-penalized-decision-forests-for-imbalanced
+    - publication_id: chakraborty-2023-bayesian-neural-tree-models-for-nonparametric
+    - publication_id: chakraborty-2020-hellinger-net-a-hybrid-imbalance-learning
+    - publication_id: chakraborty-2020-radial-basis-neural-tree-model-for
+    - publication_id: chakraborty-2020-superensemble-classifier-for-improving-predictio
+    - publication_id: chakraborty-2019-a-novel-distribution-free-hybrid-regression
+    - publication_id: chakraborty-2019-a-nonparametric-ensemble-binary-classifier-and
+- research_area: time-series-forecasting
+  heading: "Time Series Forecasting"
+  entries:
+    - citation: "Chakraborty, T., Besher, D., Panja, M., Sengupta, S. (2025+) Neural ARFIMA model for forecasting BRIC exchange rates with long memory under oil shocks and policy uncertainties."
+      links:
+        - label: "Preprint"
+          type: preprint
+          url: "https://arxiv.org/abs/2509.06697"
+        - label: "Code"
+          type: code
+          url: "https://github.com/mad-stat/NARFIMA"
+        - label: "R Package"
+          type: package
+          url: "https://cran.r-project.org/web/packages/narfima/"
+    - citation: "Besher, D., Sengupta, A., Chakraborty, T. (2025+) Forecasting the US Climate Policy Uncertainty using Bayesian Machine Learning."
+      links:
+        - label: "Preprint"
+          type: preprint
+          url: "https://arxiv.org/abs/2507.12276"
+        - label: "Code"
+          type: code
+          url: "https://github.com/Donia-212/Climate_Policy_Uncertainty_Forecasting"
+    - citation: "Panja, M., Das, D., Ray, A., Radhakrishnan, A., Hens, C., Dana, S.K., Murukesh, N., Ghosh, D., Chakraborty, T. (2025+) Forecasting Precipitation in Bear Island using Probabilistic Machine Learning Informed by Causal Climate Drivers. Submitted."
+      links: []
+    - publication_id: shukla-2025-salt-rock-creep-deformation-forecasting-using
+    - publication_id: ghosh-2025-developing-cholera-outbreak-forecasting-through
+    - publication_id: das-2025-pattern-change-of-precipitation-extremes-in
+    - publication_id: sengupta-2024-forecasting-cpi-inflation-under-economic-policy
+    - publication_id: borah-2024-a-novel-hybrid-approach-for-efficiently
+    - publication_id: panja-2023-epicasting-an-ensemble-wavelet-neural-network
+    - publication_id: panja-2023-an-ensemble-neural-network-approach-to
+    - publication_id: bhattacharyya-2022-stochastic-forecasting-of-covid-19-daily
+    - publication_id: ray-2021-optimized-ensemble-deep-learning-framework-for
+    - publication_id: chakraborty-2021-unemployment-rate-forecasting-a-hybrid-approach
+    - publication_id: chakraborty-2020-real-time-forecasts-and-risk-assessment
+    - publication_id: chakraborty-2019-forecasting-dengue-epidemics-using-a-hybrid
+- research_area: spatiotemporal-modeling
+  heading: "Spatiotemporal Modeling"
+  entries:
+    - publication_id: panja-2026-e-stgcn-extreme-spatiotemporal-graph-convolutio
+    - publication_id: barman-2025-epidemic-guided-deep-learning-for-spatiotemporal
+    - publication_id: banerjee-2025-recent-changes-in-spatiotemporal-patterns-of
+    - publication_id: jakhmola-2024-spatiotemporal-forecasting-of-traffic-flow-using
+- research_area: statistical-analysis-of-networks
+  heading: "Statistical Analysis of Networks"
+  entries:
+    - citation: "Mukhiya, K., Luwang, SR., Nurujjaman, M., Chakraborty, T., Saha, S., Hens, C. (2025+) Universal Patterns in the Blockchain: Analysis of EOAs and Smart Contracts in ERC20 Token Networks."
+      links:
+        - label: "Preprint"
+          type: preprint
+          url: "https://arxiv.org/abs/2508.04671"
+    - citation: "Rakshit, A., Bandyopadhyay, G., Chakraborty, T., Biswas, S. (2025+) A Discrete Asymptotic Approximation Approach for Quantitative Analysis of Hedge Error."
+      links:
+        - label: "Preprint"
+          type: preprint
+          url: "https://arxiv.org/abs/2405.02919"
+    # Same title words and preprint URL as item-nd-nareti-u-k-gupta-d-adak.
+    # That submitted record has no title field, and this line is the 2025+ area citation.
+    # It stays here and does not receive research_areas on the canonical record.
+    - citation: "Nareti, U.K., Gupta, D., Adak, C., Chattopadhyay, S., Riese, E., Chakraborty, T., Agarwal, M., Kumar, S. (2025+) Assessing Engineering Student Perceptions of Introductory CS Courses in an Indian Context."
+      links:
+        - label: "Preprint"
+          type: preprint
+          url: "https://arxiv.org/abs/2508.06563"
+    - publication_id: chakraborty-2025-a-compounded-burr-probability-distribution-for
+    - publication_id: chakraborty-2022-searching-for-heavy-tailed-probability-distribut
+    - publication_id: chakraborty-2022-a-new-method-for-generalizing-burr
+    - publication_id: chattopadhyay-2021-modified-lomax-model-a-heavy-tailed
+- research_area: generative-ai
+  heading: "Generative AI"
+  entries:
+    - publication_id: chakraborty-2024-ten-years-of-generative-adversarial-nets
+    - publication_id: hadid-2024-when-geoscience-meets-generative-ai-and
+    - publication_id: thottolil-2023-prediction-of-transportation-index-for-urban

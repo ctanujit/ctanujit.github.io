@@ -1,0 +1,425 @@
+# Talks page data synchronized with the live talks page.
+# Only two public categories are used: plenary and invited.
+# Featured images are presentation metadata and can be changed independently.
+# NOTE: the NOVA featured record temporarily uses the IIM Bangalore image,
+# as requested. The talk record itself is unchanged until it is later replaced.
+# To add/remove/edit a talk, modify this file only.
+- id: cidsai-oct-2026
+  year: 2026
+  month: October
+  sort_date: '2026-10-01'
+  type: invited
+  title: 'When Space Meets Time: Statistical AI for Public Health'
+  venue: CIDSAI, NYU Abu Dhabi
+  location: Abu Dhabi, UAE
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CIDSAI_Oct_2026.pdf
+  featured: true
+  image: /assets/images/talks/featured-nyuad.png
+  image_alt: Tanujit Chakraborty at NYU Abu Dhabi
+- id: aim-aug-2026
+  year: 2026
+  month: August
+  sort_date: '2026-08-01'
+  type: invited
+  title: Macroeconomic Forecasting
+  venue: Army Institute of Management
+  location: Kolkata, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/VIT_Jan_2025.pdf
+- id: iitp-jun-2026
+  year: 2026
+  month: June
+  sort_date: '2026-06-20'
+  type: plenary
+  title: Spatiotemporal AI
+  venue: IEEE CIS Summer School
+  location: IIT Patna, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Keynotes/IITP_June_2026.pdf
+- id: stsds-jun-2026
+  year: 2026
+  month: June
+  sort_date: '2026-06-10'
+  type: invited
+  title: Space, Time, Extremes and Geometric Deep Learning
+  venue: STSDS Community Hub
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/STSDS_June_2026.pdf
+  watch_url: https://www.youtube.com/watch?v=sypsm9iBqI4
+- id: dukenus-may-2026
+  year: 2026
+  month: May
+  sort_date: '2026-05-01'
+  type: invited
+  title: Space, Time, Extremes and Geometric Deep Learning
+  venue: Duke-NUS Medical School, NUS
+  location: Singapore
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/STSDS_June_2026.pdf
+- id: ahmedabad-jan-2026
+  year: 2026
+  month: January
+  sort_date: '2026-01-20'
+  type: invited
+  title: AI for Adaptive Mobile Health
+  venue: Bagchi School of Public Health, Ahmedabad University
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/AU_Jan_2026.pdf
+- id: cdsa-jan-2026
+  year: 2026
+  month: January
+  sort_date: '2026-01-15'
+  type: plenary
+  title: Everything is Connected - Space, Time, and Graphs
+  venue: CDSA Conference, DAU
+  location: Gujarat, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Keynotes/CDSA_Jan_2026.pdf
+- id: bits-jan-2026
+  year: 2026
+  month: January
+  sort_date: '2026-01-05'
+  type: plenary
+  title: Does memory fade away for exchange rate forecasting?
+  venue: ACEF Conference, BITS Pilani
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Keynotes/BITS_Jan_2026.pdf
+- id: flinders-nov-2025
+  year: 2025
+  month: November
+  sort_date: '2025-11-01'
+  type: invited
+  title: Extremes and Graph Neural Networks
+  venue: SEEDS seminar, Flinders University
+  location: Australia
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/STSDS_June_2026.pdf
+- id: iimb-aug-2025
+  year: 2025
+  month: August
+  sort_date: '2025-08-01'
+  type: invited
+  title: Learning from Rare
+  venue: IIM Bangalore
+  location: Bangalore, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/IIMB_Aug_2025.pdf
+  featured: true
+  image: /assets/images/talks/featured-iimb.png
+  image_alt: Tanujit Chakraborty at the Indian Institute of Management Bangalore
+- id: imi-jun-2025
+  year: 2025
+  month: June
+  sort_date: '2025-06-01'
+  type: invited
+  title: Extremes and Graph Neural Networks
+  venue: IMI Kolkata
+  location: Kolkata, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/STSDS_June_2026.pdf
+- id: nova-may-2025
+  year: 2025
+  month: May
+  sort_date: '2025-05-01'
+  type: invited
+  title: Extremes and Graph Neural Networks
+  venue: NOVA School of Science and Technology
+  location: Portugal
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/STSDS_June_2026.pdf
+- id: iiitdm-jan-2025
+  year: 2025
+  month: January
+  sort_date: '2025-01-20'
+  type: invited
+  title: Everything is Connected - Space, Time, and Graphs
+  venue: IIITDM Chennai
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/STSDS_June_2026.pdf
+- id: vit-jan-2025
+  year: 2025
+  month: January
+  sort_date: '2025-01-15'
+  type: invited
+  title: Macroeconomic Forecasting
+  venue: VIT Vellore
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/VIT_Jan_2025.pdf
+- id: iitt-jan-2025
+  year: 2025
+  month: January
+  sort_date: '2025-01-10'
+  type: invited
+  title: On Class Imbalanced Learning
+  venue: IIT Tirupati
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/IITT_Jan_2025.pdf
+- id: iisa-dec-2024
+  year: 2024
+  month: December
+  sort_date: '2024-12-01'
+  type: invited
+  title: 'Epicasting: Neural Networks for Epidemic Forecasting'
+  venue: IISA 2024 Conference
+  location: Kerala, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/IISA_Dec_2024.pdf
+- id: dukenus-jun-2024
+  year: 2024
+  month: June
+  sort_date: '2024-06-20'
+  type: invited
+  title: On Class Imbalanced Learning and its Medical Applications
+  venue: Duke-NUS Medical School
+  location: Singapore
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/DukeNUS_June_2024.pdf
+- id: apu-jun-2024
+  year: 2024
+  month: June
+  sort_date: '2024-06-10'
+  type: invited
+  title: Statistics and Machine Learning as Key Technologies for Society
+  venue: Azim Premji University
+  location: Bhopal, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/APU_June_2024.pdf
+- id: globalcare-feb-2024
+  year: 2024
+  month: February
+  sort_date: '2024-02-01'
+  type: invited
+  title: AI meets Health
+  venue: Global Care Hospital
+  location: Abu Dhabi, UAE
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/GlobalCare_Feb_2024.pdf
+- id: xlri-dec-2023
+  year: 2023
+  month: December
+  sort_date: '2023-12-01'
+  type: invited
+  title: Indian Cities of the Future
+  venue: POMS Conference, XLRI Jamshedpur
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/XLRI_Dec_2024.pdf
+- id: nyuad-nov-2023
+  year: 2023
+  month: November
+  sort_date: '2023-11-20'
+  type: invited
+  title: AI meets Health
+  venue: Brain Research Institute, Biology Department, NYU Abu Dhabi
+  location: Abu Dhabi, UAE
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/NYUAD_Nov_2023.pdf
+- id: iconip-nov-2023
+  year: 2023
+  month: November
+  sort_date: '2023-11-10'
+  type: invited
+  title: Probabilistic AutoRegressive Neural Networks for Accurate Long-range Forecasting
+  venue: ICONIP
+  location: Changsha, China
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/ICONIP_Nov_2023.pdf
+- id: dukenus-jul-2023
+  year: 2023
+  month: July
+  sort_date: '2023-07-20'
+  type: invited
+  title: 'Epicasting: Forecasting Epidemics with EWNet'
+  venue: Duke-NUS Medical School
+  location: Singapore
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/DukeNUS_July_2023.pdf
+  featured: true
+  image: /assets/images/talks/featured-dukenus.png
+  image_alt: Tanujit Chakraborty at Duke-NUS Medical School
+- id: nus-jul-2023
+  year: 2023
+  month: July
+  sort_date: '2023-07-10'
+  type: invited
+  title: Hybrid & Ensemble Machine Learning
+  venue: Digital Medicine Lab, NUS
+  location: Singapore
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/NUS_July_2023.pdf
+- id: isibc-aug-2022
+  year: 2022
+  month: August
+  sort_date: '2022-08-01'
+  type: invited
+  title: 'A Tour to Time Series Forecasting: Past, Present & the Future'
+  venue: Indian Statistical Institute (ISI)
+  location: Bangalore, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/ISIBC_Aug_2022.pdf
+- id: iiitb-jun-2022
+  year: 2022
+  month: June
+  sort_date: '2022-06-01'
+  type: invited
+  title: 'Forecasting the Future: A Novel Hybridization Approach'
+  venue: Samvaad-Talk, IIIT Bangalore
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/KU_April_2022.pdf
+  watch_url: https://www.youtube.com/watch?v=uBCluDHEK64
+- id: gujcost-may-2022
+  year: 2022
+  month: May
+  sort_date: '2022-05-01'
+  type: invited
+  title: A journey from Linear Algebra to Machine Learning
+  venue: Supercomputer Facility, GECR
+  location: Gujarat, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/GUJCOST_May_2022.pdf
+  watch_url: https://www.youtube.com/watch?v=YqckBki_iT0
+- id: ku-apr-2022
+  year: 2022
+  month: April
+  sort_date: '2022-04-20'
+  type: invited
+  title: Past, Present, and Future of Time Series Forecasting
+  venue: Khalifa University
+  location: Abu Dhabi, UAE
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/KU_April_2022.pdf
+- id: srcasw-apr-2022
+  year: 2022
+  month: April
+  sort_date: '2022-04-10'
+  type: invited
+  title: Fooled by Statistics and Machine Learning
+  venue: SRCASW, University of Delhi
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/SRCASW_April_2022.pdf
+  watch_url: https://www.youtube.com/watch?v=lZ5MRZ3D6GM
+- id: ramjas-mar-2022
+  year: 2022
+  month: March
+  sort_date: '2022-03-01'
+  type: invited
+  title: Past, Present, and Future of Time Series Forecasting
+  venue: Ramjas College, University of Delhi
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/KU_April_2022.pdf
+  watch_url: https://www.youtube.com/watch?v=4miVKu1K4QA
+- id: amity-dec-2021
+  year: 2021
+  month: December
+  sort_date: '2021-12-01'
+  type: plenary
+  title: Srinivas Ramanujan Meets PC Mahalanobis
+  venue: National Mathematics Day, Amity University
+  location: Mumbai, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Keynotes/Amity_Dec_2021.pdf
+- id: iitm-aug-2021
+  year: 2021
+  month: August
+  sort_date: '2021-08-01'
+  type: invited
+  title: Statistics and Machine Learning as Key Technologies for Social Welfare
+  venue: IIT Madras
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/IITM_Aug_2021.pdf
+- id: sambalpur-jun-2021
+  year: 2021
+  month: June
+  sort_date: '2021-06-01'
+  type: plenary
+  title: Recent Trends in Statistics and Machine Learning
+  venue: National Statistics Day, Sambalpur University
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Keynotes/Sambalpur_June_2021.pdf
+- id: cityu-apr-2021
+  year: 2021
+  month: April
+  sort_date: '2021-04-01'
+  type: invited
+  title: Hybrid Predictive Models at the interface of Statistics & ML
+  venue: City University of Hong Kong
+  location: Hong Kong
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CityU_Apr_2021.pdf
+- id: iiitb-mar-2021
+  year: 2021
+  month: March
+  sort_date: '2021-03-01'
+  type: invited
+  title: An Interpretable Deep Model for Imbalanced Pattern Classification
+  venue: IIIT Bangalore
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/IIITB_Mar%202021.pdf
+- id: cmi-feb-2021
+  year: 2021
+  month: February
+  sort_date: '2021-02-01'
+  type: invited
+  title: 'Hellinger Net: A Model for Imbalanced Learning'
+  venue: Chennai Mathematical Institute (CMI)
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CMI_Feb_2021.pdf
+- id: iift-jan-2021
+  year: 2021
+  month: January
+  sort_date: '2021-01-01'
+  type: invited
+  title: 'UnemploymentRateForecasting: A Motivational Example'
+  venue: IIFT Kolkata
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/IIFT_Jan_2021.pdf
+- id: cods-dec-2020
+  year: 2020
+  month: December
+  sort_date: '2020-12-01'
+  type: invited
+  title: Uncovering patterns in heavy-tailed networks
+  venue: CODS-COMAD 2021 (Best Paper Award)
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CODS_Dec_2020.pdf
+  watch_url: https://www.youtube.com/watch?v=3n9YEe32IX8
+- id: iimc-aug-2020
+  year: 2020
+  month: August
+  sort_date: '2020-08-01'
+  type: invited
+  title: Forecasting Macroeconometric Time Series
+  venue: IIM Calcutta
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/IIMC_Aug_2020.pdf
+  watch_url: https://www.youtube.com/watch?v=DSLdTPB-1RU
+- id: isi-jul-2019
+  year: 2019
+  month: July
+  sort_date: '2019-07-01'
+  type: invited
+  title: Introduction to Machine Learning
+  venue: Workshop on Data Analytics, ISI Kolkata
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/ISI_July_2019.pdf
+- id: caiml-jan-2019
+  year: 2019
+  month: January
+  sort_date: '2019-01-01'
+  type: invited
+  title: Basic Statistical Techniques with R
+  venue: CAIML, ISI Kolkata
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CAIML_Jan_2019.pdf
+- id: isi-jun-2018
+  year: 2018
+  month: June
+  sort_date: '2018-06-01'
+  type: invited
+  title: 'Hybrid Prediction Models: Statistical Perspectives and Applications'
+  venue: ISI Kolkata
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/ISI_Dec_2018.pdf
+- id: cds-dec-2017
+  year: 2017
+  month: December
+  sort_date: '2017-12-20'
+  type: invited
+  title: 'Quantitative and Qualitative Economics: A Statistical Perspective'
+  venue: CDS Kerala
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CDS_Dec_2017.pdf
+- id: kiit-dec-2017
+  year: 2017
+  month: December
+  sort_date: '2017-12-10'
+  type: invited
+  title: Statistical Techniques for Business Analytics using R
+  venue: KIIT University
+  location: Bhubaneswar, India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/KIIT_Dec_2017.pdf
+- id: nioh-dec-2016
+  year: 2016
+  month: December
+  sort_date: '2016-12-01'
+  type: invited
+  title: Data Analysis with SPSS
+  venue: NIOH Kolkata
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/NIOH_Dec_2016.pdf

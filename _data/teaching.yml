@@ -1,0 +1,128 @@
+# Teaching page content. Edit this file to add, remove, reorder, or update courses.
+# All course/material links intentionally point to the external GitHub repositories
+# used on the current ctanujit.org teaching page.
+
+hero:
+  eyebrow: TEACHING
+  title: Teaching
+  lead: "I teach courses in statistics, data science, machine learning and quantitative methods, with a focus on real-world applications and problem-driven learning."
+  image: "/assets/images/teaching/featured/teaching-hero-tanujit.jpg"
+  image_alt: "Illustrated classroom scene with Tanujit Chakraborty teaching statistics and data science topics"
+
+featured_courses:
+  - title: Business Forecasting
+    badge: Executive Course
+    meta: Sorbonne University Abu Dhabi
+    description: "Methods and models for forecasting in business and economic contexts."
+    url: "https://github.com/ctanujit/Business_Forecasting"
+    image: "/assets/images/teaching/featured/business-forecasting-fan-chart.jpg"
+    image_alt: "Forecast fan chart showing an expanding range of uncertainty"
+    visual_class: forecasting
+
+  - title: "MATH 370 - Machine Learning"
+    badge: Undergraduate Course
+    meta: Sorbonne University Abu Dhabi
+    description: "Foundations and modern methods in machine learning, with theory and real-world applications."
+    url: "https://github.com/ctanujit/MATH-370"
+    image: "/assets/images/teaching/featured/math370-machine-learning.png"
+    image_alt: "Illustration of a pyramid, towers and stacked books used for the machine learning course"
+    visual_class: machine-learning
+
+  - title: "MATH 260 - Multivariate Data Analysis"
+    badge: Undergraduate Course
+    meta: Sorbonne University Abu Dhabi
+    description: "Exploring multivariate techniques for data analysis, including dimensionality reduction and clustering."
+    url: "https://github.com/ctanujit/MATH-260"
+    image: "/assets/images/teaching/featured/math260-multivariate.png"
+    image_alt: "Cartoon illustration themed around multivariate analysis"
+    visual_class: multivariate
+
+sections:
+  - title: Sorbonne University
+    groups:
+      - title: Executive Courses (Sorbonne Center for AI)
+        courses:
+          - title: Data Analytics using Python
+            meta: "2023, 2024, 2025, 2026"
+            url: "https://github.com/scaiworkshop/ADIA_AMF"
+            tone: blue
+          - title: Business Forecasting
+            meta: "2024, 2025, 2026"
+            url: "https://github.com/ctanujit/Business_Forecasting"
+            tone: terracotta
+
+      - title: Undergraduate Courses (BSc Mathematics and AI at Sorbonne Université Paris)
+        courses:
+          - title: MATH 224 - Introduction to Optimization
+            meta: "Fall 2026"
+            url: "https://github.com/ctanujit/OptML"
+            tone: green
+          - title: MATH 260 - Multivariate Data Analysis
+            meta: "Spring 2022, 2023, 2024, 2025"
+            url: "https://github.com/ctanujit/MATH-260"
+            tone: blue
+          - title: MATH 370 - Machine Learning
+            meta: "Spring 2023, 2024, 2025, 2026"
+            url: "https://github.com/ctanujit/MATH-370"
+            tone: terracotta
+          - title: MATH 350 - Statistical Inference and Computing
+            meta: "Fall 2022, 2023, 2024, 2026"
+            url: "https://github.com/ctanujit/MATH350"
+            tone: brass
+          - title: MATH 175 - Data Science Project
+            meta: "Spring 2023, 2026"
+            url: "https://github.com/ctanujit/DS-Project"
+            tone: ink
+
+  - title: Indian Institute of Foreign Trade
+    groups:
+      - title: MBA Course
+        courses:
+          - title: MBA - Data Analytics
+            meta: "Spring 2021"
+            url: "https://github.com/ctanujit/Data-Analytics-Course"
+            tone: green
+
+tutorials:
+  - date: "May 2026"
+    title: Spatiotemporal Deep Learning
+    detail: "1 Day · FDP Program at NIT Karnataka, India"
+    url: "https://github.com/ctanujit/spatiotemporalai"
+  - date: "January 2026"
+    title: Time Series Forecasting using ML
+    detail: "1 Day · BITS Pilani, Hyderabad, India"
+    url: "https://github.com/ctanujit/TSFML-Workshop"
+  - date: "August 2024"
+    title: "Time Series Forecasting: A Foundation Course"
+    detail: "1 Day · EDP Program organized by IIT Dhanbad, India"
+    url: "https://github.com/ctanujit/forecasting"
+  - date: "June 2024"
+    title: "Business Forecasting: A Foundation Course"
+    detail: "1 Day · XIM University, Bhubaneswar, India"
+    url: "https://github.com/ctanujit/forecasting"
+  - date: "August 2023"
+    title: A Short Course on Time Series Forecasting
+    detail: "1 Day · IIIT Bangalore, India"
+    url: "https://github.com/ctanujit/Forecasting_IIITB"
+  - date: "July 2022"
+    title: "A Guided Tour of AI: From Foundations to Applications"
+    detail: "1 Week · SCAI, Sorbonne University Abu Dhabi, UAE"
+    url: "https://github.com/scaiworkshop/SUAD"
+  - date: "February 2022"
+    title: Research Methodology and Data Analysis
+    detail: "Karnataka Science and Technology Academy (KSTA), India"
+    url: "https://github.com/mad-stat/KSTA_Workshop"
+  - date: "July 2021"
+    title: "Neural Networks: Introduction and Implementation"
+    detail: "ATAL FDP at BIT Bangalore, India"
+    url: "https://github.com/ctanujit/NN-workshop"
+  - date: "July 2020"
+    title: Online Workshop on Statistics and Machine Learning in Practice
+    detail: "1 Week · BKC College, Kolkata, India"
+    url: "https://github.com/ctanujit/WSMLP"
+
+lecture_notes:
+  title: Handwritten Lecture Notes by Tanujit Chakraborty
+  text: "Lecture notes on various topics are available for download on GitHub. These notes were developed with support and inspiration from teachers and seniors at Narendrapur Ramkrishna Mission, Bidhannagar College, and the Indian Statistical Institute."
+  note: "Absolutely free for non-commercial use."
+  url: "https://github.com/ctanujit/lecture-notes"

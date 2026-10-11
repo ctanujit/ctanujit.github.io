@@ -1,0 +1,50 @@
+reading_groups:
+  - id: statistical-learning
+    heading: Statistical Learning
+    description: Core concepts in statistics, machine learning and data analysis.
+    accent: terracotta
+    books:
+      - label: Mathematics for Machine Learning
+        authors: Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong
+        url: https://mml-book.github.io/
+      - label: An Introduction to Statistical Learning
+        authors: Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani
+        url: https://statlearning.com/
+      - label: The Elements of Statistical Learning
+        authors: Trevor Hastie, Robert Tibshirani, Jerome Friedman
+        url: https://web.stanford.edu/~hastie/ElemStatLearn/
+
+  - id: deep-learning
+    heading: Deep Learning
+    description: Foundations and modern methods in deep learning.
+    accent: blue
+    books:
+      - label: Deep Learning
+        authors: Ian Goodfellow, Yoshua Bengio, Aaron Courville
+        url: https://www.deeplearningbook.org/
+      - label: Dive into Deep Learning
+        authors: Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola
+        url: https://d2l.ai/
+
+  - id: time-series
+    heading: Time Series Forecasting
+    description: Methods and applications for temporal data and forecasting.
+    accent: green
+    books:
+      - label: Time Series Analysis and Its Applications
+        authors: Robert H. Shumway, David S. Stoffer
+        url: http://www.stat.ucla.edu/~frederic/415/S23/tsa4.pdf
+      - label: "Forecasting: Principles and Practice"
+        authors: Rob J Hyndman, George Athanasopoulos
+        url: https://otexts.com/fpp3/
+
+application_materials:
+  - title: CV
+    text: Your current CV.
+    icon: cv
+  - title: Transcript
+    text: Your academic transcript(s).
+    icon: transcript
+  - title: Research Statement
+    text: A short statement describing your research interests and relevant background.
+    icon: research

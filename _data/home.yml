@@ -1,0 +1,90 @@
+profile:
+  name: Tanujit Chakraborty
+  title: Associate Professor of Mathematics (Statistics & Data Science)
+  institution: Sorbonne University Abu Dhabi
+  image: /assets/images/home/portrait.jpg
+  image_alt: Tanujit Chakraborty
+  cv_url: /cv/
+  full_image: /assets/images/home/portrait.jpg
+  cv_label: CV
+links:
+- label: Email
+  url: mailto:ctanujit@gmail.com
+- label: Google Scholar
+  url: https://scholar.google.com/citations?user=sJOm-voAAAAJ&hl=en&oi=ao
+- label: ResearchGate
+  url: https://www.researchgate.net/profile/Tanujit-Chakraborty-2
+- label: LinkedIn
+  url: https://www.linkedin.com/in/ctanujit/
+- label: GitHub
+  url: https://github.com/ctanujit
+- label: Twitter / X
+  url: https://twitter.com/ctanujit
+introduction: '[Tanujit Chakraborty](https://www.sorbonne.ae/team/tanujit-chakraborty) is an Associate Professor of Mathematics
+  (Statistics & Data Science) in the School of Data Science and Engineering at [Sorbonne University Abu Dhabi](https://www.sorbonne.ae/),
+  and a member of the [Sorbonne Center for Artificial Intelligence (SCAI)](https://scai.sorbonne-universite.fr/) at Sorbonne
+  University, Paris. He is an Adjunct Associate Professor at [Duke-NUS Medical School](https://www.duke-nus.edu.sg/home),
+  [National University of Singapore](https://www.nus.edu.sg/), and an affiliated faculty member at [CIDSAI, NYU Abu Dhabi](https://www.cids.ai/).'
+affiliations:
+- title: Associate Professor of Mathematics (Statistics & Data Science)
+  subtitle: School of Data Science and Engineering
+  institution: Sorbonne University Abu Dhabi
+  url: https://www.sorbonne.ae/team/tanujit-chakraborty
+  logo: /assets/images/home/affiliations/sorbonne-abu-dhabi.png
+  logo_alt: Sorbonne University Abu Dhabi
+- title: Member
+  subtitle: Sorbonne Center for Artificial Intelligence
+  institution: SCAI Paris
+  url: https://scai.sorbonne-universite.fr/public/profiles/view/425eb803501ea43deea8/1
+  logo: /assets/images/home/affiliations/scai-paris.png
+  logo_alt: Sorbonne Center for Artificial Intelligence
+- title: Adjunct Associate Professor
+  subtitle: Duke-NUS Medical School, National University of Singapore
+  institution: Duke-NUS Medical School
+  url: ''
+  logo: /assets/images/home/affiliations/duke-nus.png
+  logo_alt: Duke-NUS Medical School
+- title: Affiliated Faculty Member
+  subtitle: Center for Interacting Networks and Data Science
+  institution: CIDSAI, NYU Abu Dhabi
+  url: https://www.cids.ai/
+  logo: /assets/images/home/affiliations/nyu-abu-dhabi.png
+  logo_alt: NYU Abu Dhabi
+education:
+- degree: HDR
+  institution: Sorbonne Université, Paris
+- degree: PhD
+  institution: Indian Statistical Institute, Kolkata
+research_intro: The work is application-driven. The primary interest is statistical machine learning, with emphasis on time
+  series forecasting, spatial data science, and health data sciences, including statistical methodology for epidemiology,
+  biology, mobile health, business, software reliability, quality engineering, and macroeconomics.
+news:
+- date: Sep 09, 2026
+  text: Our paper on Statistical patterns in Blockchain got accepted in PLOS One.
+- date: Aug 10, 2026
+  text: Our paper on Bayesian ML for Ordinal DTR got accepted in Statistics in Medicine.
+- date: Jul 15, 2026
+  text: My 1st PhD student, Shovon Sengupta, has been awarded the Best Outstanding Thesis Award by BITS Pilani, India.
+- date: Jul 01, 2026
+  text: My PhD student Rajdeep Pathak received the Best Student Presentation Award at the 46th ISF, Montreal, Canada.
+- date: Jun 21, 2026
+  text: Our paper on Spatiotemporal Regression (stengression) got accepted in TMLR.
+- date: Jun 06, 2026
+  text: My 1st Postdoc, Shraddha M. Naik, has joined the University of Birmingham as an Assistant Professor.
+- date: Apr 06, 2026
+  text: Our paper on Mahalanobis Distribution Alignment Score (MDAS) got accepted in IEEE Access.
+- date: Mar 16, 2026
+  text: Our paper on Benchmarking Survival Models got accepted in Health Data Science.
+- date: Mar 03, 2026
+  text: Our paper published in Expert Systems received a Top cited paper award.
+- date: Feb 26, 2026
+  text: My 1st PhD student, Shovon Sengupta, defended his PhD thesis at BITS Pilani, India.
+highlights:
+- image: /assets/images/home/3-1.jpg
+  alt: Academic event
+- image: /assets/images/home/1669191451679.png
+  alt: Invited academic talk
+- image: /assets/images/home/untitled.png
+  alt: Academic recognition
+- image: /assets/images/home/kaggle-2025.png
+  alt: Academic highlight

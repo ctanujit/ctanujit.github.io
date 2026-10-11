@@ -1,0 +1,36 @@
+title: "Statistical AI and Time Series Forecasting"
+intro: >-
+  I work on application-driven theory, meaning that most of my research focuses on designing theoretically principled statistical and machine-learning models that directly address real-world problems. Much of this work is guided by the belief that effective algorithms often emerge from simple, aesthetically elegant ideas.
+
+themes:
+  - title: "Spatiotemporal Forecasting"
+    publication_area: "spatiotemporal-forecasting"
+    image: "/assets/images/research/themes/spatiotemporal-forecasting.png"
+    alt: "Global climate map with warm and cool spatial anomalies and a diverging color legend."
+    description: "Forecasting complex spatial and temporal processes in climate, epidemiology, and environmental systems."
+
+  - title: "Health AI"
+    publication_area: "health-ai"
+    image: "/assets/images/research/themes/health-ai.png"
+    alt: "Digital healthcare interface beside a person undergoing clinical exercise monitoring."
+    description: "Statistical and AI methods for digital health, epidemiology, and healthcare decision-making."
+
+  - title: "Statistical Machine Learning"
+    publication_area: "statistical-machine-learning"
+    image: "/assets/images/research/themes/statistical-machine-learning.png"
+    alt: "Three-dimensional statistical response surface with scattered observation points."
+    description: "Statistically principled learning methods for inference, prediction, and uncertainty quantification."
+
+  - title: "Generative AI"
+    publication_area: "generative-ai"
+    image: "/assets/images/research/themes/generative-ai.png"
+    alt: "Blue digital human head representing generative artificial intelligence."
+    description: "Generative models and modern AI methods for scientific and application-driven problems."
+
+explore:
+  - label: "Publications"
+    url: "/publications/"
+  - label: "Software"
+    url: "/software/"
+  - label: "Stats"
+    url: "/stats/"

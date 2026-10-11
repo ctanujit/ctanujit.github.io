@@ -1,0 +1,271 @@
+profile:
+  name: Tanujit Chakraborty
+  kicker: Curriculum Vitae
+  headline: Curriculum Vitae
+  title: Associate Professor of Statistics and Data Science
+  affiliation: Sorbonne University Abu Dhabi
+  photo: /assets/images/home/portrait.jpg
+  photo_alt: Tanujit Chakraborty
+  hero_summary: Associate Professor of Statistics and Data Science at Sorbonne University Abu Dhabi, with affiliations at SCAI Paris, Duke-NUS Medical School and NYU Abu Dhabi.
+  media_photo: /assets/images/home/portrait.jpg
+  google_scholar: https://scholar.google.com/citations?user=sJOm-voAAAAJ&hl=en&oi=ao
+  short_cv_pdf: /assets/files/cv/tanujit-chakraborty-short-cv.pdf
+  full_cv_pdf: /assets/files/cv/tanujit-chakraborty-full-cv.pdf
+  show_cv_download: true
+bio:
+  permission: The following bio and [**this photo**]({MEDIA_PHOTO}) may be used in media releases without further permission.
+  text: Dr. Tanujit Chakraborty is an **Associate Professor of Statistics and Data Science** at [Sorbonne University Abu Dhabi](https://www.sorbonne.ae/),
+    UAE and the [Sorbonne Center for Artificial Intelligence (SCAI)](https://scai.sorbonne-universite.fr/), Paris, France.
+    He is also an **Adjunct Associate Professor** at [Duke-NUS Medical School](https://www.duke-nus.edu.sg/home), National
+    University of Singapore, and an affiliated faculty member at [CIDSAI, NYU Abu Dhabi](https://www.cids.ai/). He earned
+    his **Habilitation (HDR) in Mathematics** from Sorbonne Université, Paris, and a **PhD in Statistical AI** from the Indian
+    Statistical Institute (ISI), Kolkata, where he studied statistical machine learning and spatial time series. His work
+    integrates statistical learning, graph theory, and deep learning, with an emphasis on developing models that can reason
+    about structured and temporal data. He has maintained an active consulting practice, assisting PharmaACE, ITC Limited,
+    and Bajaj Finserv Corporation.
+nav:
+- label: Overview
+  anchor: bio
+- label: Career
+  anchor: career
+- label: Teaching
+  anchor: teaching
+- label: Visiting Positions
+  anchor: visiting-positions
+- label: Consultancy
+  anchor: consultancy
+- label: Awards
+  anchor: awards
+- label: Grants
+  anchor: grants
+- label: Academic Service
+  anchor: academic-service
+sections:
+- id: career
+  title: Career
+  entries:
+  - period: March 2026
+    title: Habilitation à diriger des recherches (HDR) in Mathematics
+    organization: Sorbonne Université, Paris, France
+    details:
+    - '**Thesis Title:** Contributions to Time Series Forecasting and Statistical Learning'
+    - '**Jury President:** Gérard Biau, Professor, LPSM and Director of SCAI, Sorbonne Université, Paris.'
+    - '**Examiners:** Claire Boyer, Nicolas Thome, Laurent Najman.'
+    - '**Referees:** Benjamin Guedj, Sujit Ghosh, Jialiang Li.'
+  - period: Jan 2026–
+    title: Adjunct Associate Professor
+    organization: Duke-NUS Medical School, National University of Singapore
+    details: []
+  - period: Sept 2024–
+    title: Associate Professor of Mathematics (Statistics & Data Science)
+    organization: Sorbonne University Abu Dhabi and Sorbonne Center for Artificial Intelligence (SCAI), Sorbonne Université
+      Paris (formerly UPMC, Paris VI)
+    details: []
+  - period: 2021–2024
+    title: Assistant Professor of Mathematics (Statistics & Data Science)
+    organization: Sorbonne University Abu Dhabi
+    details: []
+  - period: 2016–2020
+    title: Doctor of Philosophy (Ph.D.)
+    organization: Indian Statistical Institute, Kolkata, India
+    details:
+    - '**Thesis Title:** Some Nonparametric Hybrid Predictive Models: Asymptotic Properties and Applications.'
+    - '**Reviewers:** Fabrizio Ruggeri and Sounak Chakraborty.'
+    - '**Examiners:** Pabitra Mitra and Ashis Chakraborty (Supervisor).'
+  - period: 2014–2026
+    title: Master of Science (MS)
+    organization: Indian Statistical Institute, Kolkata, India
+    details:
+    - '**Project:** Statistical Methodology for Process Efficiency Improvement at ITC Limited, Tribeni, India.'
+  - period: 2010–2013
+    title: Bachelor of Science (B.Sc.)
+    organization: Bidhannagar College, Kolkata, India
+    details:
+    - '**Subjects:** Statistics (Honours), Mathematics, Physics.'
+- id: teaching
+  title: Teaching
+  entries:
+  - period: Sept 2021–
+    title: Teaching at Sorbonne University Abu Dhabi and Sorbonne Center for AI (SCAI)
+    organization: ''
+    details: []
+  - period: July–Oct 2021
+    title: Teaching "Data Analytics" (MBA)
+    organization: Indian Institute of Foreign Trade (IIFT), India
+    details: []
+  - period: June–Nov 2021
+    title: Teaching "Causal Inference in Statistics"
+    organization: XIM University, Bhubaneswar, India
+    details: []
+- id: visiting-positions
+  title: Visiting Positions
+  entries:
+  - period: January 2026
+    title: Visiting Faculty
+    organization: BITS Pilani, Hyderabad Campus, India
+    details: []
+  - period: June 2025
+    title: Visiting Faculty
+    organization: IMI Kolkata, India
+    details: []
+  - period: January 2025
+    title: Visiting Faculty
+    organization: VIT Vellore, India
+    details: []
+  - period: June 2024
+    title: Visiting Faculty
+    organization: Duke-NUS Medical School, Singapore
+    details: []
+  - period: July 2023
+    title: Visiting Faculty
+    organization: Duke-NUS Medical School, Singapore
+    details: []
+- id: consultancy
+  title: Consultancy
+  entries:
+  - period: Dec 2022–Mar 2023
+    title: Statistical Consultant for Pharma Forecasting Tool Development
+    organization: PharmaACE Analytics Pvt. Ltd.
+    details: []
+  - period: Dec 2020–Feb 2021
+    title: Statistical Consultant for Data Science Consulting Assignment at BIU
+    organization: Bajaj Finance Ltd.
+    details: []
+- id: awards
+  title: Awards
+  entries:
+  - period: July 2026
+    title: 'My first PhD student, *Shovon Sengupta*, received the **Best Outstanding Thesis Award** from BITS Pilani.'    
+    organization: ''
+    details: []
+  - period: July 2026
+    title: 'My PhD student, *Rajdeep Pathak*, received the **Best Presentation Award** at the 46th ISF, Montreal, Canada, for our
+      TMLR paper on stEngression.'
+    organization: ''
+    details: []
+  - period: March 2026
+    title: '**Top Cited Paper Award** from *Expert Systems*, Wiley.'
+    organization: ''
+    details: []
+  - period: Feb 2026
+    title: '**Best Paper Award** at the IT and Systems track of the *AIRC Conference 2026*, organized by IIM Lucknow.'
+    organization: ''
+    details: []
+  - period: Jan 2021
+    title: '**Best Paper Award** Winner at *ACM 2021 IKDD* (CODS-COMAD) in the Research Track.'
+    organization: ''
+    details: []
+  - period: Dec 2019
+    title: '**Best Student Paper Award** (Application Category) at the *52nd Annual Convention of ORSI & International Conference*
+      held at IIM Ahmedabad.'
+    organization: ''
+    details: []
+  - period: Dec 2017
+    title: '**B.G. Raghavendra Memorial Award for Best Paper** (Application Category) from the *Operational Research Society of
+      India* (ORSI).'
+    organization: ''
+    details: []
+- id: grants
+  title: Grants
+  entries:
+  - period: Sep 2026–Aug 2029
+    title: SAFIR Research Grant for "Safe and Trustworthy Robotics Control via Neuro-Symbolic AI Models"
+    organization: ''
+    details:
+    - '**Role:** PI (jointly with Dr. Grace Younes).'
+    - '**Funding:** 600K AED.'
+    - '**Duration:** 3 years.'
+  - period: Sep 2025–Aug 2028
+    title: SOUND.AI Research Grant from SCAI Paris for "Advancing Machine Learning Systems for Temporal Healthcare Data"
+    organization: ''
+    details:
+    - '**Role:** PI.'
+    - '**Funding:** 600K AED.'
+    - '**Duration:** 3 years.'
+  - period: Aug 2025–July 2026
+    title: SAFIR Research Grant for "Design and Analysis of AI Systems for Infectious Disease Modeling"
+    organization: ''
+    details:
+    - '**Role:** PI.'
+    - '**Funding:** 65K AED.'
+    - '**Duration:** 1 year.'
+  - period: Oct 2024–Sept 2025
+    title: SAFIR Research Grant for "Designing Spatio-Temporal Deep Learning Solutions for Climate Data Modeling"
+    organization: ''
+    details:
+    - '**Role:** Co-PI.'
+    - '**Funding:** 80K AED.'
+    - '**Duration:** 1 year.'
+  - period: July 2024–Jun 2027
+    title: Mphasis Research Grant for "Deep Learning for Climate Change"
+    organization: ''
+    details:
+    - '**Role:** Co-PI.'
+    - '**Funding:** 3 million INR.'
+    - '**Duration:** 3 years.'
+  - period: May 2021–Dec 2023
+    title: Mphasis Research Grant in Cognitive Computing
+    organization: ''
+    details:
+    - '**Role:** Co-PI.'
+    - '**Funding:** 3 million INR.'
+- id: academic-service
+  title: Academic Service
+  entries:
+  - period: October 2026
+    title: Member of the Organizing Committee of Abu Dhabi School on MD
+    organization: Jointly organized by IITD-AD and SU-AD
+    details: []
+  - period: 2026 onwards
+    title: Member of the Editorial Board
+    organization: 'IOP Machine Learning: Health'
+    details: []
+  - period: '2026'
+    title: Member of the Program Committee
+    organization: ITISE Conference 2026
+    details: []
+  - period: 2021–2023
+    title: Member of the Program Committee
+    organization: ICMLA Conference
+    details: []
+reviewing:
+  journals:
+  - JASA – Theory and Methods
+  - JRSS Series A
+  - SIAM Journal on Applied Dynamical Systems
+  - Neural Networks
+  - Biometrics
+  - IEEE TPAMI
+  - IEEE Information Theory
+  - IEEE TNNLS
+  - IEEE TKDE
+  - IEEE TIP
+  - International Journal of Forecasting
+  - Statistics in Medicine
+  - Reliability Engineering & System Safety
+  - Technological Forecasting & Social Change
+  - PLOS Computational Biology
+  - Journal of Applied Statistics
+  - Journal of Computational and Applied Mathematics
+  - Expert Systems with Applications
+  - Scientific Reports
+  - Finance Research Letters
+  - Stochastic Environmental Research and Risk Assessment
+  - Computers in Biology and Medicine
+  - Computational Economics
+  - Engineering Applications of Artificial Intelligence
+  - IEEE JBHI
+  - PLOS Digital Medicine
+  - PLOS One
+  conferences:
+  - NeurIPS
+  - AAAI
+  - ECML-PKDD
+  - ICIS
+  - AMCIS
+  - ICMLA
+  thesis_reviewer:
+  - ISI Kolkata
+  - IIT Guwahati
+  - IIM Indore
+  - IIITDM Jabalpur

@@ -1,0 +1,145 @@
+# Packages named on https://www.ctanujit.org/softwares.html
+# Paper-specific GitHub repositories stay on the publication records.
+# Replace an illustration by changing image.src (and fallback).
+# Optional display.scale / display.position adjust the crop without editing CSS.
+# Add a package by appending a record; the Software page iterates this file.
+- id: engressionts
+  name: engressionts
+  language: python
+  ecosystem: PyPI
+  install: pip install engressionts
+  summary: Engression for  time series forecasting  
+  url: https://pypi.org/project/engressionts/
+  image:
+    src: /assets/images/software/engressionts-clean.png
+    fallback: /assets/images/software/engressionts-clean.png
+    alt: "EngressionTS: Probabilistic time series forecasting via Engression"
+  display:
+    scale: 1.12
+    position: right center
+- id: anglepy
+  name: anglepy
+  language: python
+  ecosystem: PyPI
+  install: pip install anglepy
+  summary: Angular Neural Generative Learning via Engression  
+  url: https://pypi.org/project/anglepy/
+  image:
+    src: /assets/images/software/angle-clean.png
+    fallback: /assets/images/software/angle-clean.png
+    alt: "ANGLE: Angular Neural Generative Learning via Engression"
+  display:
+    scale: 1.12
+    position: right center
+- id: memory-esn
+  name: memory-esn
+  language: python
+  ecosystem: PyPI
+  install: pip install memory-esn
+  summary: Long-Memory Echo State Networks
+  url: https://pypi.org/project/memory-esn/
+  image:
+    src: /assets/images/software/memory-esn-clean.png
+    fallback: /assets/images/software/memory-esn-clean.png
+    alt: "Reservoir computing diagram with a memory branch for long-range time-series forecasting"
+  display:
+    scale: 1.12
+    position: right center
+- id: genformer
+  name: genformer
+  language: python
+  ecosystem: PyPI
+  install: pip install genformer
+  summary: Deep Generative Transformers
+  url: https://pypi.org/project/genformer/
+  image:
+    src: /assets/images/software/genformer-clean.webp
+    fallback: /assets/images/software/genformer-clean.png
+    alt: "Layered transformer planes turning sequences of points into a generated grid"
+  display:
+    scale: 1.12
+    position: right center
+- id: stengression
+  name: stengression
+  language: python
+  ecosystem: PyPI
+  install: pip install stengression
+  summary: Deep Spatiotemporal Engression
+  url: https://pypi.org/project/stengression/
+  image:
+    src: /assets/images/software/stengression-clean.webp
+    fallback: /assets/images/software/stengression-clean.png
+    alt: "Stacked spatial maps with time, terrain, and hexagonal layers"
+  display:
+    scale: 1.08
+    position: center
+- id: imbalanced-spdf
+  name: imbalanced-spdf
+  language: python
+  ecosystem: PyPI
+  install: pip install imbalanced-spdf
+  summary: Shape Penalized Decision Forests for Imbalanced Data Classification
+  url: https://pypi.org/project/imbalanced-spdf/
+  image:
+    src: /assets/images/software/imbalanced-spdf-clean.webp
+    fallback: /assets/images/software/imbalanced-spdf-clean.png
+    alt: "Decision trees feeding two imbalanced point clouds separated by a boundary"
+  display:
+    scale: 1.14
+    position: right center
+- id: narfima
+  name: narfima
+  language: r
+  ecosystem: CRAN
+  install: install.packages("narfima")
+  summary: Neural AutoRegressive Fractionally Integrated Moving Average Model
+  url: https://cran.r-project.org/web/packages/narfima/index.html
+  image:
+    src: /assets/images/software/narfima-clean.webp
+    fallback: /assets/images/software/narfima-clean.png
+    alt: "Autoregressive series passing through a neural block with a long-memory trail"
+  display:
+    scale: 1.2
+    position: right center
+- id: hybridts
+  name: hybridts
+  language: r
+  ecosystem: CRAN
+  install: install.packages("hybridts")
+  summary: Hybrid Time Series Forecasting Using Error Remodeling Approach
+  url: https://cran.r-project.org/web/packages/hybridts/index.html
+  image:
+    src: /assets/images/software/hybridts-clean.webp
+    fallback: /assets/images/software/hybridts-clean.png
+    alt: "Observed series, forecast residuals, and a remodeled hybrid forecast"
+  display:
+    scale: 1.04
+    position: center
+- id: epicasting
+  name: epicasting
+  language: r
+  ecosystem: CRAN
+  install: install.packages("epicasting")
+  summary: An Ensemble Wavelet Neural Network for Forecasting and Epicasting (EWNet)
+  url: https://cran.r-project.org/web/packages/epicasting/index.html
+  image:
+    src: /assets/images/software/epicasting-clean.webp
+    fallback: /assets/images/software/epicasting-clean.png
+    alt: "Wavelet series combined through layered filters into an ensemble forecast"
+  display:
+    scale: 1.1
+    position: right center
+- id: countts
+  name: countts
+  language: r
+  ecosystem: CRAN
+  install: install.packages("countts")
+  summary: Thomson Sampling for Zero-Inflated Count Outcomes
+  url: https://cran.r-project.org/web/packages/countts/
+  image:
+    src: /assets/images/software/countts-clean.webp
+    fallback: /assets/images/software/countts-clean.png
+    alt: "A prior splitting into count distributions with spike histograms below"
+  display:
+    scale: 1.14
+    position: center

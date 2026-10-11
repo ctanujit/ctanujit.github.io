@@ -1,0 +1,12 @@
+# Verified Google Scholar snapshot supplied by the site owner. Do not scrape.
+# Publication counts are computed from publications.yml and are not stored here.
+scholar:
+  profile_url: https://scholar.google.com/citations?user=sJOm-voAAAAJ&hl=en
+  last_updated: 2026-10-11
+  as_of: October 2026
+  citations_all: "2,164"
+  citations_since_2021: "1,986"
+  h_index_all: 21
+  h_index_since_2021: 19
+  i10_index_all: 37
+  i10_index_since_2021: 37

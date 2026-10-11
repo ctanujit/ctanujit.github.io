@@ -1,0 +1,81 @@
+hero:
+  eyebrow: "Research group"
+  title: "ForeML Lab"
+  rotating_prefix: "Fusing statistics and machine learning to"
+  rotating_lines:
+    - "forecast complex spatiotemporal systems"
+    - "build statistically principled learning models"
+    - "advance health AI"
+    - "develop scientific generative models"
+  lead: >-
+    ForeML Lab is a non-profit research group led by Tanujit Chakraborty, developing statistically principled machine-learning methods for forecasting, health, climate and complex dynamical systems.
+  logo:
+    src: /assets/images/foreml/logo.png
+    alt: "ForeML Lab"
+
+group_photo:
+  src: /assets/images/foreml/group.jpg
+  alt: "ForeML Lab group photograph"
+  caption: "ForeML Lab · Abu Dhabi"
+
+featured_research:
+  - publication_id: panja-2023-epicasting-an-ensemble-wavelet-neural-network
+    image: /assets/images/foreml/research/epicasting.png
+    image_alt: "Wavelet and neural forecasting illustration for epidemic prediction"
+    image_position: "64% center"
+  - publication_id: panja-2026-e-stgcn-extreme-spatiotemporal-graph-convolutio
+    image: /assets/images/foreml/research/estgcn.png
+    image_alt: "Layered spatiotemporal fields and network connections"
+    image_position: "center"
+  - publication_id: naik-2025-skew-probabilistic-neural-networks-for-learning
+    image: /assets/images/foreml/research/skew-pnn.png
+    image_alt: "Imbalanced probabilistic classification landscape"
+    image_position: "70% center"
+  - publication_id: pathak-2026-deep-generative-spatiotemporal-engression-for-pr
+    image: /assets/images/foreml/research/deep-generative.png
+    image_alt: "Generative probabilistic latent-space illustration"
+    image_position: "center"
+
+join:
+  heading: "Join ForeML Lab"
+  text: >-
+    Work with us on forecasting, statistical machine learning, health AI and complex dynamical systems. Prospective Master's and PhD students should review our research areas and preparation guidelines before contacting us.
+  primary:
+    label: "Application guidelines"
+    url: /foreml/apply/
+  secondary:
+    label: "Meet the team"
+    url: /people/
+
+apply:
+  intro: >-
+    We welcome motivated students and researchers interested in statistical learning, forecasting, health AI and dynamical systems.
+  reading_lists:
+    - heading: "Statistical learning"
+      items:
+        - label: "Mathematics for Machine Learning"
+          url: https://mml-book.github.io/
+        - label: "An Introduction to Statistical Learning"
+          url: https://statlearning.com/
+        - label: "The Elements of Statistical Learning"
+          url: https://web.stanford.edu/~hastie/ElemStatLearn/
+    - heading: "Deep learning"
+      items:
+        - label: "Deep Learning"
+          url: https://www.deeplearningbook.org/
+        - label: "Dive into Deep Learning"
+          url: https://d2l.ai/
+    - heading: "Time series forecasting"
+      items:
+        - label: "Time Series Analysis and Its Applications"
+          url: http://www.stat.ucla.edu/~frederic/415/S23/tsa4.pdf
+        - label: "Forecasting: Principles and Practice"
+          url: https://otexts.com/fpp3/
+  guidelines:
+    - "A prospective student is expected to have a good understanding of mathematics, probability, and statistics, at least to bachelor's level, including the topics listed under the lab's research areas."
+    - "The student is expected to have studied, and practiced the code in R or Python for, the books listed above on statistical learning, forecasting, and deep learning."
+    - "It is desirable to have read at least one research paper before applying."
+    - "Knowing at least one of RStudio, Python, or Matlab is essential. LaTeX is not mandatory."
+  contact:
+    email: ctanujit@gmail.com
+    note: "A publication in a journal or conference is not required; it is an advantage."

@@ -1,0 +1,35 @@
+# Homepage items. Printed newest first.
+# In text you may use **bold**, *italic*, ***bold italic***, and a colour:
+#   <span class="accent">terracotta</span>
+#   <span class="blue">blue</span>
+#   <span class="green">green</span>
+#   <span class="brass">brass</span>
+# Put the whole text in single quotes when it contains a colon or a span.
+- date: 2026-09-09
+  text: Our paper on Statistical patterns in Blockchain got accepted in **PLOS One**.
+- date: 2026-08-10
+  text: Our paper on Bayesian ML for Ordinal DTR got accepted in **Statistics in Medicine**.
+- date: 2026-07-15
+  text: 'My 1st PhD student, **Shovon Sengupta**, has been awarded the "<span class="accent">Best Outstanding Thesis Award</span>" by BITS Pilani, India.'
+- date: 2026-07-01
+  text: 'My PhD student **Rajdeep Pathak** received the "<span class="accent">Best Student Presentation Award</span>" at the **46th ISF, Montreal, Canada**.'
+- date: 2026-06-21
+  text: Our paper on Spatiotemporal Engression (stengression) got accepted in **TMLR**.
+- date: 2026-06-06
+  text: 'My 1st Postdoc (Apr - Sept 2024), **Shraddha M. Naik**, has joined the <span class="accent">University of Birmingham</span> as an Assistant Professor.'
+- date: 2026-04-06
+  text: Our paper on Mahalanobis Distribution Alignment Score (MDAS) got accepted in **IEEE Access**.
+- date: 2026-03-16
+  text: 'Our Paper on Benchmarking Survival Models got accepted in **Health Data Science**, A Science Partner Journal.'
+- date: 2026-03-03
+  text: 'Our paper, published in ***Expert Systems***, won the <span class="accent">Top cited paper</span> award published by the journal in 2024.'
+- date: 2026-02-26
+  text: 'My 1st PhD student, **Shovon Sengupta**, defended his PhD thesis at BITS Pilani, India.'
+- date: 2026-02-20
+  text: '**PhD Funding approved** for the doctoral project, "Safe and Trustworthy Robotics Control via Neuro-Symbolic AI Models", submitted under the SAFIR Doctoral and Postdoctoral Call for Proposals.'
+- date: 2026-02-14
+  text: 'Our paper, presented by **Dr. Payel Sadhukhan** on "Demystifying the trend of the healthcare index," won the <span class="accent">Best Paper Award</span> at the IT and Systems track of the AIRC Conference 2026, organized by IIM, Lucknow.'
+- date: 2026-02-06
+  text: 'I defended my Habilitation à diriger des recherches (HDR) in Mathematics at ***Sorbonne Université***, **Paris, France**.'
+- date: 2026-01-09
+  text: Our paper on Extreme Deep Learning (E-STGCN) got accepted in **JRSS-Series A**.

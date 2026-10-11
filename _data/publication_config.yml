@@ -1,0 +1,25 @@
+# Publications page configuration.
+# Add/remove/reorder research areas here; the filter UI is generated automatically.
+research_areas:
+  - id: spatiotemporal-forecasting
+    label: Spatiotemporal Forecasting
+  - id: statistical-machine-learning
+    label: Statistical Machine Learning
+  - id: generative-ai
+    label: Generative AI
+  - id: health-ai
+    label: Health AI
+  - id: statistical-analysis-of-networks
+    label: Statistical Analysis of Networks
+
+publication_types:
+  - id: journal
+    label: Journal article
+  - id: conference
+    label: Conference paper
+  - id: submitted
+    label: Submitted / Preprint
+  - id: book_chapter
+    label: Book chapter
+
+submitted_preview_count: 3

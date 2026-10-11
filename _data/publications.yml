@@ -1,0 +1,1883 @@
+- id: item-nd-besher-d-pathak-r-panja-m
+  section: submitted
+  position: 1
+  status: submitted
+  year: null
+  authors_display: Besher, D.*, Pathak, R.*, Panja, M., Chakraborty, T.
+  authors:
+  - Besher, D.*
+  - Pathak, R.*
+  - Panja, M.
+  - Chakraborty, T.
+  title: 'Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data'
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - statistical-machine-learning
+  citation: 'Besher, D.*, Pathak, R.*, Panja, M., Chakraborty, T. Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/pdf/2609.13345
+  - label: Code
+    type: code
+    url: https://github.com/PyCoder913/ProbForecasting
+  tags:
+  - Probabilistic forecasting
+  - Time series
+  - Spatiotemporal forecasting
+- id: item-nd-payra-p-jagadish-sen-t-chakraborty
+  section: submitted
+  position: 2
+  status: submitted
+  year: null
+  authors_display: Payra, P., Jagadish, Sen, T., Chakraborty, T.
+  authors:
+  - Payra, P.
+  - Jagadish
+  - Sen, T.
+  - Chakraborty, T.
+  title: 'SIGMA: Symmetry-aware, Intelligent, Geometric, Multi-faced Adaptive Traffic Control for Reliable Intelligent Transportation Systems'
+  venue: null
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: 'Payra, P., Jagadish, Sen, T., Chakraborty, T. SIGMA: Symmetry-aware, Intelligent, Geometric, Multi-faced Adaptive Traffic Control for Reliable Intelligent Transportation Systems.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2608.18263
+  - label: Code
+    type: code
+    url: https://github.com/pratham-payra/sigma_julia
+  tags:
+  - Traffic control
+  - Intelligent transportation
+  - Geometric learning
+- id: item-nd-pathak-r-roy-a-chakraborty-t
+  section: submitted
+  position: 3
+  status: submitted
+  year: null
+  authors_display: Pathak, R.*, Roy, A., Chakraborty, T.
+  authors:
+  - Pathak, R.*
+  - Roy, A.
+  - Chakraborty, T.
+  title: 'ANGLE: Angular Neural Generative Learning via Engression'
+  venue: null
+  award: null
+  research_areas:
+  - generative-ai
+  - statistical-machine-learning
+  citation: 'Pathak, R.*, Roy, A., Chakraborty, T. ANGLE: Angular Neural Generative Learning via Engression.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2607.12833
+  - label: Code
+    type: code
+    url: https://github.com/PyCoder913/anglepy
+  - label: Python Package
+    type: software
+    url: https://anglepy.readthedocs.io/
+    software_name: anglepy
+  tags:
+  - Engression
+  - Generative AI
+  - Distributional regression
+- id: item-nd-xu-j-qian-t-chakraborty-t
+  section: submitted
+  position: 4
+  status: submitted
+  year: null
+  authors_display: Xu, J., Qian, T., Chakraborty, T., Dahmani, S.A., Chakraborty, B.
+  authors:
+  - Xu, J.
+  - Qian, T.
+  - Chakraborty, T.
+  - Dahmani, S.A.
+  - Chakraborty, B.
+  title: Marginal Causal Excursion Effects Estimation in Mobile Health Interventions with Ordinal Outcomes under Micro-Randomized Trials
+  venue: null
+  award: null
+  research_areas:
+  - health-ai
+  - statistical-machine-learning
+  citation: Xu, J., Qian, T., Chakraborty, T., Dahmani, S.A., Chakraborty, B. Marginal Causal Excursion Effects Estimation in Mobile Health Interventions with Ordinal Outcomes under Micro-Randomized Trials.
+  links: []
+  links_note: Bracket labels are printed on the source page, but no URL was present in the HTML.
+  tags:
+  - Mobile health
+  - Causal inference
+  - Ordinal outcomes
+- id: item-nd-goswami-r-paul-s-ghosh-p
+  section: submitted
+  position: 5
+  status: submitted
+  year: null
+  authors_display: Goswami, R.*, Paul, S.*, Ghosh, P., Chakraborty, T.
+  authors:
+  - Goswami, R.*
+  - Paul, S.*
+  - Ghosh, P.
+  - Chakraborty, T.
+  title: Long-Memory Reservoir Computing for Data-Scarce Dengue Forecasting
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: Goswami, R.*, Paul, S.*, Ghosh, P., Chakraborty, T. Long-Memory Reservoir Computing for Data-Scarce Dengue Forecasting.
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/pdf/2607.11272
+  - label: Code
+    type: code
+    url: https://github.com/yuvrajiro/memory-esn
+  - label: Python Package
+    type: software
+    url: https://pypi.org/project/memory-esn/
+    software_name: memory-esn
+  tags:
+  - Long memory
+  - Reservoir computing
+  - Dengue forecasting
+- id: item-nd-panja-m-d-agostino-d-li
+  section: submitted
+  position: 6
+  status: submitted
+  year: null
+  authors_display: Panja, M., D'Agostino, D., Li, H., Chakraborty, T., Liu, N.
+  authors:
+  - Panja, M.
+  - D'Agostino, D.
+  - Li, H.
+  - Chakraborty, T.
+  - Liu, N.
+  title: 'EpiCastBench: Datasets and Benchmarks for Multivariate Epidemic Forecasting'
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: 'Panja, M., D''Agostino, D., Li, H., Chakraborty, T., Liu, N. EpiCastBench: Datasets and Benchmarks for Multivariate Epidemic Forecasting.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2605.11598
+  - label: Data
+    type: data
+    url: https://www.kaggle.com/datasets/aimltsf/epicastbench
+  - label: Code
+    type: code
+    url: https://github.com/aimltsf/EpiCastBench
+  tags:
+  - Epidemic forecasting
+  - Benchmarking
+  - Multivariate time series
+- id: item-nd-shukla-i-panja-m-chakraborty-t
+  section: submitted
+  position: 7
+  status: submitted
+  year: null
+  authors_display: Shukla, I., Panja, M., Chakraborty, T., Hens, C.
+  authors:
+  - Shukla, I.
+  - Panja, M.
+  - Chakraborty, T.
+  - Hens, C.
+  title: 'TREA-Net: A Transferable Residual Epidemiological Adaptation Network for Dengue Incidence Forecasting'
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: 'Shukla, I., Panja, M., Chakraborty, T., Hens, C. TREA-Net: A Transferable Residual Epidemiological Adaptation Network for Dengue Incidence Forecasting.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/pdf/2607.26854
+  - label: Code
+    type: code
+    url: https://anonymous.4open.science/r/TREA-Net-C8F8
+  tags:
+  - Transfer learning
+  - Dengue forecasting
+  - Epidemiology
+- id: item-nd-besher-d-panja-m-sengupta-s
+  section: submitted
+  position: 8
+  status: submitted
+  year: null
+  authors_display: Besher, D.*, Panja, M., Sengupta, S., Chakraborty, T.
+  authors:
+  - Besher, D.*
+  - Panja, M.
+  - Sengupta, S.
+  - Chakraborty, T.
+  title: Neural ARFIMA model for forecasting BRIC exchange rates with long memory
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - statistical-machine-learning
+  citation: Besher, D.*, Panja, M., Sengupta, S., Chakraborty, T. Neural ARFIMA model for forecasting BRIC exchange rates with long memory.
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2509.06697
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/NARFIMA
+  - label: R Package
+    type: software
+    url: https://cran.r-project.org/web/packages/narfima/
+    software_name: narfima
+  tags:
+  - Long memory
+  - Financial econometrics
+  - Deep learning
+- id: item-nd-pathak-r-goswami-r-panja-m
+  section: submitted
+  position: 9
+  status: submitted
+  year: null
+  authors_display: Pathak, R.*, Goswami, R.*, Panja, M., Ghosh, P., Chakraborty, T.
+  authors:
+  - Pathak, R.*
+  - Goswami, R.*
+  - Panja, M.
+  - Ghosh, P.
+  - Chakraborty, T.
+  title: Deep Generative Transformers for Probabilistic Time Series and Spatiotemporal Forecasting
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - generative-ai
+  citation: Pathak, R.*, Goswami, R.*, Panja, M., Ghosh, P., Chakraborty, T. Deep Generative Transformers for Probabilistic Time Series and Spatiotemporal Forecasting.
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2603.11909
+  - label: Code
+    type: code
+    url: https://github.com/yuvrajiro/EnTransformer
+  tags:
+  - Generative transformers
+  - Probabilistic forecasting
+  - Time series
+- id: item-nd-sadhukhan-p-gupta-s-ghosh-s
+  section: submitted
+  position: 10
+  status: submitted
+  year: null
+  authors_display: Sadhukhan, P., Gupta, S., Ghosh, S., Chakraborty, T.
+  authors:
+  - Sadhukhan, P.
+  - Gupta, S.
+  - Ghosh, S.
+  - Chakraborty, T.
+  title: 'Demystifying the trend of the healthcare index: Is historical price a key driver?'
+  venue: null
+  award: Best Paper Award at AIRC Conference
+  research_areas:
+  - statistical-machine-learning
+  - health-ai
+  citation: 'Sadhukhan, P., Gupta, S., Ghosh, S., Chakraborty, T. Demystifying the trend of the healthcare index: Is historical price a key driver?'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2601.14062
+  tags:
+  - Healthcare index
+  - Causal discovery
+  - Time series
+- id: item-nd-sengupta-s-singh-s-k-chakraborty
+  section: submitted
+  position: 11
+  status: submitted
+  year: null
+  authors_display: Sengupta, S.*, Singh, S.K., Chakraborty, T.
+  authors:
+  - Sengupta, S.*
+  - Singh, S.K.
+  - Chakraborty, T.
+  title: Macroeconomic Forecasting for the G7 countries under Uncertainty Shocks
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: Sengupta, S.*, Singh, S.K., Chakraborty, T. Macroeconomic Forecasting for the G7 countries under Uncertainty Shocks.
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2510.23347
+  tags:
+  - Macroeconomics
+  - Uncertainty
+  - Forecasting
+- id: item-nd-mukhiya-k-luwang-sr-sharma-b
+  section: submitted
+  position: 12
+  status: submitted
+  year: null
+  authors_display: Mukhiya, K., Luwang, SR., Sharma, B., Hens, C., Nurujjaman, M., Saha, S., Chakraborty, T.
+  authors:
+  - Mukhiya, K.
+  - Luwang, SR.
+  - Sharma, B.
+  - Hens, C.
+  - Nurujjaman, M.
+  - Saha, S.
+  - Chakraborty, T.
+  title: 'Early-Warning Signals of Political Risk in Stablecoin Markets: Human and Algorithmic Behavior Around the 2024 U.S. Election'
+  venue: null
+  award: null
+  research_areas:
+  - statistical-analysis-of-networks
+  citation: 'Mukhiya, K., Luwang, SR., Sharma, B., Hens, C., Nurujjaman, M., Saha, S., Chakraborty, T. Early-Warning Signals of Political Risk in Stablecoin Markets: Human and Algorithmic Behavior Around the 2024 U.S. Election.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/pdf/2512.00893
+  tags:
+  - Stablecoins
+  - Political risk
+  - Complex networks
+- id: item-nd-besher-d-sengupta-a-chakraborty-t
+  section: submitted
+  position: 13
+  status: submitted
+  year: null
+  authors_display: Besher, D.*, Sengupta, A., Chakraborty, T.
+  authors:
+  - Besher, D.*
+  - Sengupta, A.
+  - Chakraborty, T.
+  title: 'Modeling US Climate Policy Uncertainty: From Causal Identification to Probabilistic Forecasting'
+  venue: null
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - statistical-machine-learning
+  citation: 'Besher, D.*, Sengupta, A., Chakraborty, T. Modeling US Climate Policy Uncertainty: From Causal Identification to Probabilistic Forecasting.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2507.12276
+  - label: Code
+    type: code
+    url: https://github.com/Donia-212/Climate_Policy_Uncertainty_Forecasting
+  tags:
+  - Causal inference
+  - Climate policy
+  - Probabilistic forecasting
+- id: item-nd-nareti-u-k-gupta-d-adak
+  section: submitted
+  position: 14
+  status: submitted
+  year: null
+  authors_display: Nareti, U.K., Gupta, D., Adak, C., Chattopadhyay, S., Riese, E., Chakraborty, T., Agarwal, M., Kumar, S.
+  authors:
+  - Nareti, U.K.
+  - Gupta, D.
+  - Adak, C.
+  - Chattopadhyay, S.
+  - Riese, E.
+  - Chakraborty, T.
+  - Agarwal, M.
+  - Kumar, S.
+  title: Assessing Engineering Student Perceptions of Introductory CS Courses in an Indian Context
+  venue: null
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Nareti, U.K., Gupta, D., Adak, C., Chattopadhyay, S., Riese, E., Chakraborty, T., Agarwal, M., Kumar, S. Assessing Engineering Student Perceptions of Introductory CS Courses in an Indian Context.
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2508.06563
+  tags:
+  - Computing education
+  - Student perceptions
+  - Education analytics
+- id: pathak-2026-deep-generative-spatiotemporal-engression-for-pr
+  section: journal
+  position: 1
+  status: published
+  year: 2026
+  authors_display: Pathak, R.*, Chakraborty, T.
+  authors:
+  - Pathak, R.*
+  - Chakraborty, T.
+  title: Deep Generative Spatiotemporal Engression for Probabilistic Forecasting of Epidemics
+  venue: Transactions on Machine Learning Research
+  award: Best Student Presentation Award at 46th ISF, Montreal, Canada
+  research_areas:
+  - health-ai
+  - generative-ai
+  - spatiotemporal-forecasting
+  citation: Pathak, R.*, Chakraborty, T. (2026) Deep Generative Spatiotemporal Engression for Probabilistic Forecasting of Epidemics. Transactions on Machine Learning Research.
+  links:
+  - label: Paper
+    type: paper
+    url: https://openreview.net/forum?id=7AfAztCd5A
+  - label: Code
+    type: code
+    url: https://github.com/PyCoder913/stengression
+  - label: Python Package
+    type: software
+    url: https://pypi.org/project/stengression/
+    software_name: stengression
+  tags:
+  - Probabilistic forecasting
+  - Epidemiology
+  - Spatiotemporal modeling
+- id: wang-2026-bayesian-machine-learning-for-estimating-optimal
+  section: journal
+  position: 2
+  status: published
+  year: 2026
+  authors_display: Wang, X., Chakraborty, T., Chakraborty, B.
+  authors:
+  - Wang, X.
+  - Chakraborty, T.
+  - Chakraborty, B.
+  title: Bayesian Machine Learning for Estimating Optimal Dynamic Treatment Regimes with Ordinal Outcomes
+  venue: Statistics in Medicine
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  - health-ai
+  citation: Wang, X., Chakraborty, T., Chakraborty, B. (2026) Bayesian Machine Learning for Estimating Optimal Dynamic Treatment Regimes with Ordinal Outcomes. Statistics in Medicine, Vol. 45.
+  links:
+  - label: Paper
+    type: paper
+    url: https://onlinelibrary.wiley.com/doi/10.1002/sim.70714
+  - label: Code
+    type: code
+    url: https://github.com/cherylwaal/OBART
+  tags:
+  - Machine learning
+  - Bayesian methods
+- id: panja-2026-e-stgcn-extreme-spatiotemporal-graph-convolutio
+  section: journal
+  position: 3
+  status: published
+  year: 2026
+  authors_display: Panja, M., Chakraborty, T., Biswas, A.*, Deb, S.
+  authors:
+  - Panja, M.
+  - Chakraborty, T.
+  - Biswas, A.*
+  - Deb, S.
+  title: 'E-STGCN: Extreme Spatiotemporal Graph Convolutional Networks for Air Quality Forecasting'
+  venue: 'Journal of the Royal Statistical Society: Series A'
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: 'Panja, M., Chakraborty, T., Biswas, A.*, Deb, S. (2026) E-STGCN: Extreme Spatiotemporal Graph Convolutional Networks for Air Quality Forecasting. Journal of the Royal Statistical Society: Series A.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1093/jrsssa/qnag010
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/E_STGCN
+  tags:
+  - Spatiotemporal modeling
+  - Forecasting
+  - Air quality
+- id: item-nd-panja-m-younes-g-chakraborty-t
+  section: journal
+  position: 4
+  status: published
+  year: 2026
+  authors_display: Panja, M., Younes, G., Chakraborty, T.
+  authors:
+  - Panja, M.
+  - Younes, G.
+  - Chakraborty, T.
+  title: 'Turning Time Series into Algebraic Equations: Symbolic Machine Learning for Interpretable Modeling of Chaotic Time Series'
+  venue: APL Machine Learning
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - statistical-machine-learning
+  citation: 'Panja, M., Younes, G., Chakraborty, T. (2026). Turning Time Series into Algebraic Equations: Symbolic Machine Learning for Interpretable Modeling of Chaotic Time Series. APL Machine Learning.'
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2603.07261
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/Symbolic_Forecasting
+  tags:
+  - Symbolic regression
+  - Chaotic time series
+  - Interpretable ML
+- id: item-nd-mukhiya-k-luwang-sr-nurujjaman-m
+  section: journal
+  position: 5
+  status: published
+  year: 2026
+  authors_display: Mukhiya, K., Luwang, SR., Nurujjaman, M., Chakraborty, T., Saha, S., Hens, C.
+  authors:
+  - Mukhiya, K.
+  - Luwang, SR.
+  - Nurujjaman, M.
+  - Chakraborty, T.
+  - Saha, S.
+  - Hens, C.
+  title: 'Statistical patterns in the Ethereum blockchain: analysis of EOAs and smart contracts in ERC20 token network'
+  venue: PLOS One
+  award: null
+  research_areas:
+  - statistical-analysis-of-networks
+  citation: 'Mukhiya, K., Luwang, SR., Nurujjaman, M., Chakraborty, T., Saha, S., Hens, C. (2026). Statistical patterns in the Ethereum blockchain: analysis of EOAs and smart contracts in ERC20 token network. PLOS One.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1371/journal.pone.0358972
+  tags:
+  - Blockchain
+  - Complex networks
+  - Scaling laws
+- id: wang-2026-survival-modeling-using-deep-learning-machine
+  section: journal
+  position: 6
+  status: published
+  year: 2026
+  authors_display: Wang, Z., Lee, J. W., Chakraborty, T., Ning, Y., Liu, M., Feng, X., Ong, M. E. H., Liu, N.
+  authors:
+  - Wang, Z.
+  - Lee, J. W.
+  - Chakraborty, T.
+  - Ning, Y.
+  - Liu, M.
+  - Feng, X.
+  - Ong, M. E. H.
+  - Liu, N.
+  title: 'Survival modeling using deep learning, machine learning and statistical methods: A comparative analysis for predicting mortality after admission'
+  venue: Health Data Science
+  award: null
+  research_areas:
+  - health-ai
+  - statistical-machine-learning
+  citation: 'Wang, Z., Lee, J. W., Chakraborty, T., Ning, Y., Liu, M., Feng, X., Ong, M. E. H., Liu, N. (2026) Survival modeling using deep learning, machine learning and statistical methods: A comparative analysis for predicting mortality after admission. Health Data Science.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://spj.science.org/doi/abs/10.34133/hds.0449
+  - label: Code
+    type: code
+    url: https://github.com/nliulab/Survival-Benchmark
+  tags:
+  - Deep learning
+  - Machine learning
+  - Survival analysis
+- id: ghosh-2026-mdas-a-diagnostic-approach-to-assess
+  section: journal
+  position: 7
+  status: published
+  year: 2026
+  authors_display: Ghosh, P. Karmakar, B., Jain E., Neeraja J., Banerjee B., Chakraborty, T.
+  authors:
+  - Ghosh, P.
+  - Karmakar, B.
+  - Jain E.
+  - Neeraja J.
+  - Banerjee B.
+  - Chakraborty, T.
+  title: 'MDAS: A Diagnostic Approach to Assess the Quality of Data Splitting in Machine Learning'
+  venue: IEEE Access
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: 'Ghosh, P. Karmakar, B., Jain E., Neeraja J., Banerjee B., Chakraborty, T. (2026) MDAS: A Diagnostic Approach to Assess the Quality of Data Splitting in Machine Learning. IEEE Access.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://ieeexplore.ieee.org/document/11481067
+  - label: Code
+    type: code
+    url: https://github.com/eklavyaj/RandomSplitDiagnostics
+  tags:
+  - Machine learning
+- id: liu-2025-thompson-sampling-for-zero-inflated-count
+  section: journal
+  position: 8
+  status: published
+  year: 2025
+  authors_display: Liu, X., Deliu, N., Chakraborty, T., Bell, L., Chakraborty, B.
+  authors:
+  - Liu, X.
+  - Deliu, N.
+  - Chakraborty, T.
+  - Bell, L.
+  - Chakraborty, B.
+  title: Thompson sampling for zero-inflated count outcomes with an application to the Drink Less mobile health study
+  venue: Annals of Applied Statistics
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  - health-ai
+  citation: Liu, X., Deliu, N., Chakraborty, T., Bell, L., Chakraborty, B. (2025) Thompson sampling for zero-inflated count outcomes with an application to the Drink Less mobile health study. Annals of Applied Statistics, Vol. 19, pg. 1403-1425.
+  links:
+  - label: Paper
+    type: paper
+    url: https://projecteuclid.org/journals/annals-of-applied-statistics/volume-19/issue-2/Thompson-sampling-for-zero-inflated-count-outcomes-with-an-application/10.1214/25-AOAS2030.short
+  - label: R Package
+    type: software
+    url: https://cran.r-project.org/web/packages/countts
+    software_name: countts
+  tags:
+  - Count data
+- id: barman-2025-epidemic-guided-deep-learning-for-spatiotemporal
+  section: journal
+  position: 9
+  status: published
+  year: 2025
+  authors_display: Barman, M.*, Panja, M., Mishra, N., Chakraborty, T.
+  authors:
+  - Barman, M.*
+  - Panja, M.
+  - Mishra, N.
+  - Chakraborty, T.
+  title: Epidemic-guided deep learning for spatiotemporal forecasting of Tuberculosis outbreak
+  venue: Machine Learning
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  - statistical-machine-learning
+  citation: Barman, M.*, Panja, M., Mishra, N., Chakraborty, T. (2025) Epidemic-guided deep learning for spatiotemporal forecasting of Tuberculosis outbreak. Machine Learning, Vol. 114.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1007/s10994-025-06848-4
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/EGDL
+  tags:
+  - Epidemiology
+  - Spatiotemporal modeling
+  - Forecasting
+- id: naik-2025-skew-probabilistic-neural-networks-for-learning
+  section: journal
+  position: 10
+  status: published
+  year: 2025
+  authors_display: Naik, S.M.*, Chakraborty, T., Panja, M., Hadid, A., Chakraborty, B.
+  authors:
+  - Naik, S.M.*
+  - Chakraborty, T.
+  - Panja, M.
+  - Hadid, A.
+  - Chakraborty, B.
+  title: Skew Probabilistic Neural Networks for Learning from Imbalanced Data
+  venue: Pattern Recognition
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Naik, S.M.*, Chakraborty, T., Panja, M., Hadid, A., Chakraborty, B. (2025) Skew Probabilistic Neural Networks for Learning from Imbalanced Data. Pattern Recognition, Vol. 165.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.patcog.2025.111677
+  - label: Code
+    type: code
+    url: https://github.com/7shraddha/SkewPNN
+  tags:
+  - Probabilistic forecasting
+  - Imbalanced learning
+  - Networks
+- id: sadhukhan-2025-footprints-of-data-in-a-classifier
+  section: journal
+  position: 11
+  status: published
+  year: 2025
+  authors_display: Sadhukhan, P., Chakraborty, T.
+  authors:
+  - Sadhukhan, P.
+  - Chakraborty, T.
+  title: 'Footprints of Data in a Classifier: Understanding the Privacy Risks and Solution Strategies'
+  venue: Information Systems Frontiers
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: 'Sadhukhan, P., Chakraborty, T. (2025) Footprints of Data in a Classifier: Understanding the Privacy Risks and Solution Strategies. Information Systems Frontiers.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/article/10.1007/s10796-025-10679-y
+  tags:
+  - Classification
+  - Privacy
+- id: banerjee-2025-recent-changes-in-spatiotemporal-patterns-of
+  section: journal
+  position: 12
+  status: published
+  year: 2025
+  authors_display: Banerjee, A., Gupta, S., Priyanshu, P., Kar, A., Saha, R., Chakraborty, T., Ghosh, D., Kurths, J., Hens, C.
+  authors:
+  - Banerjee, A.
+  - Gupta, S.
+  - Priyanshu, P.
+  - Kar, A.
+  - Saha, R.
+  - Chakraborty, T.
+  - Ghosh, D.
+  - Kurths, J.
+  - Hens, C.
+  title: Recent Changes in Spatiotemporal Patterns of Heat Extremes in South Asia
+  venue: npj Climate and Atmospheric Science
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: Banerjee, A., Gupta, S., Priyanshu, P., Kar, A., Saha, R., Chakraborty, T., Ghosh, D., Kurths, J., Hens, C. (2025) Recent Changes in Spatiotemporal Patterns of Heat Extremes in South Asia. npj Climate and Atmospheric Science, Vol. 8.
+  links:
+  - label: Paper
+    type: paper
+    url: https://www.nature.com/articles/s41612-025-01146-1
+  tags:
+  - Spatiotemporal modeling
+- id: ghosh-2025-developing-cholera-outbreak-forecasting-through
+  section: journal
+  position: 13
+  status: published
+  year: 2025
+  authors_display: Ghosh, A., Das, P., Chakraborty, T., Das, P., Ghosh, D.
+  authors:
+  - Ghosh, A.
+  - Das, P.
+  - Chakraborty, T.
+  - Das, P.
+  - Ghosh, D.
+  title: 'Developing cholera outbreak forecasting through qualitative dynamics: Insights into Malawi case study'
+  venue: Journal of Theoretical Biology
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: 'Ghosh, A., Das, P., Chakraborty, T., Das, P., Ghosh, D. (2025) Developing cholera outbreak forecasting through qualitative dynamics: Insights into Malawi case study. Journal of Theoretical Biology, Vol. 605.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.jtbi.2025.112097
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/EIML
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: panja-2025-forecasting-precipitation-in-the-arctic-using
+  section: journal
+  position: 14
+  status: published
+  year: 2025
+  authors_display: Panja, M., Das, D., Chakraborty, T., Ray, A., Radhakrishnan, A., Hens, C., Dana, S.K., Murukesh, N., Ghosh, D.
+  authors:
+  - Panja, M.
+  - Das, D.
+  - Chakraborty, T.
+  - Ray, A.
+  - Radhakrishnan, A.
+  - Hens, C.
+  - Dana, S.K.
+  - Murukesh, N.
+  - Ghosh, D.
+  title: Forecasting precipitation in the Arctic using probabilistic machine learning informed by causal climate drivers
+  venue: Chaos
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  - spatiotemporal-forecasting
+  citation: Panja, M., Das, D., Chakraborty, T., Ray, A., Radhakrishnan, A., Hens, C., Dana, S.K., Murukesh, N., Ghosh, D. (2025) Forecasting precipitation in the Arctic using probabilistic machine learning informed by causal climate drivers. Chaos, Vol. 35.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1063/5.0297336
+  - label: Code
+    type: code
+    url: https://zenodo.org/records/16728472
+  tags:
+  - Probabilistic forecasting
+  - Forecasting
+  - Machine learning
+- id: shukla-2025-salt-rock-creep-deformation-forecasting-using
+  section: journal
+  position: 15
+  status: published
+  year: 2025
+  authors_display: Shukla, P.K., Chakraborty, T., Sari, M., Sarout, J., Mandal, P.P.
+  authors:
+  - Shukla, P.K.
+  - Chakraborty, T.
+  - Sari, M.
+  - Sarout, J.
+  - Mandal, P.P.
+  title: Salt rock creep deformation forecasting using deep neural networks and analytical models for subsurface energy storage applications
+  venue: Scientific Reports
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - statistical-machine-learning
+  citation: Shukla, P.K., Chakraborty, T., Sari, M., Sarout, J., Mandal, P.P. (2025) Salt rock creep deformation forecasting using deep neural networks and analytical models for subsurface energy storage applications. Scientific Reports, Vol. 15.
+  links:
+  - label: Paper
+    type: paper
+    url: https://www.nature.com/articles/s41598-025-17940-z
+  tags:
+  - Forecasting
+  - Networks
+- id: chakraborty-2025-a-compounded-burr-probability-distribution-for
+  section: journal
+  position: 16
+  status: published
+  year: 2025
+  authors_display: Chakraborty, T., Chattopadhyay, S., Das, S., Naik, S.M., Hens, C.
+  authors:
+  - Chakraborty, T.
+  - Chattopadhyay, S.
+  - Das, S.
+  - Naik, S.M.
+  - Hens, C.
+  title: A Compounded Burr Probability Distribution for Fitting Heavy-Tailed Data with Applications to Biological Networks
+  venue: Chaos
+  award: null
+  research_areas:
+  - statistical-analysis-of-networks
+  citation: Chakraborty, T., Chattopadhyay, S., Das, S., Naik, S.M., Hens, C. (2025) A Compounded Burr Probability Distribution for Fitting Heavy-Tailed Data with Applications to Biological Networks. Chaos, Vol. 35.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1063/5.0270403
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/CBurr
+  tags:
+  - Networks
+  - Heavy tails
+- id: goswami-2025-shape-penalized-decision-forests-for-imbalanced
+  section: journal
+  position: 17
+  status: published
+  year: 2025
+  authors_display: Goswami, R.*, Garai, A.*, Sadhukhan, P., Ghosh, P., Chakraborty, T.
+  authors:
+  - Goswami, R.*
+  - Garai, A.*
+  - Sadhukhan, P.
+  - Ghosh, P.
+  - Chakraborty, T.
+  title: Shape Penalized Decision Forests for Imbalanced Data Classification
+  venue: IEEE Access
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Goswami, R.*, Garai, A.*, Sadhukhan, P., Ghosh, P., Chakraborty, T. (2025) Shape Penalized Decision Forests for Imbalanced Data Classification. IEEE Access, Vol. 13, pg. 86380-86395.
+  links:
+  - label: Paper
+    type: paper
+    url: https://ieeexplore.ieee.org/document/11003049
+  - label: Python Package
+    type: software
+    url: https://pypi.org/project/imbalanced-spdf/
+    software_name: imbalanced-spdf
+  tags:
+  - Imbalanced learning
+  - Classification
+- id: das-2025-pattern-change-of-precipitation-extremes-in
+  section: journal
+  position: 18
+  status: published
+  year: 2025
+  authors_display: Das, D., Radhakrishnan, A., Chakraborty, T., Ray, A., Hens, C., Dana, S.K., Ghosh, D., Murukesh, N.
+  authors:
+  - Das, D.
+  - Radhakrishnan, A.
+  - Chakraborty, T.
+  - Ray, A.
+  - Hens, C.
+  - Dana, S.K.
+  - Ghosh, D.
+  - Murukesh, N.
+  title: Pattern change of precipitation extremes in Svalbard
+  venue: Scientific Reports
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: Das, D., Radhakrishnan, A., Chakraborty, T., Ray, A., Hens, C., Dana, S.K., Ghosh, D., Murukesh, N. (2025) Pattern change of precipitation extremes in Svalbard. Scientific Reports, Vol. 15, pg. 1-13.
+  links:
+  - label: Paper
+    type: paper
+    url: https://www.nature.com/articles/s41598-025-92339-4
+  tags:
+  - Climate
+- id: sengupta-2024-forecasting-cpi-inflation-under-economic-policy
+  section: journal
+  position: 19
+  status: published
+  year: 2024
+  authors_display: Sengupta, S.*, Chakraborty, T., Singh, S.K.
+  authors:
+  - Sengupta, S.*
+  - Chakraborty, T.
+  - Singh, S.K.
+  title: Forecasting CPI inflation under economic policy and geo-political uncertainty
+  venue: International Journal of Forecasting
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: Sengupta, S.*, Chakraborty, T., Singh, S.K. (2024) Forecasting CPI inflation under economic policy and geo-political uncertainty. International Journal of Forecasting, Vol. 41, pg. 953-981.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.ijforecast.2024.08.005
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/FEWNet
+  tags:
+  - Forecasting
+  - Uncertainty
+- id: borah-2024-a-novel-hybrid-approach-for-efficiently
+  section: journal
+  position: 20
+  status: published
+  year: 2024
+  authors_display: Borah, J., Chakraborty, T., Nadzir, M., Cayetano, M., Benedetto, F., Majumdar, S.
+  authors:
+  - Borah, J.
+  - Chakraborty, T.
+  - Nadzir, M.
+  - Cayetano, M.
+  - Benedetto, F.
+  - Majumdar, S.
+  title: A Novel Hybrid Approach For Efficiently Forecasting Air Quality Data
+  venue: IEEE Sensor Letters
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: Borah, J., Chakraborty, T., Nadzir, M., Cayetano, M., Benedetto, F., Majumdar, S. (2024). A Novel Hybrid Approach For Efficiently Forecasting Air Quality Data. IEEE Sensor Letters, Vol. 9, pg. 1-4.
+  links:
+  - label: Paper
+    type: paper
+    url: https://ieeexplore.ieee.org/document/10806566
+  - label: Code
+    type: code
+    url: https://github.com/jborah2/WaveCatBoost-Time-Series-Model
+  tags:
+  - Forecasting
+  - Air quality
+- id: chakraborty-2024-ten-years-of-generative-adversarial-nets
+  section: journal
+  position: 21
+  status: published
+  year: 2024
+  authors_display: Chakraborty, T., Reddy, U., Naik, S.M.*, Panja, M., Manvitha, B.
+  authors:
+  - Chakraborty, T.
+  - Reddy, U.
+  - Naik, S.M.*
+  - Panja, M.
+  - Manvitha, B.
+  title: 'Ten Years of Generative Adversarial Nets (GANs): A survey of the state-of-the-art'
+  venue: 'Machine Learning: Science and Technology'
+  award: Most Cited Paper
+  research_areas:
+  - generative-ai
+  citation: 'Chakraborty, T., Reddy, U., Naik, S.M.*, Panja, M., Manvitha, B. (2024). Ten Years of Generative Adversarial Nets (GANs): A survey of the state-of-the-art. Machine Learning: Science and Technology, Vol. 5, pg. 1-35.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://iopscience.iop.org/article/10.1088/2632-2153/ad1f77
+  tags:
+  - Generative AI
+- id: jakhmola-2024-spatiotemporal-forecasting-of-traffic-flow-using
+  section: journal
+  position: 22
+  status: published
+  year: 2024
+  authors_display: Jakhmola, Y.*, Panja, M., Mishra, N.K., Ghosh, K., Kumar, U., Chakraborty, T.
+  authors:
+  - Jakhmola, Y.*
+  - Panja, M.
+  - Mishra, N.K.
+  - Ghosh, K.
+  - Kumar, U.
+  - Chakraborty, T.
+  title: Spatiotemporal Forecasting of Traffic Flow using Wavelet-based Temporal Attention
+  venue: IEEE Access
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: Jakhmola, Y.*, Panja, M., Mishra, N.K., Ghosh, K., Kumar, U., Chakraborty, T. (2024). Spatiotemporal Forecasting of Traffic Flow using Wavelet-based Temporal Attention. IEEE Access, Vol. 12, pg. 188797-188812.
+  links:
+  - label: Paper
+    type: paper
+    url: https://ieeexplore.ieee.org/document/10794773
+  - label: Code
+    type: code
+    url: https://github.com/yash-jakhmola/w-dstagnn
+  tags:
+  - Spatiotemporal modeling
+  - Forecasting
+  - Wavelets
+- id: hadid-2024-when-geoscience-meets-generative-ai-and
+  section: journal
+  position: 23
+  status: published
+  year: 2024
+  authors_display: Hadid, A., Chakraborty, T., Busby, D.
+  authors:
+  - Hadid, A.
+  - Chakraborty, T.
+  - Busby, D.
+  title: 'When Geoscience Meets Generative AI and Large Language Models: Foundations, Trends, and Future Challenges'
+  venue: Expert Systems
+  award: Top Cited Paper Award 2025
+  research_areas:
+  - generative-ai
+  citation: 'Hadid, A., Chakraborty, T., Busby, D. (2024). When Geoscience Meets Generative AI and Large Language Models: Foundations, Trends, and Future Challenges. Expert Systems, Vol. 41, pg. 1-16.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://onlinelibrary.wiley.com/doi/10.1111/exsy.13654
+  tags:
+  - Generative AI
+- id: panja-2023-epicasting-an-ensemble-wavelet-neural-network
+  section: journal
+  position: 24
+  status: published
+  year: 2023
+  authors_display: Panja, M., Chakraborty, T.*, Kumar, U., Liu, N.
+  authors:
+  - Panja, M.
+  - Chakraborty, T.*
+  - Kumar, U.
+  - Liu, N.
+  title: 'Epicasting: An Ensemble Wavelet Neural Network (EWNet) for Forecasting Epidemics'
+  venue: Neural Networks
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  - statistical-machine-learning
+  citation: 'Panja, M., Chakraborty, T.*, Kumar, U., Liu, N. (2023). Epicasting: An Ensemble Wavelet Neural Network (EWNet) for Forecasting Epidemics. Neural Networks, Vol. 165, pg. 185-212.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.neunet.2023.05.049
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/Epicasting
+  - label: Medium Post
+    type: supplementary
+    url: https://medium.com/@madhurima.panja/epicasting-package-in-r-epidemic-forecasting-made-easy-dcdaffd694b
+  - label: R Package
+    type: software
+    url: https://cran.r-project.org/web/packages/epicasting/index.html
+    software_name: epicasting
+  tags:
+  - Epidemiology
+  - Forecasting
+  - Networks
+- id: chakraborty-2023-bayesian-neural-tree-models-for-nonparametric
+  section: journal
+  position: 25
+  status: published
+  year: 2023
+  authors_display: Chakraborty, T., Kamat, G.*, Chakraborty, A. K.
+  authors:
+  - Chakraborty, T.
+  - Kamat, G.*
+  - Chakraborty, A. K.
+  title: Bayesian Neural Tree Models for Nonparametric Regression
+  venue: Australian & New Zealand Journal of Statistics
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., Kamat, G.*, Chakraborty, A. K. (2023). Bayesian Neural Tree Models for Nonparametric Regression. Australian & New Zealand Journal of Statistics, Vol. 65, pg. 1-26.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1111/anzs.12386
+  - label: Code
+    type: code
+    url: https://github.com/gaurikamat/Bayesian-Neural-Tree
+  tags:
+  - Bayesian methods
+  - Regression
+- id: panja-2023-an-ensemble-neural-network-approach-to
+  section: journal
+  position: 26
+  status: published
+  year: 2023
+  authors_display: Panja, M., Chakraborty, T., Nadim. Sk., Ghosh, I., Kumar, U., Liu, N.
+  authors:
+  - Panja, M.
+  - Chakraborty, T.
+  - Nadim. Sk.
+  - Ghosh, I.
+  - Kumar, U.
+  - Liu, N.
+  title: An ensemble neural network approach to forecast Dengue outbreak based on climatic condition
+  venue: Chaos, Solitons & Fractals
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  - statistical-machine-learning
+  citation: Panja, M., Chakraborty, T., Nadim. Sk., Ghosh, I., Kumar, U., Liu, N. (2023). An ensemble neural network approach to forecast Dengue outbreak based on climatic condition. Chaos, Solitons & Fractals, Vol. 167, pg. 1-14.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.chaos.2023.113124
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/XEWNet
+  tags:
+  - Epidemiology
+  - Forecasting
+  - Networks
+- id: thottolil-2023-prediction-of-transportation-index-for-urban
+  section: journal
+  position: 27
+  status: published
+  year: 2023
+  authors_display: Thottolil, R., Kumar, U., Chakraborty, T.
+  authors:
+  - Thottolil, R.
+  - Kumar, U.
+  - Chakraborty, T.
+  title: Prediction of Transportation Index for Urban Patterns in Small and Medium-sized Indian Cities using Hybrid RidgeGAN Model
+  venue: Scientific Reports
+  award: null
+  research_areas:
+  - generative-ai
+  citation: Thottolil, R., Kumar, U., Chakraborty, T. (2023). Prediction of Transportation Index for Urban Patterns in Small and Medium-sized Indian Cities using Hybrid RidgeGAN Model. Scientific Reports, Vol. 13, pg. 1-18.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1038/s41598-023-49343-3
+  - label: Code
+    type: code
+    url: https://github.com/Rahisha-Thottolil/RidgeGAN
+  tags:
+  - Generative AI
+  - Mobility
+- id: bhattacharyya-2022-stochastic-forecasting-of-covid-19-daily
+  section: journal
+  position: 28
+  status: published
+  year: 2022
+  authors_display: Bhattacharyya, A., Chakraborty, T., Rai, S. N.
+  authors:
+  - Bhattacharyya, A.
+  - Chakraborty, T.
+  - Rai, S. N.
+  title: Stochastic forecasting of COVID-19 daily new cases across countries with a novel hybrid time series model
+  venue: Nonlinear Dynamics
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: Bhattacharyya, A., Chakraborty, T., Rai, S. N. (2022). Stochastic forecasting of COVID-19 daily new cases across countries with a novel hybrid time series model. Nonlinear Dynamics, Vol. 107, pg. 3025-3040.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1007/s11071-021-07099-3
+  - label: Code
+    type: code
+    url: https://github.com/arinjita9/COVID-19-Forecasting-by-TARNN-
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: chakraborty-2022-searching-for-heavy-tailed-probability-distribut
+  section: journal
+  position: 29
+  status: published
+  year: 2022
+  authors_display: Chakraborty, T., Chattopadhyay, S., Das, S., Kumar, U., Jayavelu, S.
+  authors:
+  - Chakraborty, T.
+  - Chattopadhyay, S.
+  - Das, S.
+  - Kumar, U.
+  - Jayavelu, S.
+  title: Searching for heavy-tailed probability distributions for modeling real-world complex networks
+  venue: IEEE Access
+  award: null
+  research_areas:
+  - statistical-analysis-of-networks
+  citation: Chakraborty, T., Chattopadhyay, S., Das, S., Kumar, U., Jayavelu, S. (2022). Searching for heavy-tailed probability distributions for modeling real-world complex networks. IEEE Access, Vol. 10, 115092-115107.
+  links:
+  - label: Paper
+    type: paper
+    url: https://ieeexplore.ieee.org/document/9933754
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/nonscalefree
+  tags:
+  - Networks
+  - Heavy tails
+- id: chakraborty-2022-a-new-method-for-generalizing-burr
+  section: journal
+  position: 30
+  status: published
+  year: 2022
+  authors_display: Chakraborty, T., Das, S., Chattopadhyay, S.
+  authors:
+  - Chakraborty, T.
+  - Das, S.
+  - Chattopadhyay, S.
+  title: A New Method for Generalizing Burr and Related Distributions
+  venue: Mathematica Slovaca
+  award: null
+  research_areas:
+  - statistical-analysis-of-networks
+  citation: Chakraborty, T., Das, S., Chattopadhyay, S. (2022). A New Method for Generalizing Burr and Related Distributions. Mathematica Slovaca, Vol. 72, pg. 241-264.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1515/ms-2022-0016
+  tags: []
+- id: ghosh-2021-an-integrated-deterministic-stochastic-approach
+  section: journal
+  position: 31
+  status: published
+  year: 2021
+  authors_display: Ghosh, I., and Chakraborty, T.
+  authors:
+  - Ghosh, I.
+  - Chakraborty, T.
+  title: An integrated deterministic–stochastic approach for forecasting the long-term trajectories of COVID-19
+  venue: International Journal of Modeling, Simulation, and Scientific Computing
+  award: null
+  research_areas:
+  - health-ai
+  - spatiotemporal-forecasting
+  citation: Ghosh, I., and Chakraborty, T. (2021). An integrated deterministic–stochastic approach for forecasting the long-term trajectories of COVID-19. International Journal of Modeling, Simulation, and Scientific Computing, Vol. 12.
+  links:
+  - label: Paper
+    type: paper
+    url: https://www.worldscientific.com/doi/abs/10.1142/S1793962321410014
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: ray-2021-optimized-ensemble-deep-learning-framework-for
+  section: journal
+  position: 32
+  status: published
+  year: 2021
+  authors_display: Ray, A., Chakraborty, T., Ghosh, D.
+  authors:
+  - Ray, A.
+  - Chakraborty, T.
+  - Ghosh, D.
+  title: Optimized ensemble deep learning framework for scalable forecasting of dynamics containing extreme events
+  venue: Chaos
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - statistical-machine-learning
+  citation: Ray, A., Chakraborty, T., Ghosh, D. (2021). Optimized ensemble deep learning framework for scalable forecasting of dynamics containing extreme events. Chaos, Vol. 31, pg. 1-15.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1063/5.0074213
+  - label: Code
+    type: code
+    url: https://github.com/arnob-r/OEDL
+  tags:
+  - Forecasting
+  - Deep learning
+- id: chattopadhyay-2021-modified-lomax-model-a-heavy-tailed
+  section: journal
+  position: 33
+  status: published
+  year: 2021
+  authors_display: Chattopadhyay, S., Chakraborty, T., Ghosh, K., Das, A. K.
+  authors:
+  - Chattopadhyay, S.
+  - Chakraborty, T.
+  - Ghosh, K.
+  - Das, A. K.
+  title: 'Modified Lomax Model: A heavy-tailed distribution for fitting large-scale real-world complex networks'
+  venue: Social Network Analysis and Mining
+  award: null
+  research_areas:
+  - statistical-analysis-of-networks
+  citation: 'Chattopadhyay, S., Chakraborty, T., Ghosh, K., Das, A. K. (2021). Modified Lomax Model: A heavy-tailed distribution for fitting large-scale real-world complex networks. Social Network Analysis and Mining, Vol. 11, pg. 11-43.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/article/10.1007/s13278-021-00751-1
+  tags:
+  - Networks
+  - Heavy tails
+- id: chakraborty-2021-unemployment-rate-forecasting-a-hybrid-approach
+  section: journal
+  position: 34
+  status: published
+  year: 2021
+  authors_display: Chakraborty, T., Chakraborty, A. K., Biswas, M., Banerjee, S., Bhattacharya, S.
+  authors:
+  - Chakraborty, T.
+  - Chakraborty, A. K.
+  - Biswas, M.
+  - Banerjee, S.
+  - Bhattacharya, S.
+  title: 'Unemployment Rate Forecasting: A Hybrid Approach'
+  venue: Computational Economics
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: 'Chakraborty, T., Chakraborty, A. K., Biswas, M., Banerjee, S., Bhattacharya, S. (2021). Unemployment Rate Forecasting: A Hybrid Approach. Computational Economics, Vol. 57, pg. 183-201.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/article/10.1007%2Fs10614-020-10040-2
+  tags:
+  - Forecasting
+- id: chakraborty-2020-real-time-forecasts-and-risk-assessment
+  section: journal
+  position: 35
+  status: published
+  year: 2020
+  authors_display: Chakraborty, T., Ghosh, I.
+  authors:
+  - Chakraborty, T.
+  - Ghosh, I.
+  title: 'Real-time forecasts and risk assessment of novel coronavirus (COVID-19) cases: A data-driven analysis'
+  venue: Chaos, Solitons & Fractals
+  award: Most Cited Paper between 2021-2023
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: 'Chakraborty, T., Ghosh, I. (2020). Real-time forecasts and risk assessment of novel coronavirus (COVID-19) cases: A data-driven analysis. Chaos, Solitons & Fractals, Vol. 135, pg. 1-10.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.chaos.2020.109850
+  - label: Code
+    type: code
+    url: https://github.com/indrajitg-r/COVID
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: chakraborty-2020-hellinger-net-a-hybrid-imbalance-learning
+  section: journal
+  position: 36
+  status: published
+  year: 2020
+  authors_display: Chakraborty, T., Chakraborty, A. K.
+  authors:
+  - Chakraborty, T.
+  - Chakraborty, A. K.
+  title: 'Hellinger Net: A Hybrid Imbalance Learning Model to Improve Software Defect Prediction'
+  venue: IEEE Transactions on Reliability
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: 'Chakraborty, T., Chakraborty, A. K. (2020). Hellinger Net: A Hybrid Imbalance Learning Model to Improve Software Defect Prediction. IEEE Transactions on Reliability, Vol. 70, pg. 481-494.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://ieeexplore.ieee.org/document/9194340
+  tags:
+  - Imbalanced learning
+- id: chakraborty-2020-radial-basis-neural-tree-model-for
+  section: journal
+  position: 37
+  status: published
+  year: 2020
+  authors_display: Chakraborty, T., & Chattopadhyay, S., Chakraborty, A. K.
+  authors:
+  - Chakraborty, T.
+  - Chattopadhyay, S.
+  - Chakraborty, A. K.
+  title: Radial basis neural tree model for improving waste recovery process in a paper industry
+  venue: Applied Stochastic Models in Business and Industry
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., & Chattopadhyay, S., Chakraborty, A. K. (2020). Radial basis neural tree model for improving waste recovery process in a paper industry. Applied Stochastic Models in Business and Industry, Vol. 36, pg. 49-61.
+  links:
+  - label: Paper
+    type: paper
+    url: https://onlinelibrary.wiley.com/doi/full/10.1002/asmb.2473
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/RBNT
+  tags: []
+- id: chakraborty-2020-superensemble-classifier-for-improving-predictio
+  section: journal
+  position: 38
+  status: published
+  year: 2020
+  authors_display: Chakraborty, T., Chakraborty, A. K.
+  authors:
+  - Chakraborty, T.
+  - Chakraborty, A. K.
+  title: Superensemble classifier for improving predictions in imbalanced data sets
+  venue: Communications in Statistics - Case Studies and Data Analysis
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., Chakraborty, A. K. (2020). Superensemble classifier for improving predictions in imbalanced data sets. Communications in Statistics - Case Studies and Data Analysis, Vol. 6, pg. 123-141.
+  links:
+  - label: Paper
+    type: paper
+    url: https://www.tandfonline.com/doi/full/10.1080/23737484.2020.1740065
+  tags:
+  - Imbalanced learning
+  - Classification
+- id: chakraborty-2019-a-hybrid-regression-model-for-water
+  section: journal
+  position: 39
+  status: published
+  year: 2019
+  authors_display: Chakraborty, T., Chakraborty, A. K., Mansoor, Z.
+  authors:
+  - Chakraborty, T.
+  - Chakraborty, A. K.
+  - Mansoor, Z.
+  title: A hybrid regression model for water quality prediction
+  venue: Opsearch
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., Chakraborty, A. K., Mansoor, Z. (2019). A hybrid regression model for water quality prediction. Opsearch, Vol. 56, pg. 1167-1178.
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/article/10.1007/s12597-019-00386-z
+  tags:
+  - Regression
+- id: chakraborty-2019-forecasting-dengue-epidemics-using-a-hybrid
+  section: journal
+  position: 40
+  status: published
+  year: 2019
+  authors_display: Chakraborty, T., Chattopadhyay, S., Ghosh, I.
+  authors:
+  - Chakraborty, T.
+  - Chattopadhyay, S.
+  - Ghosh, I.
+  title: Forecasting dengue epidemics using a hybrid methodology
+  venue: 'Physica A: Statistical Mechanics and its Applications'
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: 'Chakraborty, T., Chattopadhyay, S., Ghosh, I. (2019). Forecasting dengue epidemics using a hybrid methodology. Physica A: Statistical Mechanics and its Applications, Vol. 527, pg. 1-8.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.physa.2019.121266
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: chakraborty-2019-a-novel-distribution-free-hybrid-regression
+  section: journal
+  position: 41
+  status: published
+  year: 2019
+  authors_display: Chakraborty, T., Chakraborty, A. K., Chattopadhyay, S.
+  authors:
+  - Chakraborty, T.
+  - Chakraborty, A. K.
+  - Chattopadhyay, S.
+  title: A novel distribution-free hybrid regression model for manufacturing process efficiency improvement
+  venue: Journal of Computational and Applied Mathematics
+  award: Best Paper Award
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., Chakraborty, A. K., Chattopadhyay, S. (2019). A novel distribution-free hybrid regression model for manufacturing process efficiency improvement. Journal of Computational and Applied Mathematics, Vol. 362, pg. 130-142.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1016/j.cam.2019.05.013
+  tags:
+  - Regression
+- id: chakraborty-2019-a-nonparametric-ensemble-binary-classifier-and
+  section: journal
+  position: 42
+  status: published
+  year: 2019
+  authors_display: Chakraborty, T., Chakraborty, A. K., Murthy, C. A.
+  authors:
+  - Chakraborty, T.
+  - Chakraborty, A. K.
+  - Murthy, C. A.
+  title: A nonparametric ensemble binary classifier and its statistical properties
+  venue: Statistics & Probability Letters
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., Chakraborty, A. K., Murthy, C. A. (2019). A nonparametric ensemble binary classifier and its statistical properties. Statistics & Probability Letters, Vol. 149, pg. 16-23.
+  links:
+  - label: Paper
+    type: paper
+    url: https://www.sciencedirect.com/science/article/pii/S0167715219300276
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/Hybrid
+  tags:
+  - Classification
+- id: chakraborty-2018-a-novel-hybridization-of-classification-trees
+  section: journal
+  position: 43
+  status: published
+  year: 2018
+  authors_display: Chakraborty, T., Chattopadhyay, S., Chakraborty, A. K.
+  authors:
+  - Chakraborty, T.
+  - Chattopadhyay, S.
+  - Chakraborty, A. K.
+  title: A novel hybridization of classification trees and artificial neural networks for selection of students in a business school
+  venue: Opsearch
+  award: Best Paper Award
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., Chattopadhyay, S., Chakraborty, A. K. (2018). A novel hybridization of classification trees and artificial neural networks for selection of students in a business school. Opsearch, Vol. 55, pg. 434-446.
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/article/10.1007/s12597-017-0329-2
+  tags:
+  - Networks
+  - Classification
+- id: panja-2025-zero-shot-forecasting-of-epidemics
+  section: conference
+  position: 1
+  status: published
+  year: 2025
+  authors_display: Panja, M., Modak, O.*, Younes, G., Chakraborty, T.
+  authors:
+  - Panja, M.
+  - Modak, O.*
+  - Younes, G.
+  - Chakraborty, T.
+  title: Zero-shot forecasting of epidemics
+  venue: NeurIPS - BERT2S
+  award: null
+  research_areas:
+  - health-ai
+  - spatiotemporal-forecasting
+  citation: Panja, M., Modak, O.*, Younes, G., Chakraborty, T. (2025). Zero-shot forecasting of epidemics. NeurIPS - BERT2S.
+  links:
+  - label: Paper
+    type: paper
+    url: https://openreview.net/pdf?id=h5ElB4guAd
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: dey-2024-do-we-really-need-foundation-models
+  section: conference
+  position: 2
+  status: published
+  year: 2024
+  authors_display: Dey, M.*, Chakrabartty, A., Sarkar, D., Chakraborty, T.
+  authors:
+  - Dey, M.*
+  - Chakrabartty, A.
+  - Sarkar, D.
+  - Chakraborty, T.
+  title: Do we really need Foundation Models for multi-step-ahead Epidemic Forecasting?
+  venue: NeurIPS - TSALM
+  award: null
+  research_areas:
+  - health-ai
+  - spatiotemporal-forecasting
+  citation: Dey, M.*, Chakrabartty, A., Sarkar, D., Chakraborty, T. (2024). Do we really need Foundation Models for multi-step-ahead Epidemic Forecasting? NeurIPS - TSALM.
+  links:
+  - label: Paper
+    type: paper
+    url: https://openreview.net/forum?id=aQm8baMYZ8
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: sadhukhan-2024-knowing-the-class-distinguishing-abilities-of
+  section: conference
+  position: 3
+  status: published
+  year: 2024
+  authors_display: Sadhukhan, P., Sengupta, K., Palit, S., Chakraborty, T.
+  authors:
+  - Sadhukhan, P.
+  - Sengupta, K.
+  - Palit, S.
+  - Chakraborty, T.
+  title: Knowing the class distinguishing abilities of the features, to build better decision-making models
+  venue: AMCIS
+  award: null
+  research_areas: []
+  citation: Sadhukhan, P., Sengupta, K., Palit, S., Chakraborty, T. (2024). Knowing the class distinguishing abilities of the features, to build better decision-making models. AMCIS.
+  links:
+  - label: Paper
+    type: paper
+    url: https://aisel.aisnet.org/amcis2024/dsa/dsa/21/
+  tags: []
+- id: sadhukhan-2024-deploying-model-obfuscation-towards-the-privacy
+  section: conference
+  position: 4
+  status: published
+  year: 2024
+  authors_display: Sadhukhan, P., Chakraborty, T., Sengupta, K.
+  authors:
+  - Sadhukhan, P.
+  - Chakraborty, T.
+  - Sengupta, K.
+  title: 'Deploying model obfuscation: towards the privacy of decision-making models on shared platforms'
+  venue: AMCIS
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: 'Sadhukhan, P., Chakraborty, T., Sengupta, K. (2024). Deploying model obfuscation: towards the privacy of decision-making models on shared platforms. AMCIS.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://aisel.aisnet.org/amcis2024/security/security/38/
+  tags:
+  - Privacy
+- id: panja-2023-probabilistic-autoregressive-neural-networks-for
+  section: conference
+  position: 5
+  status: published
+  year: 2023
+  authors_display: Panja, M., Chakraborty, T., Kumar, U., Hadid, A.
+  authors:
+  - Panja, M.
+  - Chakraborty, T.
+  - Kumar, U.
+  - Hadid, A.
+  title: Probabilistic AutoRegressive Neural Networks for Accurate Long-range Forecasting
+  venue: ICONIP
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  - spatiotemporal-forecasting
+  citation: Panja, M., Chakraborty, T., Kumar, U., Hadid, A. (2023). Probabilistic AutoRegressive Neural Networks for Accurate Long-range Forecasting. ICONIP.
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/chapter/10.1007/978-981-99-8178-6_35
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/PARNN
+  tags:
+  - Probabilistic forecasting
+  - Forecasting
+  - Networks
+- id: dutta-2023-van-der-pol-informed-neural-networks
+  section: conference
+  position: 6
+  status: published
+  year: 2023
+  authors_display: Dutta, A.*, Panja, M., Kumar, U., Hens, C., Chakraborty, T.
+  authors:
+  - Dutta, A.*
+  - Panja, M.
+  - Kumar, U.
+  - Hens, C.
+  - Chakraborty, T.
+  title: Van der Pol-informed Neural Networks for Multi-step-ahead Forecasting of Extreme Climatic Events
+  venue: NeurIPS - AI4Science
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  - spatiotemporal-forecasting
+  citation: Dutta, A.*, Panja, M., Kumar, U., Hens, C., Chakraborty, T. (2023). Van der Pol-informed Neural Networks for Multi-step-ahead Forecasting of Extreme Climatic Events. NeurIPS - AI4Science.
+  links:
+  - label: Paper
+    type: paper
+    url: https://openreview.net/attachment?id=OQXCc21rgM&name=pdf
+  - label: Code
+    type: code
+    url: https://github.com/mad-stat/VPINN
+  tags:
+  - Forecasting
+  - Networks
+- id: sasal-2022-w-transformers-a-wavelet-based-transformer
+  section: conference
+  position: 7
+  status: published
+  year: 2022
+  authors_display: Sasal, L.*, Chakraborty, T., Hadid, A.
+  authors:
+  - Sasal, L.*
+  - Chakraborty, T.
+  - Hadid, A.
+  title: 'W-Transformers : A Wavelet-based Transformer Framework for Univariate Time Series Forecasting'
+  venue: ICMLA
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: 'Sasal, L.*, Chakraborty, T., Hadid, A. (2022). W-Transformers : A Wavelet-based Transformer Framework for Univariate Time Series Forecasting. ICMLA.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://arxiv.org/abs/2209.03945
+  - label: Code
+    type: code
+    url: https://github.com/CapWidow/W-Transformer
+  tags:
+  - Forecasting
+  - Wavelets
+- id: elabid-2022-knowledge-based-deep-learning-for-modeling
+  section: conference
+  position: 8
+  status: published
+  year: 2022
+  authors_display: Elabid, Z.*, Chakraborty, T., Hadid, A.
+  authors:
+  - Elabid, Z.*
+  - Chakraborty, T.
+  - Hadid, A.
+  title: Knowledge-based Deep Learning for Modeling Chaotic Systems
+  venue: ICMLA
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Elabid, Z.*, Chakraborty, T., Hadid, A. (2022). Knowledge-based Deep Learning for Modeling Chaotic Systems. ICMLA.
+  links:
+  - label: Paper
+    type: paper
+    url: https://arxiv.org/abs/2209.04259
+  - label: Code
+    type: code
+    url: https://github.com/Zelabid/KdL
+  tags:
+  - Deep learning
+- id: bhattacharyya-2021-theta-autoregressive-neural-network-a-hybrid
+  section: conference
+  position: 9
+  status: published
+  year: 2021
+  authors_display: Bhattacharyya, A., Pattnaik, M., Chattopadhyay, S., Chakraborty, T.
+  authors:
+  - Bhattacharyya, A.
+  - Pattnaik, M.
+  - Chattopadhyay, S.
+  - Chakraborty, T.
+  title: 'Theta Autoregressive Neural Network: A Hybrid Time Series Model for Pandemic Forecasting'
+  venue: IJCNN
+  award: null
+  research_areas:
+  - health-ai
+  - statistical-machine-learning
+  - spatiotemporal-forecasting
+  citation: 'Bhattacharyya, A., Pattnaik, M., Chattopadhyay, S., Chakraborty, T. (2021). Theta Autoregressive Neural Network: A Hybrid Time Series Model for Pandemic Forecasting. IJCNN.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://ieeexplore.ieee.org/document/9533747
+  - label: Code
+    type: code
+    url: https://github.com/arinjita9/COVID-19-Forecasting-by-TARNN-
+  tags:
+  - Epidemiology
+  - Forecasting
+  - Networks
+- id: chattopadhyay-2021-uncovering-patterns-in-heavy-tailed-networks
+  section: conference
+  position: 10
+  status: published
+  year: 2021
+  authors_display: Chattopadhyay, S., Chakraborty, T., Ghosh, K., Das, A. K.
+  authors:
+  - Chattopadhyay, S.
+  - Chakraborty, T.
+  - Ghosh, K.
+  - Das, A. K.
+  title: 'Uncovering patterns in heavy-tailed networks: A journey beyond scale-free'
+  venue: ACM IKDD
+  award: Best Paper Award Winner at ACM IKDD
+  research_areas:
+  - statistical-analysis-of-networks
+  citation: 'Chattopadhyay, S., Chakraborty, T., Ghosh, K., Das, A. K. (2021). Uncovering patterns in heavy-tailed networks: A journey beyond scale-free. ACM IKDD.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1145/3430984.3431021
+  tags:
+  - Networks
+  - Heavy tails
+- id: chakraborty-2022-nowcasting-of-covid-19-confirmed-cases
+  section: book_chapter
+  position: 1
+  status: published
+  year: 2022
+  authors_display: Chakraborty, T., Ghosh, I., Mahajan, T., Arora, T.
+  authors:
+  - Chakraborty, T.
+  - Ghosh, I.
+  - Mahajan, T.
+  - Arora, T.
+  title: 'Nowcasting of COVID-19 confirmed cases: Foundations, trends, and challenges'
+  venue: Modeling, Control and Drug Development for COVID-19 Outbreak Prevention
+  award: null
+  research_areas:
+  - health-ai
+  - spatiotemporal-forecasting
+  citation: 'Chakraborty, T., Ghosh, I., Mahajan, T., Arora, T. (2022). Nowcasting of COVID-19 confirmed cases: Foundations, trends, and challenges. In Modeling, Control and Drug Development for COVID-19 Outbreak Prevention, Vol. 366, pg. 1023-1064, Springer.'
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/chapter/10.1007/978-3-030-72834-2_29
+  - label: Code
+    type: code
+    url: https://github.com/indrajitg-r/Forecasting-COVID-19-cases
+  tags:
+  - Epidemiology
+  - Forecasting
+- id: chakraborty-2022-loss-function
+  section: book_chapter
+  position: 2
+  status: published
+  year: 2022
+  authors_display: Chakraborty, T., Kumar, U.
+  authors:
+  - Chakraborty, T.
+  - Kumar, U.
+  title: Loss Function
+  venue: Encyclopedia of Mathematical Geosciences
+  award: null
+  research_areas:
+  - statistical-machine-learning
+  citation: Chakraborty, T., Kumar, U. (2022). Loss Function. In Encyclopedia of Mathematical Geosciences, Springer.
+  links:
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1007/978-3-030-26050-7_187-2
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/loss
+  tags: []
+- id: panja-2022-data-dictionary
+  section: book_chapter
+  position: 3
+  status: published
+  year: 2022
+  authors_display: Panja, M., Chakraborty, T., Kumar, U.
+  authors:
+  - Panja, M.
+  - Chakraborty, T.
+  - Kumar, U.
+  title: Data Dictionary
+  venue: Encyclopedia of Mathematical Geosciences
+  award: null
+  research_areas: []
+  citation: Panja, M., Chakraborty, T., Kumar, U. (2022). Data Dictionary. In Encyclopedia of Mathematical Geosciences, Springer.
+  links:
+  - label: Paper
+    type: paper
+    url: https://link.springer.com/rwe/10.1007/978-3-030-26050-7_75-1
+  tags: []

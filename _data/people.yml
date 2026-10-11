@@ -1,0 +1,329 @@
+- group: Investigators
+  people:
+  - name: Tanujit Chakraborty
+    designation: Associate Professor of Statistics and Data Science
+    affiliation: Sorbonne Université Abu Dhabi
+    role: Associate Professor of Statistics and Data Science, Sorbonne Université Abu Dhabi
+    url: https://www.sorbonne.ae/team/tanujit-chakraborty
+    image: /assets/images/foreml/people/tanujit.png
+    topics:
+    - Health AI
+    - Statistical Machine Learning
+    - Generative Deep Learning
+    - Spatiotemporal Forecasting
+- group: Current members
+  people:
+  - name: Grace Younes
+    designation: Co-PI, Assistant Professor of Mathematics
+    affiliation: Sorbonne Université Abu Dhabi
+    role: Assistant Professor of Mathematics, Sorbonne Université Abu Dhabi
+    topic: Symbolic ML
+    url: https://www.sorbonne.ae/team/grace-younes
+    image: /assets/images/foreml/people/grace.png
+  - name: Madhurima Panja
+    designation: Co-PI, Researcher
+    affiliation: SAFIR, Sorbonne Université Abu Dhabi
+    role: Researcher, Sorbonne Université Abu Dhabi
+    topics: 
+    - Time Series Forecasting
+    - Deep Learning
+    url: https://mad-stat.github.io/
+    image: /assets/images/foreml/people/madhurima.png
+  - name: Rajdeep Pathak
+    designation: PhD
+    affiliation: Sorbonne Université
+    detail: Funded by SAFIR Grant
+    period: November 2025 – present
+    role: PhD, Sorbonne Université (Funded by SAFIR Grant). November 2025 – present.
+    topic: Geometric Deep Learning
+    url: https://www.linkedin.com/in/rajdeep-pathak
+    image: /assets/images/foreml/people/rajdeep.png
+  - name: Aya Mourad
+    designation: PhD
+    affiliation: Sorbonne Université
+    detail: jointly with Dr. Motasem Alrahabi
+    period: September 2024 – present
+    role: PhD, Sorbonne Université, jointly with Dr. Motasem Alrahabi. September 2024 – present.
+    topic: AI in NLP
+    url: https://www.linkedin.com/in/aiamourad/
+    image: /assets/images/foreml/people/aya.png
+  - name: Magzhan Bimoldan
+    designation: PhD
+    affiliation: Kazakh National University
+    detail: co-supervised with Dr. Kasenov Syrym
+    period: August 2025 – present
+    role: PhD, Kazakh National University, co-supervised with Dr. Kasenov Syrym. August 2025 – present.
+    topic: ML for Risk Assessment
+    url: https://www.linkedin.com/in/bimoldanmagzhanriskexpert/
+    image: /assets/images/foreml/people/magzhan.png
+  - name: Rahul Goswami
+    designation: PhD
+    affiliation: IIT Guwahati
+    detail: jointly with Dr. Palash Ghosh
+    period: 2021 – present
+    role: PhD, IIT Guwahati, jointly with Dr. Palash Ghosh. 2021 – present.
+    topic: ML for Data Irregularities
+    url: https://www.iitg.ac.in/stud/rahul.goswami/
+    image: /assets/images/foreml/people/rahul.png
+  - name: Ali Rammal
+    designation: PhD
+    affiliation: Sorbonne Université
+    detail: jointly with Pr. Stéphane Hatem
+    period: October 2025 – present
+    role: PhD, Sorbonne Université, jointly with Pr. Stéphane Hatem. October 2025 – present.
+    topic: AI in Health
+    url: https://www.researchgate.net/profile/Ali-Rammal-4
+    image: /assets/images/foreml/people/ali.png
+  - name: Kirtivardhan Singh
+    designation: PhD
+    affiliation: BITS Pilani
+    detail: jointly with Dr. Sunny K Singh
+    period: 2025 – present
+    role: PhD, BITS Pilani, jointly with Dr. Sunny K Singh. 2025 – present.
+    topic: ML for Volatility Forecasting
+    url: https://www.linkedin.com/in/kirtivardhan-singh/
+    image: /assets/images/foreml/people/kirtivardhan.png
+- group: Alumni (PhD/Postdoc)
+  people:
+  - name: Shovon Sengupta
+    role: BITS Pilani, Hyderabad, jointly with Dr. Sunny K Singh. May 2021 – February 2026. Now Director at Fidelity Investments.
+    topic: Macroeconomic Forecasting and Machine Learning
+    url: https://www.linkedin.com/in/shovon-sengupta-272aa917/
+    image: /assets/images/foreml/people/shovon.png
+    affiliation: BITS Pilani, Hyderabad
+    position: PhD
+    supervision: Jointly with Dr. Sunny K Singh.
+    period: May 2021 – February 2026
+    current_status: Director at Fidelity Investments
+  - name: Madhab Barman
+    role: Postdoc at Sorbonne University Abu Dhabi, October 2024 – May 2025. Now a postdoc at IIM Bangalore.
+    topic: Epidemic-guided Deep Learning
+    url: https://scholar.google.co.in/citations?user=fmGBcOcAAAAJ&hl=en&oi=ao
+    image: /assets/images/foreml/people/madhab.png
+    affiliation: Sorbonne University Abu Dhabi
+    period: October 2024 – May 2025
+    position: Postdoc
+    current_status: Postdoc at IIM Bangalore
+  - name: Scarlett Kelly
+    role: RA at Sorbonne University Abu Dhabi, January 2024 – March 2024.
+    topic: ChatGPT — the Technology, Issues, and Improvement
+    url: https://www.linkedin.com/in/scarlettkelly/
+    image: /assets/images/foreml/people/scarlett.png
+    affiliation: Sorbonne University Abu Dhabi
+    period: January 2024 – March 2024
+    position: Visiting PhD (University of Ottawa)
+    current_status: Senior Analyst, Government of Canada
+  - name: Shraddha M. Naik
+    role: Postdoc at Sorbonne University Abu Dhabi, April 2024 – September 2024. Now Assistant Professor at the University
+      of Birmingham, Dubai.
+    topic: Imbalanced Learning and Generative AI
+    url: https://scholar.google.com/citations?user=hnZefrgAAAAJ&hl=en
+    image: /assets/images/foreml/people/shraddha.png
+    affiliation: Sorbonne University Abu Dhabi
+    period: April 2024 – September 2024
+    position: Postdoc
+    current_status: Assistant Prof. at the University of Birmingham, Dubai
+- group: Former BS/MS thesis students
+  people:
+  - name: Donia Besher
+    role: BS Mathematics, Sorbonne Université, funded by SAFIR. August 2024 – July 2026. Now MS-PhD at KAUST.
+    topic: Probabilistic time-series forecasting
+    url: https://scholar.google.com/citations?user=NWip1z8AAAAJ&hl=en
+    image: /assets/images/foreml/people/donia.png
+    program: BS Mathematics
+    affiliation: Sorbonne Université
+    detail: Funded by SAFIR
+    period: August 2024 – July 2026
+    current_status: MS-PhD at KAUST
+  - name: Karim Bekka
+    role: BS Physics, Sorbonne Université. May 2026 – June 2026. Now MS.
+    topic: Travel Demand Simulation
+    image: /assets/images/foreml/people/blind.png
+    program: BS Physics
+    affiliation: Sorbonne Université
+    period: May 2026 – June 2026
+    current_status: MS
+  - name: Aarushi K Sharma
+    role: MS thesis, VIT Vellore, with Dr. Jisha Francis. 2024–2025. Now RA at IIM Ranchi.
+    topic: Macroeconomic Forecasting
+    url: https://www.linkedin.com/in/aarushi-k-sharma/
+    image: /assets/images/foreml/people/aarushi.png
+    program: MS thesis
+    affiliation: VIT Vellore
+    supervision: Jointly with Dr. Jisha Francis.
+    period: 2024–2025
+    current_status: Research Assistant at IIM Ranchi
+  - name: Agni Rakshit
+    role: MTech OR thesis, NIT Durgapur, with Pr. Gautam Bandyopadhyay. 2023–2024. Now at FeedSense AI.
+    topic: ML for Financial Option Pricing
+    url: https://www.linkedin.com/in/agnirakshit/
+    image: /assets/images/foreml/people/agni.png
+    program: MTech OR thesis
+    affiliation: NIT Durgapur
+    supervision: Jointly with Pr. Gautam Bandyopadhyay.
+    period: 2023–2024
+    current_status: FeedSense AI
+  - name: Yusuf Hasan
+    role: MS thesis, IISER Kolkata, with Dr. Kripabandhu Ghosh. 2023–2024. Now MBA at XLRI.
+    topic: ML for Time Series Forecasting
+    url: https://www.linkedin.com/in/yusuf-hasan-914696179/
+    image: /assets/images/foreml/people/yusuf.png
+    program: MS thesis
+    affiliation: IISER Kolkata
+    supervision: Jointly with Dr. Kripabandhu Ghosh.
+    period: 2023–2024
+    current_status: MBA at XLRI
+  - name: Suman Grewal
+    role: MS Mathematics thesis, NIT Surat, with Dr. Indira P. Debnath. 2020–2021. Now at Goldman Sachs.
+    topic: Compounded Distributions
+    url: https://www.linkedin.com/in/suman-grewal-0b6b81177/
+    image: /assets/images/foreml/people/suman.png
+    program: MS Mathematics thesis
+    affiliation: NIT Surat
+    supervision: Jointly with Dr. Indira P. Debnath.
+    period: 2020–2021
+    current_status: Goldman Sachs
+- group: Capstone project students
+  people:
+  - name: Manish Singh Bangari
+    role: MTech AI, IIT Patna. June 2026 – September 2026.
+    url: https://www.linkedin.com/in/manish-singh-bangari-716622208/
+    program: MTech AI
+    affiliation: IIT Patna
+    period: June 2026 – September 2026
+  - name: Anusha Tomar
+    role: BTech AI, MSIT Delhi. August 2026 – September 2026.
+    url: https://www.linkedin.com/in/anushatomar/
+    program: BTech AI
+    affiliation: MSIT Delhi
+    period: August 2026 – September 2026
+  - name: Soumyajoy Kundu
+    role: MSc Data Science, CMI Chennai. September 2025 – July 2026. Now PhD student at IISc Bangalore.
+    url: https://www.linkedin.com/in/soumyajoy-kundu-374733289/
+    program: MSc Data Science
+    affiliation: CMI Chennai
+    period: September 2025 – July 2026
+    current_status: PhD student at IISc Bangalore
+  - name: Ojas Modak
+    role: BTech ISE, IIT Kharagpur. July 2025 – September 2025. Now Data Scientist at Fidelity Investments, India.
+    url: https://www.linkedin.com/in/ojas-modak-9b890a237/
+    program: BTech ISE
+    affiliation: IIT Kharagpur
+    period: July 2025 – September 2025
+    current_status: Data Scientist at Fidelity Investments, India
+  - name: Shinjini Paul
+    role: MSc Mathematics, IISER Pune. May 2024 – December 2024. Now PhD student at Leiden University.
+    url: https://www.linkedin.com/in/shinjini-paul-236815299/
+    program: MSc Mathematics
+    affiliation: IISER Pune
+    period: May 2024 – December 2024
+    current_status: PhD student at Leiden University
+  - name: Saee Kamat
+    role: MSc Statistics, IIT Kanpur. May 2024 – September 2024. Now PhD student at Iowa State University.
+    url: https://www.linkedin.com/in/saee-kamat-03b733234/
+    program: MSc Statistics
+    affiliation: IIT Kanpur
+    period: May 2024 – September 2024
+    current_status: PhD student at Iowa State University
+  - name: Yash Jakhmola
+    role: MSc Mathematics, IISER Kolkata. July 2023 – June 2024.
+    url: https://www.linkedin.com/in/yash-jakhmola-9515051b9/
+    program: MSc Mathematics
+    affiliation: IISER Kolkata
+    period: July 2023 – June 2024
+  - name: Anubhab Biswas
+    role: MSc Statistics, University of Hyderabad. July 2023 – April 2024. Now PhD student at SUPSI, Switzerland.
+    url: https://www.linkedin.com/in/anubhab-biswas-308774247/
+    program: MSc Statistics
+    affiliation: University of Hyderabad
+    period: July 2023 – April 2024
+    current_status: PhD student at SUPSI, Switzerland
+  - name: Aindrila Garai
+    role: MSc Statistics, IIT Kanpur. May 2023 – September 2023. Now PhD student at the University of Bristol.
+    url: https://www.linkedin.com/in/aindrila-garai-93b767232/
+    program: MSc Statistics
+    affiliation: IIT Kanpur
+    period: May 2023 – September 2023
+    current_status: PhD student at the University of Bristol
+  - name: Anurag Dutta
+    role: BTech CS, GCETT, West Bengal. March 2023 – May 2023. Now RA at IIT Kharagpur.
+    url: https://sites.google.com/view/anuragdutta
+    program: BTech CS
+    affiliation: GCETT, West Bengal
+    period: March 2023 – May 2023
+    current_status: Research Assistant at IIT Kharagpur
+  - name: Padavala Jaya Sai Hrithik
+    role: BTech CSE, Matrusri Engineering College. January 2022 – July 2022. Now MS CS, University of Windsor.
+    url: https://www.linkedin.com/in/sai-hrithik-p/
+    program: BTech CSE
+    affiliation: Matrusri Engineering College
+    period: January 2022 – July 2022
+    current_status: MS CS, University of Windsor
+  - name: Bisakh Banerjee
+    role: MSTAT, ISI Kolkata. September 2021 – December 2021. Now PhD Statistics at Michigan State University.
+    url: https://www.linkedin.com/in/bisakh-banerjee-09422b1a9/
+    program: MSTAT
+    affiliation: ISI Kolkata
+    period: September 2021 – December 2021
+    current_status: PhD Statistics at Michigan State University
+  - name: Tirna Mahajan
+    role: MSc Statistics, Kalyani University. August 2020 – October 2020. Now Data Scientist at Ford, India.
+    url: https://www.linkedin.com/in/tirna-mahajan-5bb457152/
+    program: MSc Statistics
+    affiliation: Kalyani University
+    period: August 2020 – October 2020
+    current_status: Data Scientist at Ford, India
+  - name: Tejasvi Arora
+    role: MSQE, ISI Kolkata. August 2020 – October 2020. Now Credit Risk Quant at BlackRock.
+    url: https://www.linkedin.com/in/tejasvi-arora-5bb380146/
+    program: MSQE
+    affiliation: ISI Kolkata
+    period: August 2020 – October 2020
+    current_status: Credit Risk Quant at BlackRock
+  - name: Poulami Chowdhury
+    role: MSc Statistics, Presidency University, Kolkata. March 2020 – May 2020. Now Manager at HSBC, India.
+    url: https://www.linkedin.com/in/poulami-chowdhury-252914183/
+    program: MSc Statistics
+    affiliation: Presidency University, Kolkata
+    period: March 2020 – May 2020
+    current_status: Manager at HSBC, India
+  - name: Sayak Banerjee
+    role: MSc Biostatistics, IIPS Mumbai. June 2019 – August 2019. Now Senior Analyst at Citi, India.
+    url: https://www.linkedin.com/in/sayak-banerjee-68931516b/
+    program: MSc Biostatistics
+    affiliation: IIPS Mumbai
+    period: June 2019 – August 2019
+    current_status: Senior Analyst at Citi, India
+  - name: Shramana Bhattacharya
+    role: MSc Biostatistics, IIPS Mumbai. June 2019 – August 2019. Now Analyst at Citi, India.
+    url: https://www.linkedin.com/in/shramana-bhattacharya-810092b8/
+    program: MSc Biostatistics
+    affiliation: IIPS Mumbai
+    period: June 2019 – August 2019
+    current_status: Analyst at Citi, India
+  - name: Gauri Kamat
+    role: MS Statistics, Duke University. April 2019 – July 2019. Now PhD student at Brown University.
+    url: https://www.linkedin.com/in/gauri-kamat-24a607a0/
+    program: MS Statistics
+    affiliation: Duke University
+    period: April 2019 – July 2019
+    current_status: PhD student at Brown University
+  - name: Kaumil Trivedi
+    role: BTech CSE, Gujarat Technological University. February 2019 – May 2019. Now MS at SFU, Canada.
+    url: https://www.linkedin.com/in/kaumil97/
+    program: BTech CSE
+    affiliation: Gujarat Technological University
+    period: February 2019 – May 2019
+    current_status: MS at SFU, Canada
+  - name: Zubia Mansoor
+    role: BSc Statistics, St. Xavier's College, Kolkata. July 2018 – October 2018. Now MS at SFU, Canada.
+    url: https://www.linkedin.com/in/zubiamansoor/
+    program: BSc Statistics
+    affiliation: St. Xavier's College, Kolkata
+    period: July 2018 – October 2018
+    current_status: MS at SFU, Canada
+- group: Network only
+  listed: false
+  people:
+  - name: Madhurima Panja
+    listed: false

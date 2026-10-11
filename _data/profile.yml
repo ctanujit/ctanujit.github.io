@@ -1,0 +1,77 @@
+# Identity, contact, and affiliations used across the site.
+# Change an address or title here. Do not copy it into a template.
+name: Tanujit Chakraborty
+display_name: Tanujit Chakraborty
+primary_title: Associate Professor of Mathematics (Statistics & Data Science)
+primary_place: Sorbonne University Abu Dhabi
+
+emails:
+  - label: Personal
+    value: ctanujit@gmail.com
+  - label: Sorbonne
+    value: tanujit.chakraborty@sorbonne.ae
+  - label: NUS
+    value: tanujit.chakraborty@nus.edu.sg
+
+# Sidebar and footer profile links. The Email item uses the Personal address above.
+profile_links:
+  - id: google_scholar
+    label: Google Scholar
+    url: https://scholar.google.com/citations?user=sJOm-voAAAAJ&hl=en
+  - id: researchgate
+    label: ResearchGate
+    url: https://www.researchgate.net/profile/Tanujit-Chakraborty-2
+  - id: linkedin
+    label: LinkedIn
+    url: https://www.linkedin.com/in/ctanujit/
+  - id: github
+    label: GitHub
+    url: https://github.com/ctanujit
+  - id: twitter
+    label: Twitter / X
+    url: https://twitter.com/ctanujit
+  - id: cv
+    label: CV
+    url: /cv/
+
+portrait:
+  src: /assets/images/home/portrait.jpg
+  alt: Tanujit Chakraborty
+
+# Homepage affiliation cards. email is shown only when this file has one.
+# In index.md, link an institution as [visible words](affiliation:id).
+affiliations:
+  - id: sorbonne-ad
+    role: Associate Professor of Mathematics (Statistics & Data Science)
+    unit: School of Data Science and Engineering
+    institution: Sorbonne University Abu Dhabi
+    short_name: Sorbonne University Abu Dhabi
+    url: https://www.sorbonne.ae/team/tanujit-chakraborty
+    email: tanujit.chakraborty@sorbonne.ae
+    email_label: Sorbonne
+  - id: scai
+    role: Member
+    unit: Sorbonne Center for Artificial Intelligence
+    institution: SCAI Paris
+    short_name: SCAI Paris
+    url: https://scai.sorbonne-universite.fr/public/profiles/view/425eb803501ea43deea8/1
+  - id: duke-nus
+    role: Adjunct Associate Professor
+    institution: Duke-NUS Medical School, National University of Singapore
+    short_name: Duke-NUS Medical School, National University of Singapore
+    email: tanujit.chakraborty@nus.edu.sg
+    email_label: NUS
+  - id: cidsai
+    role: Affiliated Faculty Member
+    institution: CIDSAI, NYU Abu Dhabi
+    short_name: CIDSAI, NYU Abu Dhabi
+    url: https://www.cids.ai/
+
+education:
+  - degree: HDR
+    institution: Sorbonne Université, Paris
+  - degree: PhD
+    institution: Indian Statistical Institute, Kolkata
+
+footer:
+  place: Sorbonne University Abu Dhabi

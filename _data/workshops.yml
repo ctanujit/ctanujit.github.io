@@ -1,0 +1,19 @@
+# New index. The old /workshops.html URL was a 404 and is not aliased.
+- title: Workshop on Statistics and Machine Learning in Practice
+  url: /workshops/statistics-machine-learning-2020/
+  legacy: /workshop-on-ml.html
+  dates: 25–31 July 2020
+  hosts: STAT&ML Lab and BKC College, Kolkata
+  materials: https://www.youtube.com/playlist?list=PLsptOnGtvUbHdvOjkXmJ0q1rl8XH_kEyg
+- title: A Guided Tour of AI
+  url: /workshops/guided-tour-of-ai-2022/
+  legacy: /tour-of-ai.html
+  dates: 2–7 July 2022
+  hosts: Sorbonne University and SCAI
+  materials: https://github.com/scaiworkshop/SUAD
+- title: Business Data Analytics
+  url: /workshops/business-data-analytics-2023/
+  legacy: /workshop-on-data-analytics.html
+  dates: 2–14 February 2023
+  hosts: Sorbonne University and SCAI
+  materials: https://github.com/scaiworkshop/ADIA_AMF

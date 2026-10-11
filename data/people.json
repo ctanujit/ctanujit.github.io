@@ -1,0 +1,5 @@
+---
+layout: none
+permalink: /data/people.json
+---
+{{ site.data.people | jsonify }}

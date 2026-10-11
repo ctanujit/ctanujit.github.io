@@ -1,0 +1,5 @@
+---
+layout: none
+permalink: /data/author-aliases.json
+---
+{{ site.data.author_aliases | jsonify }}

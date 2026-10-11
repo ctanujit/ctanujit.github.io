@@ -1,0 +1,192 @@
+{% assign talks = site.data.talks | sort: "sort_date" | reverse %}
+{% assign hero = page.hero %}
+
+<section class="talks-page" aria-labelledby="talks-heading">
+
+  <header class="talks-hero talks-hero--photo">
+    <div class="talks-hero-copy">
+      <h1 id="talks-heading">{{ hero.title | default: page.title }}</h1>
+      {% if hero.subtitle %}
+      <p class="talks-lead">{{ hero.subtitle }}</p>
+      {% endif %}
+    </div>
+
+    {% if hero.image %}
+    <figure class="talks-hero-media">
+      <img
+        src="{{ hero.image | relative_url }}"
+        alt="{{ hero.image_alt | default: '' }}"
+        loading="eager"
+        decoding="async"
+      >
+    </figure>
+    {% endif %}
+  </header>
+
+  <div class="talk-filter-bar" aria-label="Filter talks by category">
+    {% for filter in page.filters %}
+    <button
+      class="talk-filter is-active"
+      type="button"
+      data-talk-filter="{{ filter.id }}"
+      aria-pressed="true">
+      {{ filter.label }}
+    </button>
+    {% endfor %}
+  </div>
+
+  <section class="featured-talks" aria-labelledby="featured-talks-heading">
+    <div class="talk-section-head">
+      <h2 id="featured-talks-heading">Featured Talks</h2>
+      <span aria-hidden="true"></span>
+    </div>
+
+    <div class="featured-talk-grid">
+      {% for talk in talks %}
+        {% if talk.featured %}
+        <article class="featured-talk-card" data-talk-type="{{ talk.type }}">
+          <div class="featured-talk-media">
+            {% if talk.image %}
+            <img
+              src="{{ talk.image | relative_url }}"
+              alt="{{ talk.image_alt | default: '' }}"
+              loading="eager"
+              decoding="async">
+            {% endif %}
+
+            <span class="featured-talk-date">
+              <b>{{ talk.month | slice: 0, 3 | upcase }}</b>
+              <strong>{{ talk.year }}</strong>
+            </span>
+
+            <span class="talk-type talk-type-{{ talk.type }}">
+              {% if talk.type == "plenary" %}Plenary / Keynote{% else %}Invited Talk{% endif %}
+            </span>
+          </div>
+
+          <div class="featured-talk-body">
+            <h3>{{ talk.title }}</h3>
+            <p class="featured-talk-venue">{{ talk.venue }}</p>
+            {% if talk.location %}
+            <p class="featured-talk-location">{{ talk.location }}</p>
+            {% endif %}
+
+            <div class="talk-actions">
+              {% if talk.watch_url %}
+              <a class="talk-action talk-action-watch"
+                 href="{{ talk.watch_url }}"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Watch {{ talk.title }}">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m9 7 8 5-8 5Z" fill="currentColor"/>
+                </svg>
+                Watch
+              </a>
+              {% endif %}
+
+              {% if talk.pdf_url %}
+              <a class="talk-action talk-action-pdf"
+                 href="{{ talk.pdf_url }}"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Open PDF for {{ talk.title }}">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 18v2h14v-2"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                </svg>
+                PDF
+              </a>
+              {% endif %}
+            </div>
+          </div>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="talk-archive" aria-labelledby="all-talks-heading">
+    <div class="talk-section-head">
+      <h2 id="all-talks-heading">All Talks</h2>
+      <span aria-hidden="true"></span>
+    </div>
+
+    {% assign current_year = "" %}
+    {% for talk in talks %}
+      {% assign talk_year = talk.year | append: "" %}
+
+      {% if talk_year != current_year %}
+        {% unless forloop.first %}</div></section>{% endunless %}
+        <section class="talk-year" data-talk-year="{{ talk.year }}">
+          <h3>{{ talk.year }}</h3>
+          <div class="talk-year-list">
+        {% assign current_year = talk_year %}
+      {% endif %}
+
+      <article class="talk-row" data-talk-type="{{ talk.type }}">
+        <div class="talk-row-date">{{ talk.month | slice: 0, 3 }} {{ talk.year }}</div>
+
+        <div class="talk-row-marker" aria-hidden="true">
+          <span class="is-{{ talk.type }}"></span>
+        </div>
+
+        <div class="talk-row-kind">
+          <span class="talk-type talk-type-{{ talk.type }}">
+            {% if talk.type == "plenary" %}Plenary / Keynote{% else %}Invited Talk{% endif %}
+          </span>
+        </div>
+
+        <div class="talk-row-main">
+          <h4>{{ talk.title }}</h4>
+          <p>
+            {{ talk.venue }}
+            {% if talk.location %}
+              <span class="talk-meta-sep">|</span>{{ talk.location }}
+            {% endif %}
+          </p>
+        </div>
+
+        <div class="talk-row-actions talk-actions">
+          {% if talk.watch_url %}
+          <a class="talk-action talk-action-watch"
+             href="{{ talk.watch_url }}"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Watch {{ talk.title }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 7 8 5-8 5Z" fill="currentColor"/>
+            </svg>
+            Watch
+          </a>
+          {% endif %}
+
+          {% if talk.pdf_url %}
+          <a class="talk-action talk-action-pdf"
+             href="{{ talk.pdf_url }}"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Open PDF for {{ talk.title }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 18v2h14v-2"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+            </svg>
+            PDF
+          </a>
+          {% endif %}
+        </div>
+      </article>
+
+      {% if forloop.last %}</div></section>{% endif %}
+    {% endfor %}
+  </section>
+
+</section>

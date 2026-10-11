@@ -1,0 +1,66 @@
+{% for group in site.data.people %}
+  {% unless group.listed == false %}
+  <section class="foreml-people-section" aria-labelledby="people-group-{{ forloop.index }}">
+    <div class="foreml-section-head foreml-section-head-compact">
+      <h2 id="people-group-{{ forloop.index }}">{{ group.group | replace: 'Current members', 'Current Members' }}</h2><span aria-hidden="true"></span>
+    </div>
+
+    {% if group.group == 'Investigators' %}
+      <div class="foreml-investigators foreml-people-full-investigators">
+        {% for person in group.people %}{% unless person.listed == false %}
+        <article class="foreml-person foreml-person-investigator">
+          {% include person-photo.html person=person %}
+          <div class="foreml-person-copy">
+            <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
+            {% if person.designation %}<p class="foreml-person-role">{{ person.designation }}</p>{% endif %}
+            {% if person.affiliation %}<p class="foreml-person-affiliation">{{ person.affiliation }}</p>{% elsif person.role %}<p class="foreml-person-affiliation">{{ person.role }}</p>{% endif %}
+            {% include person-topics.html person=person %}
+          </div>
+        </article>
+        {% endunless %}{% endfor %}
+      </div>
+
+    {% elsif group.group == 'Current members' %}
+      <div class="foreml-current-grid foreml-current-grid-full">
+        {% for person in group.people %}{% unless person.listed == false %}
+        <article class="foreml-person foreml-person-current">
+          {% include person-photo.html person=person %}
+          <div class="foreml-person-copy">
+            <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
+            {% if person.designation %}<p class="foreml-person-role">{{ person.designation }}</p>{% endif %}
+            {% if person.affiliation %}<p class="foreml-person-affiliation">{{ person.affiliation }}</p>{% else %}<p class="foreml-person-affiliation">{{ person.role }}</p>{% endif %}
+            {% if person.detail %}<p class="foreml-person-detail">{{ person.detail }}</p>{% endif %}
+            {% if person.period %}<p class="foreml-person-period">{{ person.period }}</p>{% endif %}
+            {% include person-topics.html person=person %}
+          </div>
+        </article>
+        {% endunless %}{% endfor %}
+      </div>
+
+    {% elsif group.group == 'Capstone project students' %}
+      <div class="foreml-directory">
+        {% for person in group.people %}{% unless person.listed == false %}
+        <article class="foreml-directory-item">
+          <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
+          {% include person-meta.html person=person %}
+        </article>
+        {% endunless %}{% endfor %}
+      </div>
+
+    {% else %}
+      <div class="foreml-alumni-grid">
+        {% for person in group.people %}{% unless person.listed == false %}
+        <article class="foreml-person foreml-person-compact">
+          {% include person-photo.html person=person %}
+          <div class="foreml-person-copy">
+            <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
+            {% include person-meta.html person=person %}
+            {% include person-topics.html person=person %}
+          </div>
+        </article>
+        {% endunless %}{% endfor %}
+      </div>
+    {% endif %}
+  </section>
+  {% endunless %}
+{% endfor %}

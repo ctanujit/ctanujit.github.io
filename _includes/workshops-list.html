@@ -1,0 +1,9 @@
+<ul class="pub">
+  {% for item in site.data.workshops %}
+  <li>
+    <a href="{{ item.url }}">{{ item.title }}</a><br>
+    {{ item.dates }}. {{ item.hosts }}.
+    {% if item.materials %}<div class="links"><a href="{{ item.materials }}">Materials</a></div>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

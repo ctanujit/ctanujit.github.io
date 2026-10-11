@@ -1,0 +1,74 @@
+{% assign hero = page.hero %}
+<section class="software-page" aria-labelledby="software-heading">
+  <header class="software-hero">
+    <div class="software-hero-copy">
+      <h1 id="software-heading">{{ hero.title | default: page.title }}</h1>
+      {% if hero.subtitle %}
+      <p class="software-lead">{{ hero.subtitle }}</p>
+      {% endif %}
+    </div>
+    {% if hero.image %}
+    <figure class="software-hero-art">
+      <img
+        src="{{ hero.image }}"
+        alt="{{ hero.image_alt | default: '' }}"
+        loading="eager"
+        decoding="async"
+      >
+    </figure>
+    {% endif %}
+  </header>
+
+  <ul class="software-grid">
+    {% for pkg in site.data.software %}
+    {% assign ecosystem = pkg.ecosystem %}
+    {% if ecosystem == nil or ecosystem == "" %}
+      {% if pkg.language == "r" %}{% assign ecosystem = "CRAN" %}{% else %}{% assign ecosystem = "PyPI" %}{% endif %}
+    {% endif %}
+    {% assign command = pkg.install | default: pkg.install_command %}
+    {% assign badge_class = "software-badge" %}
+    {% if ecosystem == "CRAN" %}{% assign badge_class = "software-badge is-cran" %}{% endif %}
+    <li class="software-card">
+      <div class="software-card-main">
+        <div class="software-card-copy">
+          <p class="{{ badge_class }}">{{ ecosystem }}</p>
+          <h2>
+            {% if pkg.url %}
+            <a href="{{ pkg.url }}">{{ pkg.name }}</a>
+            {% else %}
+            {{ pkg.name }}
+            {% endif %}
+          </h2>
+          <p class="software-card-desc">{{ pkg.summary }}</p>
+        </div>
+        {% if pkg.image.src %}
+        {% assign art_scale = pkg.display.scale | default: pkg.image.scale %}
+        {% assign art_pos = pkg.display.position | default: pkg.image.position %}
+        <div class="software-card-art"{% if art_scale or art_pos %} style="{% if art_scale %}--sw-img-scale: {{ art_scale }};{% endif %}{% if art_pos %} --sw-img-position: {{ art_pos }};{% endif %}"{% endif %}>
+          <picture>
+            {% if pkg.image.fallback %}
+            <source srcset="{{ pkg.image.src }}" type="image/webp">
+            <img src="{{ pkg.image.fallback }}" alt="{{ pkg.image.alt | default: '' }}" width="800" height="600" loading="{% if forloop.index > 3 %}lazy{% else %}eager{% endif %}" decoding="async">
+            {% else %}
+            <img src="{{ pkg.image.src }}" alt="{{ pkg.image.alt | default: '' }}" width="800" height="600" loading="{% if forloop.index > 3 %}lazy{% else %}eager{% endif %}" decoding="async">
+            {% endif %}
+          </picture>
+        </div>
+        {% endif %}
+      </div>
+      {% if command %}
+      <div class="software-install">
+        <code>{{ command }}</code>
+        <button type="button" class="software-copy" data-copy="{{ command | escape }}" aria-label="Copy {{ pkg.name }} install command">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect x="8" y="8" width="12" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+            <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+          </svg>
+          <span class="software-copy-feedback" aria-live="polite"></span>
+        </button>
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,48 @@
+{% assign item_links = links %}
+{% assign venue_mark = "" %}
+{% if pub.id %}
+  {% assign item_links = pub.links %}
+  {% if pub.venue %}
+    {% assign words = pub.venue | split: " " %}
+    {% for word in words %}
+      {% assign clean = word | remove: ":" | remove: "," | remove: "&" | remove: "." | remove: "-" %}
+      {% assign lower = clean | downcase %}
+      {% assign upper = clean | upcase %}
+      {% unless lower == "of" or lower == "the" or lower == "and" or lower == "in" or lower == "for" or lower == "a" or lower == "on" or clean == "" %}
+        {% if venue_mark.size < 4 %}
+          {% if clean == upper and clean.size <= 5 and venue_mark == "" %}
+            {% assign venue_mark = clean | slice: 0, 4 %}
+          {% else %}
+            {% assign letter = clean | slice: 0, 1 | upcase %}
+            {% assign venue_mark = venue_mark | append: letter %}
+          {% endif %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
+<li class="pub-item{% if pub.id %} is-{{ pub.section | replace: '_', '-' }}{% endif %}">
+  <div class="pub-side">
+    {% if venue_mark != "" %}<span class="pub-mark" title="{{ pub.venue }}">{{ venue_mark }}</span>{% endif %}
+    {% if pub.id and pub.year %}<span class="pub-year">{{ pub.year }}</span>{% endif %}
+  </div>
+  <div class="pub-body">
+    {% if pub.id and pub.title %}
+      <p class="pub-title"><em>{{ pub.title }}</em></p>
+      <p class="pub-byline">{{ pub.authors_display }}{% if pub.venue %} <span class="pub-venue">{{ pub.venue }}.</span>{% endif %}</p>
+    {% elsif pub.id %}
+      <p class="pub-title">{{ pub.citation }}</p>
+    {% else %}
+      <p class="pub-title">{{ citation }}</p>
+    {% endif %}
+    {% if pub.id and pub.award %}<span class="award">{{ pub.award }}</span>{% endif %}
+    {% if item_links.size > 0 %}
+    <div class="links">
+      {% for link in item_links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if pub.id and pub.links_note %}<p class="meta">{{ pub.links_note }}</p>{% endif %}
+  </div>
+</li>

@@ -1,0 +1,25 @@
+{% comment %}
+Preferred format in people.yml:
+
+topics:
+  - Statistical AI
+  - Statistical Machine Learning
+  - Generative Deep Learning
+  - Spatiotemporal Forecasting
+
+Backward-compatible single-tag format:
+
+topic: Statistical AI
+{% endcomment %}
+
+{% if include.person.topics and include.person.topics.size > 0 %}
+  <div class="foreml-topics" aria-label="Research topics">
+    {% for tag in include.person.topics %}
+      <span class="foreml-topic">{{ tag }}</span>
+    {% endfor %}
+  </div>
+{% elsif include.person.topic %}
+  <div class="foreml-topics" aria-label="Research topics">
+    <span class="foreml-topic">{{ include.person.topic }}</span>
+  </div>
+{% endif %}

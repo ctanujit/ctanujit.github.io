@@ -1,0 +1,23 @@
+{% assign entry = include.entry %}
+<article class="cv-entry">
+  <div class="cv-entry-period">{{ entry.period }}</div>
+  <div class="cv-entry-main">
+    <div class="cv-entry-heading">
+      <div class="cv-entry-title">
+        {{ entry.title | markdownify }}
+      </div>
+      
+      {% if entry.organization and entry.organization != "" %}
+      <span>{{ entry.organization }}</span>
+      {% endif %}
+    </div>
+
+    {% if entry.details and entry.details.size > 0 %}
+      <div class="cv-entry-details">
+        {% for detail in entry.details %}
+          <div>{{ detail | markdownify }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

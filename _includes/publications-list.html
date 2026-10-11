@@ -1,0 +1,117 @@
+{% assign hero = page.hero %}
+{% assign config = site.data.publication_config %}
+{% assign all_pubs = site.data.publications %}
+{% assign submitted = all_pubs | where: "section", "submitted" %}
+{% assign journals = all_pubs | where: "section", "journal" %}
+{% assign conferences = all_pubs | where: "section", "conference" %}
+{% assign books = all_pubs | where: "section", "book_chapter" %}
+{% assign preview_count = config.submitted_preview_count | default: 3 %}
+
+<section class="publication-index" aria-labelledby="publication-index-title">
+  <header class="publication-index-hero">
+    <div class="publication-index-hero-copy">
+      <h1 id="publication-index-title">{{ hero.title | default: page.title }}</h1>
+      {% if hero.subtitle %}<p class="publication-index-lead">{{ hero.subtitle }}</p>{% endif %}
+    </div>
+    {% if hero.image %}
+    <figure class="publication-index-hero-art">
+      <picture>
+        {% if hero.image_fallback %}<source srcset="{{ hero.image | relative_url }}" type="image/webp">{% endif %}
+        <img src="{{ hero.image_fallback | default: hero.image | relative_url }}" alt="{{ hero.image_alt | default: '' }}" loading="eager" decoding="async">
+      </picture>
+    </figure>
+    {% endif %}
+  </header>
+
+  <div class="publication-index-metrics" aria-label="Publication counts">
+    <div class="publication-index-metric"><strong>{{ journals.size }}</strong><span>Journal articles</span></div>
+    <div class="publication-index-metric"><strong>{{ conferences.size }}</strong><span>Conference papers</span></div>
+    <div class="publication-index-metric"><strong>{{ submitted.size }}</strong><span>Submitted / Preprint</span></div>
+    <div class="publication-index-metric"><strong>{{ books.size }}</strong><span>Book chapters</span></div>
+  </div>
+
+  <div class="publication-index-tools">
+    <label class="publication-index-search">
+      <span class="sr-only">Search publications</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+      <input id="publication-search" type="search" placeholder="Search by title, author, keyword, or venue…" autocomplete="off">
+    </label>
+    <label class="publication-index-sort">
+      <span>Sort by</span>
+      <select id="publication-sort">
+        <option value="newest">Year (newest)</option>
+        <option value="oldest">Year (oldest)</option>
+        <option value="title">Title (A–Z)</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="publication-index-layout">
+    <aside class="publication-index-filters" aria-label="Filter publications">
+      <section class="publication-filter-group">
+        <h2>Research area</h2>
+        <div class="publication-filter-options" data-filter-options="area">
+          {% for area in config.research_areas %}
+          <label>
+            <input type="checkbox" value="{{ area.id }}" data-filter="area">
+            <span>{{ area.label }}</span>
+            <b data-count-area="{{ area.id }}">0</b>
+          </label>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="publication-filter-group">
+        <h2>Publication type</h2>
+        <div class="publication-filter-options" data-filter-options="type">
+          {% for type in config.publication_types %}
+          <label>
+            <input type="checkbox" value="{{ type.id }}" data-filter="type">
+            <span>{{ type.label }}</span>
+            <b data-count-type="{{ type.id }}">0</b>
+          </label>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="publication-filter-group">
+        <h2>Year</h2>
+        <div class="publication-filter-options" id="publication-year-options"></div>
+      </section>
+
+      <button class="publication-clear" id="publication-clear" type="button">Clear filters</button>
+    </aside>
+
+    <div class="publication-index-results">
+      <p class="publication-results-summary" id="publication-results-summary" aria-live="polite"></p>
+
+      {% assign section_keys = "submitted|journal|conference|book_chapter" | split: "|" %}
+      {% for key in section_keys %}
+        {% case key %}
+          {% when "submitted" %}{% assign label = "Submitted / Preprint" %}{% assign items = submitted %}
+          {% when "journal" %}{% assign label = "Journal articles" %}{% assign items = journals %}
+          {% when "conference" %}{% assign label = "Conference papers" %}{% assign items = conferences %}
+          {% when "book_chapter" %}{% assign label = "Book chapters" %}{% assign items = books %}
+        {% endcase %}
+
+        <section class="publication-section" data-publication-section="{{ key }}">
+          <header class="publication-section-heading">
+            <h2>{{ label }}</h2>
+            <span>{{ items.size }}</span>
+          </header>
+          <ol class="publication-records" data-publication-list="{{ key }}">
+            {% for pub in items %}
+              {% include publication-index-item.html pub=pub submitted_preview_count=preview_count forloop_index=forloop.index %}
+            {% endfor %}
+          </ol>
+          {% if key == "submitted" and items.size > preview_count %}
+          <button class="publication-view-all" type="button" data-submitted-toggle aria-expanded="false">
+            <span>View all {{ items.size }} submitted / preprint papers</span><span aria-hidden="true">→</span>
+          </button>
+          {% endif %}
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>

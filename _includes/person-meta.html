@@ -1,0 +1,52 @@
+{% comment %}
+Structured metadata renderer for alumni, former thesis students and capstone students.
+Preferred fields:
+  position:
+  program:
+  affiliation:
+  supervision:
+  detail:
+  period:
+  current_status:
+
+Falls back to the legacy `role` string if none of those are supplied.
+{% endcomment %}
+
+{% assign has_structured = false %}
+{% if include.person.position or include.person.program or include.person.affiliation or include.person.supervision or include.person.detail or include.person.period or include.person.current_status %}
+  {% assign has_structured = true %}
+{% endif %}
+
+{% if has_structured %}
+  <div class="foreml-person-meta">
+    {% if include.person.position %}
+      <p class="foreml-person-position">{{ include.person.position }}</p>
+    {% endif %}
+
+    {% if include.person.program %}
+      <p class="foreml-person-program">{{ include.person.program }}</p>
+    {% endif %}
+
+    {% if include.person.affiliation %}
+      <p class="foreml-person-affiliation">{{ include.person.affiliation }}</p>
+    {% endif %}
+
+    {% if include.person.supervision %}
+      <p class="foreml-person-supervision">{{ include.person.supervision }}</p>
+    {% endif %}
+
+    {% if include.person.detail %}
+      <p class="foreml-person-detail">{{ include.person.detail }}</p>
+    {% endif %}
+
+    {% if include.person.period %}
+      <p class="foreml-person-period">{{ include.person.period }}</p>
+    {% endif %}
+
+    {% if include.person.current_status %}
+      <p class="foreml-person-current-status"><span>Current:</span> {{ include.person.current_status }}</p>
+    {% endif %}
+  </div>
+{% elsif include.person.role %}
+  <p class="foreml-person-affiliation">{{ include.person.role }}</p>
+{% endif %}

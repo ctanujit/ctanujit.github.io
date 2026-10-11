@@ -1,0 +1,5 @@
+{% if include.image and include.image.src != "" %}
+{% if include.image.full %}<a href="{{ include.image.full }}">{% endif %}
+<img src="{{ include.image.src }}" alt="{{ include.image.alt | default: '' }}" class="{{ include.class }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
+{% if include.image.full %}</a>{% endif %}
+{% endif %}

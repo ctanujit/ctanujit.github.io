@@ -1,0 +1,18 @@
+{% assign profile = site.data.profile %}
+{% assign personal = profile.emails | where: "label", "Personal" | first %}
+{% assign scholar = profile.profile_links | where: "id", "google_scholar" | first %}
+{% assign github = profile.profile_links | where: "id", "github" | first %}
+<footer class="site-footer">
+  <div class="wrap footer-bar">
+    <div>
+      <p class="footer-name">{{ profile.display_name }}</p>
+      <p class="footer-aff">{{ profile.footer.place }}</p>
+    </div>
+    <ul class="footer-links">
+      {% if personal %}<li><a href="mailto:{{ personal.value }}">Email</a></li>{% endif %}
+      {% if scholar %}<li><a href="{{ scholar.url }}">{{ scholar.label }}</a></li>{% endif %}
+      {% if github %}<li><a href="{{ github.url }}">{{ github.label }}</a></li>{% endif %}
+    </ul>
+    <p class="footer-copy">© {{ site.time | date: "%Y" }}</p>
+  </div>
+</footer>

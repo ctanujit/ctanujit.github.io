@@ -1,0 +1,19 @@
+{% if page.note %}<p class="meta">{{ page.note }}</p>{% endif %}
+{% for area in site.data.publication_area_legacy %}
+<h2>{{ area.heading }}</h2>
+<ol class="pub">
+  {% for entry in area.entries %}
+  {% if entry.publication_id %}
+    {% assign pub = site.data.publications | where: "id", entry.publication_id | first %}
+    {% if pub %}
+      {% include publication-item.html %}
+    {% endif %}
+  {% else %}
+    {% assign pub = "" %}
+    {% assign citation = entry.citation %}
+    {% assign links = entry.links %}
+    {% include publication-item.html %}
+  {% endif %}
+  {% endfor %}
+</ol>
+{% endfor %}

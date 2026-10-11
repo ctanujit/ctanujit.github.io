@@ -1,0 +1,6 @@
+{% assign person = include.person %}
+{% if person.image.src %}
+<img src="{{ person.image.src }}" alt="{{ person.image.alt | default: person.name }}" loading="lazy" decoding="async">
+{% elsif person.image %}
+<img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy" decoding="async">
+{% endif %}

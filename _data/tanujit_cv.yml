@@ -11,7 +11,7 @@ profile:
   google_scholar: https://scholar.google.com/citations?user=sJOm-voAAAAJ&hl=en&oi=ao
   short_cv_pdf: /assets/files/cv/tanujit-chakraborty-short-cv.pdf
   full_cv_pdf: /assets/files/cv/tanujit-chakraborty-full-cv.pdf
-  show_cv_download: true
+  show_cv_download: false
 bio:
   permission: The following bio and [**this photo**]({MEDIA_PHOTO}) may be used in media releases without further permission.
   text: Dr. Tanujit Chakraborty is an **Associate Professor of Statistics and Data Science** at [Sorbonne University Abu Dhabi](https://www.sorbonne.ae/),

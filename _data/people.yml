@@ -41,7 +41,7 @@
   - name: Aya Mourad
     designation: PhD
     affiliation: Sorbonne Université
-    detail: jointly with Dr. Motasem Alrahabi
+    detail: Jointly with Dr. Motasem Alrahabi
     period: September 2024 – present
     role: PhD, Sorbonne Université, jointly with Dr. Motasem Alrahabi. September 2024 – present.
     topic: AI in NLP
@@ -50,7 +50,7 @@
   - name: Magzhan Bimoldan
     designation: PhD
     affiliation: Kazakh National University
-    detail: co-supervised with Dr. Kasenov Syrym
+    detail: Co-supervised with Dr. Kasenov Syrym
     period: August 2025 – present
     role: PhD, Kazakh National University, co-supervised with Dr. Kasenov Syrym. August 2025 – present.
     topic: ML for Risk Assessment
@@ -77,12 +77,19 @@
   - name: Kirtivardhan Singh
     designation: PhD
     affiliation: BITS Pilani
-    detail: jointly with Dr. Sunny K Singh
+    detail: Jointly with Dr. Sunny K Singh
     period: 2025 – present
     role: PhD, BITS Pilani, jointly with Dr. Sunny K Singh. 2025 – present.
     topic: ML for Volatility Forecasting
     url: https://www.linkedin.com/in/kirtivardhan-singh/
     image: /assets/images/foreml/people/kirtivardhan.png
+ - name: Nilasha Majumdar
+    designation: Research Assistant
+    affiliation: SAFIR, Sorbonne Université Abu Dhabi
+    role: Research Assistant, Sorbonne Université Abu Dhabi
+    topics: Spatiotemporal Deep Learning
+    url: https://www.linkedin.com/in/nilasha-majumdar/
+    image: /assets/images/foreml/people/nilasha.png 
 - group: Alumni (PhD/Postdoc)
   people:
   - name: Shovon Sengupta

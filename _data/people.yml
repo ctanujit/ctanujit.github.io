@@ -85,8 +85,9 @@
     image: /assets/images/foreml/people/kirtivardhan.png
   - name: Nilasha Majumdar
     designation: Research Assistant
-    affiliation: SAFIR, Sorbonne Université Abu Dhabi. Aug 2026 - present.
+    affiliation: SAFIR, Sorbonne Université Abu Dhabi. 
     role: Research Assistant, Sorbonne Université Abu Dhabi
+    period: Aug 2026 - present
     topic: Spatiotemporal Deep Learning
     url: https://www.linkedin.com/in/nilasha-majumdar/
     image: /assets/images/foreml/people/nilasha.png

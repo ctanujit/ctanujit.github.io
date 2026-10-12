@@ -83,13 +83,13 @@
     topic: ML for Volatility Forecasting
     url: https://www.linkedin.com/in/kirtivardhan-singh/
     image: /assets/images/foreml/people/kirtivardhan.png
- - name: Nilasha Majumdar
+  - name: Nilasha Majumdar
     designation: Research Assistant
     affiliation: SAFIR, Sorbonne Université Abu Dhabi. Aug 2026 - present.
     role: Research Assistant, Sorbonne Université Abu Dhabi
     topic: Spatiotemporal Deep Learning
     url: https://www.linkedin.com/in/nilasha-majumdar/
-    image: /assets/images/foreml/people/nilasha.png 
+    image: /assets/images/foreml/people/nilasha.png
 - group: Alumni (PhD/Postdoc)
   people:
   - name: Shovon Sengupta

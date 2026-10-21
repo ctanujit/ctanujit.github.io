@@ -91,6 +91,32 @@
     topic: Spatiotemporal Deep Learning
     url: https://www.linkedin.com/in/nilasha-majumdar/
     image: /assets/images/foreml/people/nilasha.png
+  - name: Yueyan Zhang
+    designation: PhD
+    affiliation: Sorbonne Université
+    detail: jointly with Dr. Grace Younes
+    period: Nov 2026 – present
+    role: PhD, Sorbonne Université, jointly with Dr. Grace Younes. Nov 2026 – present.
+    topic: Neuro-Symbolic AI
+    url: https://www.linkedin.com/in/yueyan-zhang-442820386/
+    image: /assets/images/foreml/people/Yueyan.png
+  - name: Muhsina V S
+    designation: Research Assistant
+    affiliation: SAFIR, Sorbonne Université Abu Dhabi. 
+    detail: Jointly with Dr. Grace Younes
+    period: Oct 2026 – present
+    role: Research Assistant, Sorbonne Université Abu Dhabi
+    topic: Probabilistic Forecasting
+    url: https://www.linkedin.com/in/muhsina-datascientist/
+    image: /assets/images/foreml/people/muhsina.png
+  - name: Sentia Al Maqatish
+    designation: Research Assistant
+    affiliation: CIDSAI, NYU Abu Dhabi. 
+    role: MS Thesis, NYU Abu Dhabi
+    period: Oct 2026 - present
+    topic: Mobile Health Time Series
+    url: https://www.linkedin.com/in/sentia-al-maqatish-956594293/
+    image: /assets/images/foreml/people/sentia.png
 - group: Alumni (PhD/Postdoc)
   people:
   - name: Shovon Sengupta

@@ -16,6 +16,15 @@
   featured: true
   image: /assets/images/talks/featured-nyuad.png
   image_alt: Tanujit Chakraborty at NYU Abu Dhabi
+- id: knu-aug-2026
+  year: 2026
+  month: October
+  sort_date: '2026-10-01'
+  type: invited
+  title: When Space Meets Time: Extreme and Geometric Deep Learning
+  venue: Al-Farabi Kazakh National University
+  location: Almaty, Kazakhstan
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CIDSAI_Oct_2026.pdf
 - id: aim-aug-2026
   year: 2026
   month: August

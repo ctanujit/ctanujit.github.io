@@ -1,7 +1,7 @@
 # Talks page data synchronized with the live talks page.
 # Only two public categories are used: plenary and invited.
 # Featured images are presentation metadata and can be changed independently.
-# NOTE: the NOVA featured record temporarily uses the IIM Bangalore image,
+# NOTE: The NOVA featured record temporarily uses the IIM Bangalore image,
 # as requested. The talk record itself is unchanged until it is later replaced.
 # To add/remove/edit a talk, modify this file only.
 - id: cidsai-oct-2026
@@ -16,7 +16,7 @@
   featured: true
   image: /assets/images/talks/featured-nyuad.png
   image_alt: Tanujit Chakraborty at NYU Abu Dhabi
-- id: knu-aug-2026
+- id: knu-oct-2026
   year: 2026
   month: October
   sort_date: '2026-10-01'

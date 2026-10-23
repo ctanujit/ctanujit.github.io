@@ -1,0 +1,35 @@
+enabled: true
+title: Contact
+
+sections:
+  - heading: General
+    items:
+      - type: email
+        label: Primary Email
+        value: ctanujit@gmail.com
+
+  - heading: Institutional Contacts
+    items:
+      - type: email
+        label: Sorbonne University Abu Dhabi, UAE
+        value: tanujit.chakraborty@sorbonne.ae
+
+      - type: email
+        label: Duke-NUS Medical School, Singapore
+        value: tanujit.chakraborty@nus.edu.sg
+
+
+  - heading: Profiles
+    items:
+      - type: link
+        label: Google Scholar
+        url: https://scholar.google.com/citations?user=sJOm-voAAAAJ&hl=en
+      - type: link
+        label: LinkedIn
+        url: https://www.linkedin.com/in/ctanujit/
+      - type: link
+        label: GitHub
+        url: https://github.com/ctanujit
+      - type: link
+        label: ResearchGate
+        url: https://www.researchgate.net/profile/Tanujit-Chakraborty-2

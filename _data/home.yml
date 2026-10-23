@@ -26,7 +26,7 @@ introduction: '[Tanujit Chakraborty](https://www.sorbonne.ae/team/tanujit-chakra
   University, Paris. He is an Adjunct Associate Professor at [Duke-NUS Medical School](https://www.duke-nus.edu.sg/home),
   [National University of Singapore](https://www.nus.edu.sg/), and an affiliated faculty member at [CIDSAI, NYU Abu Dhabi](https://www.cids.ai/).'
 affiliations:
-- title: Associate Professor of Mathematics (Statistics & Data Science)
+- title: Associate Professor of Mathematics (Statistics & AI)
   subtitle: School of Data Science and Engineering
   institution: Sorbonne University Abu Dhabi
   url: https://www.sorbonne.ae/team/tanujit-chakraborty
@@ -44,7 +44,7 @@ affiliations:
   subtitle: Duke-NUS Medical School, National University of Singapore
   institution: Duke-NUS Medical School
   url: ''
-  logo: /assets/images/home/affiliations/duke-nus.png
+  logo: /assets/images/home/affiliations/dukenus-logo.png
   logo_alt: Duke-NUS Medical School
   email: tanujit.chakraborty@nus.edu.sg
 - title: Affiliated Faculty Member

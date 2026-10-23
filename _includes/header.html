@@ -51,8 +51,7 @@
         </li>
         {% endfor %}
 
-
-        {% if page.url == "/" and site.data.contact and site.data.contact.enabled != false %}
+        {% if site.data.contact and site.data.contact.enabled != false %}
         <li class="contact-nav-item">
 
           <button
@@ -77,8 +76,8 @@
       </ul>
     </nav>
 
-
-    {% if page.url == "/" and site.data.contact and site.data.contact.enabled != false %}
+    
+    {% if site.data.contact and site.data.contact.enabled != false %}
     <aside
       class="contact-panel"
       id="contact-panel"

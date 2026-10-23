@@ -42,7 +42,7 @@ permalink: /
                 
                 {% if item.email and item.email != "" %}
                   <span 
-                    class="home-affiliation-email">
+                    class="home-affiliation-email"
                     onclick="event.preventDefault(); event.stopPropagation();"
                   >
                     <svg viewBox="0 0 24 24" aria-hidden="true">

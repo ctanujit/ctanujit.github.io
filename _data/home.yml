@@ -2,7 +2,7 @@ profile:
   name: Tanujit Chakraborty
   title: Associate Professor of Mathematics (Statistics & Data Science)
   institution: Sorbonne University Abu Dhabi
-  image: /assets/images/home/portrait.jpg
+  image: assets/images/home/Tanujit_Image.png
   image_alt: Tanujit Chakraborty
   cv_url: /cv/
   full_image: /assets/images/home/portrait.jpg
@@ -32,24 +32,28 @@ affiliations:
   url: https://www.sorbonne.ae/team/tanujit-chakraborty
   logo: /assets/images/home/affiliations/sorbonne-abu-dhabi.png
   logo_alt: Sorbonne University Abu Dhabi
+  email: tanujit.chakraborty@sorbonne.ae  
 - title: Member
   subtitle: Sorbonne Center for Artificial Intelligence
-  institution: SCAI Paris
+  institution: SCAI, Sorbonne Université, Paris
   url: https://scai.sorbonne-universite.fr/people/chakraborty-tanujit
   logo: /assets/images/home/affiliations/scai-paris.png
   logo_alt: Sorbonne Center for Artificial Intelligence
+  email: ''  
 - title: Adjunct Associate Professor
   subtitle: Duke-NUS Medical School, National University of Singapore
   institution: Duke-NUS Medical School
   url: ''
   logo: /assets/images/home/affiliations/duke-nus.png
   logo_alt: Duke-NUS Medical School
+  email: tanujit.chakraborty@nus.edu.sg
 - title: Affiliated Faculty Member
   subtitle: Center for Interacting Networks and Data Science
   institution: CIDSAI, NYU Abu Dhabi
   url: https://www.cids.ai/
   logo: /assets/images/home/affiliations/nyu-abu-dhabi.png
   logo_alt: NYU Abu Dhabi
+  email: ''
 education:
 - degree: HDR
   institution: Sorbonne Université, Paris
@@ -66,7 +70,7 @@ news:
 - date: Jul 15, 2026
   text: My 1st PhD student, Shovon Sengupta, has been awarded the Best Outstanding Thesis Award by BITS Pilani, India.
 - date: Jul 01, 2026
-  text: My PhD student Rajdeep Pathak received the Best Student Presentation Award at the 46th ISF, Montreal, Canada.
+  text: My PhD student, Rajdeep Pathak, received the Best Student Presentation Award at the 46th ISF, Montreal, Canada.
 - date: Jun 21, 2026
   text: Our paper on Spatiotemporal Regression (stengression) got accepted in TMLR.
 - date: Jun 06, 2026
@@ -76,7 +80,7 @@ news:
 - date: Mar 16, 2026
   text: Our paper on Benchmarking Survival Models got accepted in Health Data Science.
 - date: Mar 03, 2026
-  text: Our paper published in Expert Systems received a Top cited paper award.
+  text: Our paper published in Expert Systems received a Top Cited Paper award.
 - date: Feb 26, 2026
   text: My 1st PhD student, Shovon Sengupta, defended his PhD thesis at BITS Pilani, India.
 highlights:

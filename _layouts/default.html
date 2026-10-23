@@ -22,6 +22,9 @@
   {% include footer.html %}
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/links.js' | relative_url }}"></script>
+  {% if page.url == "/" %}
+  <script src="{{ '/assets/js/contact.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+  {% endif %}
   {% if page.collection == "software" %}
   <script src="{{ '/assets/js/software.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
   {% endif %}

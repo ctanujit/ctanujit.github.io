@@ -4,6 +4,24 @@
 # NOTE: The NOVA featured record temporarily uses the IIM Bangalore image,
 # as requested. The talk record itself is unchanged until it is later replaced.
 # To add/remove/edit a talk, modify this file only.
+- id: iitdad-oct-2026
+  year: 2026
+  month: October
+  sort_date: '2026-10-01'
+  type: invited
+  title: Essentials of Machine Learning
+  venue: Abu Dhabi School on Computational Materials Discovery (ADMD 2026)
+  location: Abu Dhabi, UAE
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CIDSAI_Oct_2026.pdf
+- id: knu-oct-2026
+  year: 2026
+  month: October
+  sort_date: '2026-10-01'
+  type: invited
+  title: When Space Meets Time: Extreme and Geometric Deep Learning
+  venue: Al-Farabi Kazakh National University
+  location: Almaty, Kazakhstan
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CIDSAI_Oct_2026.pdf
 - id: cidsai-oct-2026
   year: 2026
   month: October
@@ -16,15 +34,6 @@
   featured: true
   image: /assets/images/talks/featured-nyuad.png
   image_alt: Tanujit Chakraborty at NYU Abu Dhabi
-- id: knu-oct-2026
-  year: 2026
-  month: October
-  sort_date: '2026-10-01'
-  type: invited
-  title: When Space Meets Time: Extreme and Geometric Deep Learning
-  venue: Al-Farabi Kazakh National University
-  location: Almaty, Kazakhstan
-  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/CIDSAI_Oct_2026.pdf
 - id: aim-aug-2026
   year: 2026
   month: August

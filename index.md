@@ -41,12 +41,15 @@ permalink: /
                 <strong>{{ item.institution }}</strong>
                 
                 {% if item.email and item.email != "" %}
-                  <span class="home-affiliation-email">
+                  <span 
+                    class="home-affiliation-email">
+                    onclick="event.preventDefault(); event.stopPropagation();"
+                  >
                     <svg viewBox="0 0 24 24" aria-hidden="true">
                       <rect x="3" y="5" width="18" height="14" rx="2"></rect>
                       <path d="M3 7l9 6 9-6"></path>
                     </svg>
-                    <span>{{ item.email }}</span>
+                    <span class="home-affiliation-email-text">{{ item.email }}</span>
                   </span>
                 {% endif %}
               </div>

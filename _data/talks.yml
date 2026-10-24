@@ -4,6 +4,15 @@
 # NOTE: The NOVA featured record temporarily uses the IIM Bangalore image,
 # as requested. The talk record itself is unchanged until it is later replaced.
 # To add/remove/edit a talk, modify this file only.
+- id: aiims-oct-2026
+  year: 2026
+  month: October
+  sort_date: '2026-10-01'
+  type: invited
+  title: AI for Adaptive Mobile Health
+  venue: Indo-French October School at AIIMS New Delhi
+  location: India
+  pdf_url: https://github.com/ctanujit/talks/blob/main/Invited%20Talks/AU_Jan_2026.pdf
 - id: iitdad-oct-2026
   year: 2026
   month: October

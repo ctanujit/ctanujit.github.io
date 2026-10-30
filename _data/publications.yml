@@ -510,9 +510,9 @@
   - statistical-machine-learning
   citation: 'Panja, M., Younes, G., Chakraborty, T. (2026). Turning Time Series into Algebraic Equations: Symbolic Machine Learning for Interpretable Modeling of Chaotic Time Series. APL Machine Learning.'
   links:
-  - label: Preprint
-    type: preprint
-    url: https://arxiv.org/abs/2603.07261
+  - label: Paper
+    type: paper
+    url: https://doi.org/10.1063/5.0358326
   - label: Code
     type: code
     url: https://github.com/mad-stat/Symbolic_Forecasting

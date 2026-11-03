@@ -5,6 +5,10 @@
 #   <span class="green">green</span>
 #   <span class="brass">brass</span>
 # Put the whole text in single quotes when it contains a colon or a span.
+- date: 2026-11-01
+  text: Our paper on Macroeconomic forecasting got accepted in **International Review of Economics & Finance**.
+- date: 2026-10-01
+  text: Our paper on Symbolic ML for time series forecasting got accepted in **APL Machine Learning**.
 - date: 2026-09-09
   text: Our paper on Statistical patterns in Blockchain got accepted in **PLOS One**.
 - date: 2026-08-10

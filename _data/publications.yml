@@ -512,7 +512,7 @@
   research_areas:
   - spatiotemporal-forecasting
   - statistical-machine-learning
-  citation: 'Panja, M., Younes, G., Chakraborty, T. (2026). Turning Time Series into Algebraic Equations: Symbolic Machine Learning for Interpretable Modeling of Chaotic Time Series. APL Machine Learning.'
+  citation: 'Panja, M., Younes, G., Hens, C., Chakraborty, T. (2026). Turning Time Series into Algebraic Equations: Symbolic Machine Learning for Interpretable Modeling of Chaotic Time Series. APL Machine Learning.'
   links:
   - label: Paper
     type: paper

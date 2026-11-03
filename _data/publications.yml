@@ -1728,7 +1728,7 @@
   links:
   - label: Paper
     type: paper
-    url: https://arxiv.org/abs/2209.03945
+    url: https://ieeexplore.ieee.org/document/10069146
   - label: Code
     type: code
     url: https://github.com/CapWidow/W-Transformer
@@ -1754,7 +1754,7 @@
   links:
   - label: Paper
     type: paper
-    url: https://arxiv.org/abs/2209.04259
+    url: https://ieeexplore.ieee.org/document/10069213
   - label: Code
     type: code
     url: https://github.com/Zelabid/KdL

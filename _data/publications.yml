@@ -500,10 +500,11 @@
   position: 5
   status: published
   year: 2026
-  authors_display: Panja, M., Younes, G., Chakraborty, T.
+  authors_display: Panja, M., Younes, G., Hens, C., Chakraborty, T.
   authors:
   - Panja, M.
   - Younes, G.
+  - Hens, C.
   - Chakraborty, T.
   title: 'Turning Time Series into Algebraic Equations: Symbolic Machine Learning for Interpretable Modeling of Chaotic Time Series'
   venue: APL Machine Learning

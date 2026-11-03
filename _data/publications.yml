@@ -296,30 +296,6 @@
   - Healthcare index
   - Causal discovery
   - Time series
-- id: item-nd-sengupta-s-singh-s-k-chakraborty
-  section: submitted
-  position: 11
-  status: submitted
-  year: null
-  authors_display: Sengupta, S.*, Singh, S.K., Chakraborty, T.
-  authors:
-  - Sengupta, S.*
-  - Singh, S.K.
-  - Chakraborty, T.
-  title: Macroeconomic Forecasting for the G7 countries under Uncertainty Shocks
-  venue: null
-  award: null
-  research_areas:
-  - spatiotemporal-forecasting
-  citation: Sengupta, S.*, Singh, S.K., Chakraborty, T. Macroeconomic Forecasting for the G7 countries under Uncertainty Shocks.
-  links:
-  - label: Preprint
-    type: preprint
-    url: https://arxiv.org/abs/2510.23347
-  tags:
-  - Macroeconomics
-  - Uncertainty
-  - Forecasting
 - id: item-nd-mukhiya-k-luwang-sr-sharma-b
   section: submitted
   position: 12
@@ -405,9 +381,36 @@
   - Computing education
   - Student perceptions
   - Education analytics
-- id: pathak-2026-deep-generative-spatiotemporal-engression-for-pr
+- id: item-nd-sengupta-s-singh-s-k-chakraborty
   section: journal
   position: 1
+  status: published
+  year: 2026
+  authors_display: Sengupta, S.*, Singh, S.K., Chakraborty, T.
+  authors:
+  - Sengupta, S.*
+  - Singh, S.K.
+  - Chakraborty, T.
+  title: Macroeconomic Forecasting for the G7 countries under Uncertainty Shocks
+  venue: International Review of Economics & Finance
+  award: null
+  research_areas:
+  - spatiotemporal-forecasting
+  citation: Sengupta, S.*, Singh, S.K., Chakraborty, T. Macroeconomic Forecasting for the G7 countries under Uncertainty Shocks.
+  links:
+  - label: Preprint
+    type: preprint
+    url: https://arxiv.org/abs/2510.23347
+  - label: Code
+    type: code
+    url: https://github.com/ctanujit/Macrocasting
+  tags:
+  - Macroeconomics
+  - Uncertainty
+  - Forecasting
+- id: pathak-2026-deep-generative-spatiotemporal-engression-for-pr
+  section: journal
+  position: 2
   status: published
   year: 2026
   authors_display: Pathak, R.*, Chakraborty, T.
@@ -439,7 +442,7 @@
   - Spatiotemporal modeling
 - id: wang-2026-bayesian-machine-learning-for-estimating-optimal
   section: journal
-  position: 2
+  position: 3
   status: published
   year: 2026
   authors_display: Wang, X., Chakraborty, T., Chakraborty, B.
@@ -466,7 +469,7 @@
   - Bayesian methods
 - id: panja-2026-e-stgcn-extreme-spatiotemporal-graph-convolutio
   section: journal
-  position: 3
+  position: 4
   status: published
   year: 2026
   authors_display: Panja, M., Chakraborty, T., Biswas, A.*, Deb, S.
@@ -494,7 +497,7 @@
   - Air quality
 - id: item-nd-panja-m-younes-g-chakraborty-t
   section: journal
-  position: 4
+  position: 5
   status: published
   year: 2026
   authors_display: Panja, M., Younes, G., Chakraborty, T.
@@ -522,7 +525,7 @@
   - Interpretable ML
 - id: item-nd-mukhiya-k-luwang-sr-nurujjaman-m
   section: journal
-  position: 5
+  position: 6
   status: published
   year: 2026
   authors_display: Mukhiya, K., Luwang, SR., Nurujjaman, M., Chakraborty, T., Saha, S., Hens, C.
@@ -549,7 +552,7 @@
   - Scaling laws
 - id: wang-2026-survival-modeling-using-deep-learning-machine
   section: journal
-  position: 6
+  position: 7
   status: published
   year: 2026
   authors_display: Wang, Z., Lee, J. W., Chakraborty, T., Ning, Y., Liu, M., Feng, X., Ong, M. E. H., Liu, N.
@@ -582,7 +585,7 @@
   - Survival analysis
 - id: ghosh-2026-mdas-a-diagnostic-approach-to-assess
   section: journal
-  position: 7
+  position: 8
   status: published
   year: 2026
   authors_display: Ghosh, P. Karmakar, B., Jain E., Neeraja J., Banerjee B., Chakraborty, T.

@@ -253,11 +253,10 @@
   min-width: 0;
 }
 
-.cv-entry-heading {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .2rem .75rem;
-  align-items: baseline;
+.cv-entry-heading span {
+  color: #49657a;
+  font-size: .78rem;
+  line-height: 1.35;
 }
 
 .cv-entry-title {
@@ -479,4 +478,38 @@
   color: var(--cv-muted);
   font-size: .68rem;
   font-weight: 400;
+}
+
+/* =========================================================
+   Career section — stacked position / affiliation layout
+   ========================================================= */
+
+.cv-section--career .cv-entry {
+  padding-top: .72rem;
+  padding-bottom: .72rem;
+}
+
+.cv-section--career .cv-entry-heading {
+  display: block;
+}
+
+.cv-section--career .cv-entry-title {
+  color: #b43f25;
+  font-size: .86rem;
+  font-weight: 700;
+  line-height: 1.28;
+}
+
+.cv-section--career .cv-entry-heading > span {
+  display: block;
+  margin-top: .16rem;
+
+  color: #49657a;
+  font-size: .78rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.cv-section--career .cv-entry-details {
+  margin-top: .32rem;
 }

@@ -398,12 +398,12 @@
   - spatiotemporal-forecasting
   citation: Sengupta, S.*, Singh, S.K., Chakraborty, T. Macroeconomic Forecasting for the G7 countries under Uncertainty Shocks.
   links:
-  - label: Preprint
-    type: preprint
+  - label: Paper
+    type: paper
     url: https://arxiv.org/abs/2510.23347
   - label: Code
     type: code
-    url: https://github.com/ctanujit/Macrocasting
+    url: https://www.sciencedirect.com/science/article/pii/S1059056026011354
   tags:
   - Macroeconomics
   - Uncertainty

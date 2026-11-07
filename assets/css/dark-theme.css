@@ -103,7 +103,8 @@ html[data-theme="dark"] .nav-main ul a:focus-visible {
   transition:
     background-color .18s ease,
     color .18s ease,
-    border-color .18s ease;
+    border-color .18s ease,
+    transform 0.18s ease;
 }
 
 .theme-toggle:hover,
@@ -112,6 +113,9 @@ html[data-theme="dark"] .nav-main ul a:focus-visible {
   border-color: var(--terracotta);
   color: var(--terracotta);
   outline: none;
+}
+.theme-toggle:active {
+  transform: scale(0.94);
 }
 
 .theme-icon {
@@ -125,16 +129,14 @@ html[data-theme="dark"] .nav-main ul a:focus-visible {
   stroke-linejoin: round;
 }
 
-.theme-icon-sun {
-  display: none;
+/* Sun colour in dark mode */
+html[data-theme="dark"] .theme-toggle {
+  color: #f4f1e8;
 }
 
-html[data-theme="dark"] .theme-icon-sun {
-  display: block;
-}
-
-html[data-theme="dark"] .theme-icon-moon {
-  display: none;
+html[data-theme="dark"] .theme-toggle:hover,
+html[data-theme="dark"] .theme-toggle:focus-visible {
+  color: #ef8b3a;
 }
 
 

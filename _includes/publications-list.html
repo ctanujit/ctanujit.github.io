@@ -23,11 +23,43 @@
     {% endif %}
   </header>
 
-  <div class="publication-index-metrics" aria-label="Publication counts">
-    <div class="publication-index-metric"><strong>{{ journals.size }}</strong><span>Journal articles</span></div>
-    <div class="publication-index-metric"><strong>{{ conferences.size }}</strong><span>Conference papers</span></div>
-    <div class="publication-index-metric"><strong>{{ submitted.size }}</strong><span>Submitted / Preprint</span></div>
-    <div class="publication-index-metric"><strong>{{ books.size }}</strong><span>Book chapters</span></div>
+  <div class="publication-overview">
+    <section class="publication-history" aria-labelledby="publication-history-title">
+      <div class="publication-history-heading">
+        <div>
+          <h2 id="publication-history-title">Publication Trend</h2>
+        </div>
+        <span>Click a year to filter</span>
+      </div>
+      
+      <div
+        class="publication-history-chart"
+        id="publication-history-chart"
+        aria-label="Number of publications by year"
+      ></div>
+    
+    </section>
+    <div class="publication-index-metrics" aria-label="Publication counts">
+      <div class="publication-index-metric">
+        <strong>{{ journals.size }}</strong>
+        <span>Journal articles</span>
+      </div>
+      
+      <div class="publication-index-metric">
+        <strong>{{ conferences.size }}</strong>
+        <span>Conference papers</span>
+      </div>
+      
+      <div class="publication-index-metric">
+        <strong>{{ submitted.size }}</strong>
+        <span>Submitted / Preprint</span>
+      </div>
+      
+      <div class="publication-index-metric">
+        <strong>{{ books.size }}</strong>
+        <span>Book chapters</span>
+      </div>
+    </div>
   </div>
 
   <div class="publication-index-tools">

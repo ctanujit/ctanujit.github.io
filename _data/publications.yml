@@ -400,10 +400,10 @@
   links:
   - label: Paper
     type: paper
-    url: https://arxiv.org/abs/2510.23347
+    url: https://www.sciencedirect.com/science/article/pii/S1059056026011354
   - label: Code
     type: code
-    url: https://www.sciencedirect.com/science/article/pii/S1059056026011354
+    url: https://github.com/ctanujit/Macrocasting
   tags:
   - Macroeconomics
   - Uncertainty

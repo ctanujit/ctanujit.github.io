@@ -396,7 +396,7 @@
   award: null
   research_areas:
   - spatiotemporal-forecasting
-  citation: Sengupta, S.*, Singh, S.K., Chakraborty, T. Uncertainty-augmented Bayesian VARs for macroeconomic forecasting: Evidence from the G7.
+  citation: 'Sengupta, S.*, Singh, S.K., Chakraborty, T. Uncertainty-augmented Bayesian VARs for macroeconomic forecasting: Evidence from the G7.'
   links:
   - label: Paper
     type: paper

@@ -119,6 +119,8 @@
         'publication-history-bar';
 
       bar.dataset.historyYear = year;
+      /* Stagger each bar slightly */
+      bar.style.animationDelay = `${index * 55}ms`;
 
 
       /*
@@ -149,8 +151,13 @@
        * Hover tooltip:
        * 2025 · 9 publications
        */
-      bar.title =
-        `${year} · ${count} publication${count === 1 ? '' : 's'}`;
+      const tooltip = document.createElement('span');
+      tooltip.className = 'publication-history-tooltip';
+      
+      tooltip.innerHTML = `
+        <strong>${year}</strong>
+        <span>${count} publication${count === 1 ? '' : 's'}</span>
+      `;
 
 
       /* Year label below bar */
@@ -221,6 +228,7 @@
       });
 
 
+      wrap.appendChild(tooltip);
       wrap.appendChild(bar);
       wrap.appendChild(label);
 

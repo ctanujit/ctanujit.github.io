@@ -83,7 +83,7 @@
       const year = record.dataset.year;
 
       /* Ignore submitted papers without a publication year */
-      if (!year) return;
+     if (!year || record.dataset.section !== 'journal') return;
 
       yearCounts[year] =
         (yearCounts[year] || 0) + 1;
@@ -178,7 +178,7 @@
 
         const yearInput =
           page.querySelector(
-            `input[data-filter="year"][value="${year}"]`
+            `input[data-filter="type"][value="journal"]`
           );
 
         if (!yearInput) return;

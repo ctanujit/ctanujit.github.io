@@ -420,9 +420,6 @@
   font-weight: 700;
 }
 
-.publication-history-year.is-hidden {
-  visibility: hidden;
-}
 
 .publication-index-metrics {
   display: grid;
@@ -539,6 +536,9 @@
 }
 
 @media (max-width: 820px) {
+  .publication-overview { grid-template-columns: 1fr; }
+  .publication-history {  order: 1; }
+  .publication-index-metrics { order: 2; }
   .publication-index-hero { grid-template-columns: 1fr; gap: .2rem; min-height: 0; }
   .publication-index-hero-copy { padding-top: .5rem; }
   .publication-index-hero-art { min-height: 11rem; height: 11rem; -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%); mask-image: linear-gradient(180deg, transparent 0%, #000 18%, #000 82%, transparent 100%); }
@@ -553,6 +553,15 @@
 }
 
 @media (max-width: 620px) {
+  .publication-history { padding: .9rem .7rem .85rem; }
+  .publication-history-chart {   height: 6.6rem;   gap: .08rem;   padding: .2rem 0 1.55rem; }
+  .publication-history-chart::after {  left: 0;   right: 0;   bottom: 1.48rem; }
+  .publication-history-bar {   width: 68%;   min-width: 12px;   max-width: 28px; }
+  .publication-history-bar.is-active {  width: 74%;  min-width: 14px;  max-width: 31px; }
+  .publication-history-year {  bottom: -1.18rem;  font-size: .58rem; }
+  .publication-history-tooltip {  min-width: 5.8rem;  padding: .35rem .4rem; }
+  .publication-history-tooltip strong {    font-size: .72rem;  }
+  .publication-history-tooltip span {    font-size: .6rem;   }
   .publication-index-hero h1 { font-size: clamp(2.8rem, 15vw, 4rem); }
   .publication-index-hero-art { min-height: 8rem; height: 8rem; }
   .publication-index-metrics { grid-template-columns: 1fr 1fr; gap: .55rem; }

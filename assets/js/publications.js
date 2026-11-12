@@ -171,20 +171,6 @@
 
 
       /*
-       * Keep chart visually clean:
-       * show alternating year labels,
-       * while always showing first and last.
-       */
-      if (
-        index !== 0 &&
-        index !== years.length - 1 &&
-        index % 2 !== 0
-      ) {
-        label.classList.add('is-hidden');
-      }
-
-
-      /*
        * Clicking a histogram bar activates
        * the existing Year filter.
        */

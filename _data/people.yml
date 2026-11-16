@@ -14,14 +14,14 @@
 - group: Current members
   people:
   - name: Grace Younes
-    designation: Co-PI, Assistant Professor of Mathematics
+    designation: Assistant Professor of Mathematics
     affiliation: Sorbonne Université Abu Dhabi
     role: Assistant Professor of Mathematics, Sorbonne Université Abu Dhabi
     topic: Symbolic ML
     url: https://www.sorbonne.ae/team/grace-younes
     image: /assets/images/foreml/people/grace.png
   - name: Madhurima Panja
-    designation: Co-PI, Researcher
+    designation: Researcher
     affiliation: SAFIR, Sorbonne Université Abu Dhabi
     role: Researcher, Sorbonne Université Abu Dhabi
     topics: 

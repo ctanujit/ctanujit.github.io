@@ -235,7 +235,7 @@ sections:
 reviewing:
   journals:
   - JASA – Theory and Methods
-  - JRSS Series A
+  - JRSS – Series A
   - SIAM Journal on Applied Dynamical Systems
   - Neural Networks
   - Biometrics
@@ -244,7 +244,9 @@ reviewing:
   - IEEE TNNLS
   - IEEE TKDE
   - IEEE TIP
+  - ACM TOPML
   - International Journal of Forecasting
+  - INFORMS Journal on Data Science
   - Statistics in Medicine
   - Reliability Engineering & System Safety
   - Technological Forecasting & Social Change
@@ -266,6 +268,7 @@ reviewing:
   - AAAI
   - ECML-PKDD
   - ICIS
+  - ECIS
   - AMCIS
   - ICMLA
   thesis_reviewer:

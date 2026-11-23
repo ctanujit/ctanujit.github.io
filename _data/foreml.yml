@@ -1,6 +1,6 @@
 hero:
   eyebrow: "Research group"
-  title: "ForeML Lab"
+  title: "ForeML Research Group"
   rotating_prefix: "Fusing statistics and machine learning to"
   rotating_lines:
     - "forecast complex spatiotemporal systems"
@@ -8,15 +8,15 @@ hero:
     - "advance health AI"
     - "develop scientific generative models"
   lead: >-
-    ForeML Lab is a non-profit research group led by Tanujit Chakraborty, developing statistically principled machine-learning methods for forecasting, health, climate and complex dynamical systems.
+    ForeML Research Group is a non-profit research group led by Tanujit Chakraborty, developing statistically principled machine-learning methods for forecasting, health, climate and complex dynamical systems.
   logo:
     src: /assets/images/foreml/logo.png
-    alt: "ForeML Lab"
+    alt: "ForeML Research Group"
 
 group_photo:
   src: /assets/images/foreml/group.jpg
-  alt: "ForeML Lab group photograph"
-  caption: "ForeML Lab · Abu Dhabi"
+  alt: "ForeML Research Group group photograph"
+  caption: "ForeML Research Group · Abu Dhabi"
 
 featured_research:
   - publication_id: panja-2023-epicasting-an-ensemble-wavelet-neural-network
@@ -37,7 +37,7 @@ featured_research:
     image_position: "center"
 
 join:
-  heading: "Join ForeML Lab"
+  heading: "Join ForeML Research Group"
   text: >-
     Work with us on forecasting, statistical machine learning, health AI and complex dynamical systems. Prospective Master's and PhD students should review our research areas and preparation guidelines before contacting us.
   primary:

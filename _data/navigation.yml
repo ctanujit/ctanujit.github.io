@@ -19,7 +19,7 @@
 - label: Talks
   url: /talks/
 
-- label: ForeML Lab
+- label: ForeML
   url: /foreml/
   children:
     - label: Overview

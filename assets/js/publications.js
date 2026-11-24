@@ -4,6 +4,7 @@
 
   const records = [...page.querySelectorAll('.publication-record')];
   const sections = [...page.querySelectorAll('.publication-section')];
+  const originalOrder = new Map(records.map((record, index) => [record, index]));
 
   const search = page.querySelector('#publication-search');
   const sort = page.querySelector('#publication-sort');
@@ -433,11 +434,12 @@
      ========================================================= */
 
   function compare(a, b) {
-
-    const mode =
-      sort?.value || 'newest';
-
-
+    const mode = sort?.value || 'default';
+    /* Keep exactly the order used in publications.yml */
+    if (mode === 'default') {
+      return originalOrder.get(a) - originalOrder.get(b);
+    }
+    /* Alphabetical sorting */
     if (mode === 'title') {
       return (
         a.dataset.title || ''
@@ -445,30 +447,18 @@
         b.dataset.title || ''
       );
     }
-
-
+    /* Year-based sorting */
     const ay =
       Number(a.dataset.year || 0);
-
     const by =
       Number(b.dataset.year || 0);
-
-    const ap =
-      Number(
-        a.dataset.position || 999
-      );
-
-    const bp =
-      Number(
-        b.dataset.position || 999
-      );
-
-
     if (ay === by) {
-      return ap - bp;
+      /*
+      * For papers from the same year,
+      * preserve their order in publications.yml.
+      */
+      return originalOrder.get(a) - originalOrder.get(b);
     }
-
-
     return mode === 'oldest'
       ? ay - by
       : by - ay;

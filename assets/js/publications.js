@@ -516,6 +516,7 @@
             show =
               show &&
               index < 3;
+          }
 
 
           record.hidden =

@@ -515,11 +515,7 @@
           ) {
             show =
               show &&
-              Number(
-                record.dataset.position ||
-                index + 1
-              ) <= 3;
-          }
+              index < 3;
 
 
           record.hidden =

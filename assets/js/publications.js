@@ -177,44 +177,31 @@
        */
       bar.addEventListener('click', () => {
 
-        const yearInput =
-          page.querySelector(
-            `input[data-filter="type"][value="journal"]`
-          );
+        const yearInput = page.querySelector(`input[data-filter="year"][value="${year}"]`);
+        const journalInput = page.querySelector('input[data-filter="type"][value="journal"]');
+        if (!yearInput || !journalInput) return;
 
-        if (!yearInput) return;
+        const alreadySelected = yearInput.checked &&
+          journalInput.checked &&
+          checked('year').length === 1 &&
+          checked('type').length === 1;
 
-
-        const alreadySelected =
-          yearInput.checked;
-
-
-        /*
-         * Histogram acts as a single-year shortcut.
-         * Clear other selected years first.
-         */
+        /* Clear existing year and publication-type filters */
         controls()
-          .filter(
-            input =>
-              input.dataset.filter === 'year'
-          )
+          .filter(input =>
+            input.dataset.filter === 'year' ||
+            input.dataset.filter === 'type'
+                 )
           .forEach(input => {
             input.checked = false;
           });
 
-
-        /*
-         * Clicking an active bar again
-         * removes the year filter.
-         */
-        yearInput.checked =
-          !alreadySelected;
-
-
+        /* Select the corresponding journal publications */
+        yearInput.checked = !alreadySelected;
+        journalInput.checked = !alreadySelected;
         render();
       });
-
-
+      
       wrap.appendChild(tooltip);
       wrap.appendChild(bar);
       wrap.appendChild(label);

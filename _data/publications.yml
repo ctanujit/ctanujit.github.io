@@ -1,35 +1,33 @@
-- id: item-nd-besher-d-pathak-r-panja-m
+- id: item-nd-nareti-u-k-gupta-d-adak
   section: submitted
-  position: 1
   status: submitted
   year: null
-  authors_display: Besher, D.*, Pathak, R.*, Panja, M., Chakraborty, T.
+  authors_display: Nareti, U.K., Gupta, D., Adak, C., Chattopadhyay, S., Riese, E., Chakraborty, T., Agarwal, M., Kumar, S.
   authors:
-  - Besher, D.*
-  - Pathak, R.*
-  - Panja, M.
+  - Nareti, U.K.
+  - Gupta, D.
+  - Adak, C.
+  - Chattopadhyay, S.
+  - Riese, E.
   - Chakraborty, T.
-  title: 'Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data'
+  - Agarwal, M.
+  - Kumar, S.
+  title: Assessing Engineering Student Perceptions of Introductory CS Courses in an Indian Context
   venue: null
   award: null
   research_areas:
-  - spatiotemporal-forecasting
   - statistical-machine-learning
-  citation: 'Besher, D.*, Pathak, R.*, Panja, M., Chakraborty, T. Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data.'
+  citation: Nareti, U.K., Gupta, D., Adak, C., Chattopadhyay, S., Riese, E., Chakraborty, T., Agarwal, M., Kumar, S. Assessing Engineering Student Perceptions of Introductory CS Courses in an Indian Context.
   links:
   - label: Preprint
     type: preprint
-    url: https://arxiv.org/pdf/2609.13345
-  - label: Code
-    type: code
-    url: https://github.com/PyCoder913/ProbForecasting
+    url: https://arxiv.org/abs/2508.06563
   tags:
-  - Probabilistic forecasting
-  - Time series
-  - Spatiotemporal forecasting
+  - Computing education
+  - Student perceptions
+  - Education analytics
 - id: item-nd-payra-p-jagadish-sen-t-chakraborty
   section: submitted
-  position: 2
   status: submitted
   year: null
   authors_display: Payra, P., Jagadish, Sen, T., Chakraborty, T.
@@ -57,7 +55,6 @@
   - Geometric learning
 - id: item-nd-pathak-r-roy-a-chakraborty-t
   section: submitted
-  position: 3
   status: submitted
   year: null
   authors_display: Pathak, R.*, Roy, A., Chakraborty, T.
@@ -89,7 +86,6 @@
   - Distributional regression
 - id: item-nd-xu-j-qian-t-chakraborty-t
   section: submitted
-  position: 4
   status: submitted
   year: null
   authors_display: Xu, J., Qian, T., Chakraborty, T., Dahmani, S.A., Chakraborty, B.
@@ -112,42 +108,35 @@
   - Mobile health
   - Causal inference
   - Ordinal outcomes
-- id: item-nd-goswami-r-paul-s-ghosh-p
+- id: item-nd-besher-d-sengupta-a-chakraborty-t
   section: submitted
-  position: 5
   status: submitted
   year: null
-  authors_display: Goswami, R.*, Paul, S.*, Ghosh, P., Chakraborty, T.
+  authors_display: Besher, D.*, Sengupta, A., Chakraborty, T.
   authors:
-  - Goswami, R.*
-  - Paul, S.*
-  - Ghosh, P.
+  - Besher, D.*
+  - Sengupta, A.
   - Chakraborty, T.
-  title: Long-Memory Reservoir Computing for Data-Scarce Dengue Forecasting
+  title: 'Modeling US Climate Policy Uncertainty: From Causal Identification to Probabilistic Forecasting'
   venue: null
   award: null
   research_areas:
   - spatiotemporal-forecasting
-  - health-ai
-  citation: Goswami, R.*, Paul, S.*, Ghosh, P., Chakraborty, T. Long-Memory Reservoir Computing for Data-Scarce Dengue Forecasting.
+  - statistical-machine-learning
+  citation: 'Besher, D.*, Sengupta, A., Chakraborty, T. Modeling US Climate Policy Uncertainty: From Causal Identification to Probabilistic Forecasting.'
   links:
   - label: Preprint
     type: preprint
-    url: https://arxiv.org/pdf/2607.11272
+    url: https://arxiv.org/abs/2507.12276
   - label: Code
     type: code
-    url: https://github.com/yuvrajiro/memory-esn
-  - label: Python Package
-    type: software
-    url: https://pypi.org/project/memory-esn/
-    software_name: memory-esn
+    url: https://github.com/Donia-212/Climate_Policy_Uncertainty_Forecasting
   tags:
-  - Long memory
-  - Reservoir computing
-  - Dengue forecasting
+  - Causal inference
+  - Climate policy
+  - Probabilistic forecasting
 - id: item-nd-panja-m-d-agostino-d-li
   section: submitted
-  position: 6
   status: submitted
   year: null
   authors_display: Panja, M., D'Agostino, D., Li, H., Chakraborty, T., Liu, N.
@@ -180,7 +169,6 @@
   - Multivariate time series
 - id: item-nd-shukla-i-panja-m-chakraborty-t
   section: submitted
-  position: 7
   status: submitted
   year: null
   authors_display: Shukla, I., Panja, M., Chakraborty, T., Hens, C.
@@ -209,7 +197,6 @@
   - Epidemiology
 - id: item-nd-besher-d-panja-m-sengupta-s
   section: submitted
-  position: 8
   status: submitted
   year: null
   authors_display: Besher, D.*, Panja, M., Sengupta, S., Chakraborty, T.
@@ -242,7 +229,6 @@
   - Deep learning
 - id: item-nd-pathak-r-goswami-r-panja-m
   section: submitted
-  position: 9
   status: submitted
   year: null
   authors_display: Pathak, R.*, Goswami, R.*, Panja, M., Ghosh, P., Chakraborty, T.
@@ -272,7 +258,6 @@
   - Time series
 - id: item-nd-sadhukhan-p-gupta-s-ghosh-s
   section: submitted
-  position: 10
   status: submitted
   year: null
   authors_display: Sadhukhan, P., Gupta, S., Ghosh, S., Chakraborty, T.
@@ -298,7 +283,6 @@
   - Time series
 - id: item-nd-mukhiya-k-luwang-sr-sharma-b
   section: submitted
-  position: 12
   status: submitted
   year: null
   authors_display: Mukhiya, K., Luwang, SR., Sharma, B., Hens, C., Nurujjaman, M., Saha, S., Chakraborty, T.
@@ -324,66 +308,68 @@
   - Stablecoins
   - Political risk
   - Complex networks
-- id: item-nd-besher-d-sengupta-a-chakraborty-t
-  section: submitted
-  position: 13
-  status: submitted
-  year: null
-  authors_display: Besher, D.*, Sengupta, A., Chakraborty, T.
+- id: item-nd-besher-d-pathak-r-panja-m
+  section: journal
+  status: published
+  year: 2026
+  authors_display: Besher, D.*, Pathak, R.*, Panja, M., Chakraborty, T.
   authors:
   - Besher, D.*
-  - Sengupta, A.
+  - Pathak, R.*
+  - Panja, M.
   - Chakraborty, T.
-  title: 'Modeling US Climate Policy Uncertainty: From Causal Identification to Probabilistic Forecasting'
-  venue: null
+  title: 'Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data'
+  venue: 'Transactions on Machine Learning Research'
   award: null
   research_areas:
   - spatiotemporal-forecasting
   - statistical-machine-learning
-  citation: 'Besher, D.*, Sengupta, A., Chakraborty, T. Modeling US Climate Policy Uncertainty: From Causal Identification to Probabilistic Forecasting.'
+  citation: 'Besher, D.*, Pathak, R.*, Panja, M., Chakraborty, T. Beyond Point Forecasts: A Survey on Probabilistic Forecasting for Time Series and Spatiotemporal Data.'
   links:
-  - label: Preprint
-    type: preprint
-    url: https://arxiv.org/abs/2507.12276
+  - label: Paper
+    type: paper
+    url: https://openreview.net/forum?id=F140ECa1HO
   - label: Code
     type: code
-    url: https://github.com/Donia-212/Climate_Policy_Uncertainty_Forecasting
+    url: https://github.com/PyCoder913/ProbForecasting
   tags:
-  - Causal inference
-  - Climate policy
   - Probabilistic forecasting
-- id: item-nd-nareti-u-k-gupta-d-adak
-  section: submitted
-  position: 14
-  status: submitted
-  year: null
-  authors_display: Nareti, U.K., Gupta, D., Adak, C., Chattopadhyay, S., Riese, E., Chakraborty, T., Agarwal, M., Kumar, S.
+  - Time series
+  - Spatiotemporal forecasting
+- id: item-nd-goswami-r-paul-s-ghosh-p
+  section: journal
+  status: published
+  year: 2026
+  authors_display: Goswami, R.*, Paul, S.*, Ghosh, P., Chakraborty, T.
   authors:
-  - Nareti, U.K.
-  - Gupta, D.
-  - Adak, C.
-  - Chattopadhyay, S.
-  - Riese, E.
+  - Goswami, R.*
+  - Paul, S.*
+  - Ghosh, P.
   - Chakraborty, T.
-  - Agarwal, M.
-  - Kumar, S.
-  title: Assessing Engineering Student Perceptions of Introductory CS Courses in an Indian Context
+  title: Long-Memory Reservoir Computing for Data-Scarce Dengue Forecasting
   venue: null
   award: null
   research_areas:
-  - statistical-machine-learning
-  citation: Nareti, U.K., Gupta, D., Adak, C., Chattopadhyay, S., Riese, E., Chakraborty, T., Agarwal, M., Kumar, S. Assessing Engineering Student Perceptions of Introductory CS Courses in an Indian Context.
+  - spatiotemporal-forecasting
+  - health-ai
+  citation: Goswami, R.*, Paul, S.*, Ghosh, P., Chakraborty, T. Long-Memory Reservoir Computing for Data-Scarce Dengue Forecasting.
   links:
-  - label: Preprint
-    type: preprint
-    url: https://arxiv.org/abs/2508.06563
+  - label: Paper
+    type: paper
+    url: https://openreview.net/forum?id=G0Go4eXBpk
+  - label: Code
+    type: code
+    url: https://github.com/yuvrajiro/memory-esn
+  - label: Python Package
+    type: software
+    url: https://pypi.org/project/memory-esn/
+    software_name: memory-esn
   tags:
-  - Computing education
-  - Student perceptions
-  - Education analytics
+  - Long memory
+  - Reservoir computing
+  - Dengue forecasting
 - id: item-nd-sengupta-s-singh-s-k-chakraborty
   section: journal
-  position: 1
   status: published
   year: 2026
   authors_display: Sengupta, S.*, Singh, S.K., Chakraborty, T.
@@ -410,7 +396,6 @@
   - Forecasting
 - id: pathak-2026-deep-generative-spatiotemporal-engression-for-pr
   section: journal
-  position: 2
   status: published
   year: 2026
   authors_display: Pathak, R.*, Chakraborty, T.
@@ -442,7 +427,6 @@
   - Spatiotemporal modeling
 - id: wang-2026-bayesian-machine-learning-for-estimating-optimal
   section: journal
-  position: 3
   status: published
   year: 2026
   authors_display: Wang, X., Chakraborty, T., Chakraborty, B.
@@ -469,7 +453,6 @@
   - Bayesian methods
 - id: panja-2026-e-stgcn-extreme-spatiotemporal-graph-convolutio
   section: journal
-  position: 4
   status: published
   year: 2026
   authors_display: Panja, M., Chakraborty, T., Biswas, A.*, Deb, S.
@@ -497,7 +480,6 @@
   - Air quality
 - id: item-nd-panja-m-younes-g-chakraborty-t
   section: journal
-  position: 5
   status: published
   year: 2026
   authors_display: Panja, M., Younes, G., Hens, C., Chakraborty, T.
@@ -526,7 +508,6 @@
   - Interpretable ML
 - id: item-nd-mukhiya-k-luwang-sr-nurujjaman-m
   section: journal
-  position: 6
   status: published
   year: 2026
   authors_display: Mukhiya, K., Luwang, SR., Nurujjaman, M., Chakraborty, T., Saha, S., Hens, C.
@@ -553,7 +534,6 @@
   - Scaling laws
 - id: wang-2026-survival-modeling-using-deep-learning-machine
   section: journal
-  position: 7
   status: published
   year: 2026
   authors_display: Wang, Z., Lee, J. W., Chakraborty, T., Ning, Y., Liu, M., Feng, X., Ong, M. E. H., Liu, N.
@@ -586,7 +566,6 @@
   - Survival analysis
 - id: ghosh-2026-mdas-a-diagnostic-approach-to-assess
   section: journal
-  position: 8
   status: published
   year: 2026
   authors_display: Ghosh, P. Karmakar, B., Jain E., Neeraja J., Banerjee B., Chakraborty, T.
@@ -614,7 +593,6 @@
   - Machine learning
 - id: liu-2025-thompson-sampling-for-zero-inflated-count
   section: journal
-  position: 8
   status: published
   year: 2025
   authors_display: Liu, X., Deliu, N., Chakraborty, T., Bell, L., Chakraborty, B.
@@ -643,7 +621,6 @@
   - Count data
 - id: barman-2025-epidemic-guided-deep-learning-for-spatiotemporal
   section: journal
-  position: 9
   status: published
   year: 2025
   authors_display: Barman, M.*, Panja, M., Mishra, N., Chakraborty, T.
@@ -673,7 +650,6 @@
   - Forecasting
 - id: naik-2025-skew-probabilistic-neural-networks-for-learning
   section: journal
-  position: 10
   status: published
   year: 2025
   authors_display: Naik, S.M.*, Chakraborty, T., Panja, M., Hadid, A., Chakraborty, B.
@@ -702,7 +678,6 @@
   - Networks
 - id: sadhukhan-2025-footprints-of-data-in-a-classifier
   section: journal
-  position: 11
   status: published
   year: 2025
   authors_display: Sadhukhan, P., Chakraborty, T.
@@ -724,7 +699,6 @@
   - Privacy
 - id: banerjee-2025-recent-changes-in-spatiotemporal-patterns-of
   section: journal
-  position: 12
   status: published
   year: 2025
   authors_display: Banerjee, A., Gupta, S., Priyanshu, P., Kar, A., Saha, R., Chakraborty, T., Ghosh, D., Kurths, J., Hens, C.
@@ -752,7 +726,6 @@
   - Spatiotemporal modeling
 - id: ghosh-2025-developing-cholera-outbreak-forecasting-through
   section: journal
-  position: 13
   status: published
   year: 2025
   authors_display: Ghosh, A., Das, P., Chakraborty, T., Das, P., Ghosh, D.
@@ -781,7 +754,6 @@
   - Forecasting
 - id: panja-2025-forecasting-precipitation-in-the-arctic-using
   section: journal
-  position: 14
   status: published
   year: 2025
   authors_display: Panja, M., Das, D., Chakraborty, T., Ray, A., Radhakrishnan, A., Hens, C., Dana, S.K., Murukesh, N., Ghosh, D.
@@ -815,7 +787,6 @@
   - Machine learning
 - id: shukla-2025-salt-rock-creep-deformation-forecasting-using
   section: journal
-  position: 15
   status: published
   year: 2025
   authors_display: Shukla, P.K., Chakraborty, T., Sari, M., Sarout, J., Mandal, P.P.
@@ -841,7 +812,6 @@
   - Networks
 - id: chakraborty-2025-a-compounded-burr-probability-distribution-for
   section: journal
-  position: 16
   status: published
   year: 2025
   authors_display: Chakraborty, T., Chattopadhyay, S., Das, S., Naik, S.M., Hens, C.
@@ -869,7 +839,6 @@
   - Heavy tails
 - id: goswami-2025-shape-penalized-decision-forests-for-imbalanced
   section: journal
-  position: 17
   status: published
   year: 2025
   authors_display: Goswami, R.*, Garai, A.*, Sadhukhan, P., Ghosh, P., Chakraborty, T.
@@ -898,7 +867,6 @@
   - Classification
 - id: das-2025-pattern-change-of-precipitation-extremes-in
   section: journal
-  position: 18
   status: published
   year: 2025
   authors_display: Das, D., Radhakrishnan, A., Chakraborty, T., Ray, A., Hens, C., Dana, S.K., Ghosh, D., Murukesh, N.
@@ -925,7 +893,6 @@
   - Climate
 - id: sengupta-2025-forecasting-cpi-inflation-under-economic-policy
   section: journal
-  position: 19
   status: published
   year: 2025
   authors_display: Sengupta, S.*, Chakraborty, T., Singh, S.K.
@@ -951,7 +918,6 @@
   - Uncertainty
 - id: borah-2024-a-novel-hybrid-approach-for-efficiently
   section: journal
-  position: 20
   status: published
   year: 2024
   authors_display: Borah, J., Chakraborty, T., Nadzir, M., Cayetano, M., Benedetto, F., Majumdar, S.
@@ -980,7 +946,6 @@
   - Air quality
 - id: chakraborty-2024-ten-years-of-generative-adversarial-nets
   section: journal
-  position: 21
   status: published
   year: 2024
   authors_display: Chakraborty, T., Reddy, U., Naik, S.M.*, Panja, M., Manvitha, B.
@@ -1004,7 +969,6 @@
   - Generative AI
 - id: jakhmola-2024-spatiotemporal-forecasting-of-traffic-flow-using
   section: journal
-  position: 22
   status: published
   year: 2024
   authors_display: Jakhmola, Y.*, Panja, M., Mishra, N.K., Ghosh, K., Kumar, U., Chakraborty, T.
@@ -1034,7 +998,6 @@
   - Wavelets
 - id: hadid-2024-when-geoscience-meets-generative-ai-and
   section: journal
-  position: 23
   status: published
   year: 2024
   authors_display: Hadid, A., Chakraborty, T., Busby, D.
@@ -1056,7 +1019,6 @@
   - Generative AI
 - id: panja-2023-epicasting-an-ensemble-wavelet-neural-network
   section: journal
-  position: 24
   status: published
   year: 2023
   authors_display: Panja, M., Chakraborty, T.*, Kumar, U., Liu, N.
@@ -1093,7 +1055,6 @@
   - Networks
 - id: chakraborty-2023-bayesian-neural-tree-models-for-nonparametric
   section: journal
-  position: 25
   status: published
   year: 2023
   authors_display: Chakraborty, T., Kamat, G.*, Chakraborty, A. K.
@@ -1119,7 +1080,6 @@
   - Regression
 - id: panja-2023-an-ensemble-neural-network-approach-to
   section: journal
-  position: 26
   status: published
   year: 2023
   authors_display: Panja, M., Chakraborty, T., Nadim. Sk., Ghosh, I., Kumar, U., Liu, N.
@@ -1151,7 +1111,6 @@
   - Networks
 - id: thottolil-2023-prediction-of-transportation-index-for-urban
   section: journal
-  position: 27
   status: published
   year: 2023
   authors_display: Thottolil, R., Kumar, U., Chakraborty, T.
@@ -1177,7 +1136,6 @@
   - Mobility
 - id: bhattacharyya-2022-stochastic-forecasting-of-covid-19-daily
   section: journal
-  position: 28
   status: published
   year: 2022
   authors_display: Bhattacharyya, A., Chakraborty, T., Rai, S. N.
@@ -1204,7 +1162,6 @@
   - Forecasting
 - id: chakraborty-2022-searching-for-heavy-tailed-probability-distribut
   section: journal
-  position: 29
   status: published
   year: 2022
   authors_display: Chakraborty, T., Chattopadhyay, S., Das, S., Kumar, U., Jayavelu, S.
@@ -1232,7 +1189,6 @@
   - Heavy tails
 - id: chakraborty-2022-a-new-method-for-generalizing-burr
   section: journal
-  position: 30
   status: published
   year: 2022
   authors_display: Chakraborty, T., Das, S., Chattopadhyay, S.
@@ -1253,7 +1209,6 @@
   tags: []
 - id: ghosh-2021-an-integrated-deterministic-stochastic-approach
   section: journal
-  position: 31
   status: published
   year: 2021
   authors_display: Ghosh, I., and Chakraborty, T.
@@ -1276,7 +1231,6 @@
   - Forecasting
 - id: ray-2021-optimized-ensemble-deep-learning-framework-for
   section: journal
-  position: 32
   status: published
   year: 2021
   authors_display: Ray, A., Chakraborty, T., Ghosh, D.
@@ -1303,7 +1257,6 @@
   - Deep learning
 - id: chattopadhyay-2021-modified-lomax-model-a-heavy-tailed
   section: journal
-  position: 33
   status: published
   year: 2021
   authors_display: Chattopadhyay, S., Chakraborty, T., Ghosh, K., Das, A. K.
@@ -1327,7 +1280,6 @@
   - Heavy tails
 - id: chakraborty-2021-unemployment-rate-forecasting-a-hybrid-approach
   section: journal
-  position: 34
   status: published
   year: 2021
   authors_display: Chakraborty, T., Chakraborty, A. K., Biswas, M., Banerjee, S., Bhattacharya, S.
@@ -1351,7 +1303,6 @@
   - Forecasting
 - id: chakraborty-2020-real-time-forecasts-and-risk-assessment
   section: journal
-  position: 35
   status: published
   year: 2020
   authors_display: Chakraborty, T., Ghosh, I.
@@ -1377,7 +1328,6 @@
   - Forecasting
 - id: chakraborty-2020-hellinger-net-a-hybrid-imbalance-learning
   section: journal
-  position: 36
   status: published
   year: 2020
   authors_display: Chakraborty, T., Chakraborty, A. K.
@@ -1398,7 +1348,6 @@
   - Imbalanced learning
 - id: chakraborty-2020-radial-basis-neural-tree-model-for
   section: journal
-  position: 37
   status: published
   year: 2020
   authors_display: Chakraborty, T., & Chattopadhyay, S., Chakraborty, A. K.
@@ -1422,7 +1371,6 @@
   tags: []
 - id: chakraborty-2020-superensemble-classifier-for-improving-predictio
   section: journal
-  position: 38
   status: published
   year: 2020
   authors_display: Chakraborty, T., Chakraborty, A. K.
@@ -1444,7 +1392,6 @@
   - Classification
 - id: chakraborty-2019-a-hybrid-regression-model-for-water
   section: journal
-  position: 39
   status: published
   year: 2019
   authors_display: Chakraborty, T., Chakraborty, A. K., Mansoor, Z.
@@ -1466,7 +1413,6 @@
   - Regression
 - id: chakraborty-2019-forecasting-dengue-epidemics-using-a-hybrid
   section: journal
-  position: 40
   status: published
   year: 2019
   authors_display: Chakraborty, T., Chattopadhyay, S., Ghosh, I.
@@ -1490,7 +1436,6 @@
   - Forecasting
 - id: chakraborty-2019-a-novel-distribution-free-hybrid-regression
   section: journal
-  position: 41
   status: published
   year: 2019
   authors_display: Chakraborty, T., Chakraborty, A. K., Chattopadhyay, S.
@@ -1512,7 +1457,6 @@
   - Regression
 - id: chakraborty-2019-a-nonparametric-ensemble-binary-classifier-and
   section: journal
-  position: 42
   status: published
   year: 2019
   authors_display: Chakraborty, T., Chakraborty, A. K., Murthy, C. A.
@@ -1537,7 +1481,6 @@
   - Classification
 - id: chakraborty-2018-a-novel-hybridization-of-classification-trees
   section: journal
-  position: 43
   status: published
   year: 2018
   authors_display: Chakraborty, T., Chattopadhyay, S., Chakraborty, A. K.
@@ -1560,7 +1503,6 @@
   - Classification
 - id: panja-2025-zero-shot-forecasting-of-epidemics
   section: conference
-  position: 1
   status: published
   year: 2025
   authors_display: Panja, M., Modak, O.*, Younes, G., Chakraborty, T.
@@ -1585,7 +1527,6 @@
   - Forecasting
 - id: dey-2024-do-we-really-need-foundation-models
   section: conference
-  position: 2
   status: published
   year: 2024
   authors_display: Dey, M.*, Chakrabartty, A., Sarkar, D., Chakraborty, T.
@@ -1610,7 +1551,6 @@
   - Forecasting
 - id: sadhukhan-2024-knowing-the-class-distinguishing-abilities-of
   section: conference
-  position: 3
   status: published
   year: 2024
   authors_display: Sadhukhan, P., Sengupta, K., Palit, S., Chakraborty, T.
@@ -1631,7 +1571,6 @@
   tags: []
 - id: sadhukhan-2024-deploying-model-obfuscation-towards-the-privacy
   section: conference
-  position: 4
   status: published
   year: 2024
   authors_display: Sadhukhan, P., Chakraborty, T., Sengupta, K.
@@ -1653,7 +1592,6 @@
   - Privacy
 - id: panja-2023-probabilistic-autoregressive-neural-networks-for
   section: conference
-  position: 5
   status: published
   year: 2023
   authors_display: Panja, M., Chakraborty, T., Kumar, U., Hadid, A.
@@ -1682,7 +1620,6 @@
   - Networks
 - id: dutta-2023-van-der-pol-informed-neural-networks
   section: conference
-  position: 6
   status: published
   year: 2023
   authors_display: Dutta, A.*, Panja, M., Kumar, U., Hens, C., Chakraborty, T.
@@ -1711,7 +1648,6 @@
   - Networks
 - id: sasal-2022-w-transformers-a-wavelet-based-transformer
   section: conference
-  position: 7
   status: published
   year: 2022
   authors_display: Sasal, L.*, Chakraborty, T., Hadid, A.
@@ -1737,7 +1673,6 @@
   - Wavelets
 - id: elabid-2022-knowledge-based-deep-learning-for-modeling
   section: conference
-  position: 8
   status: published
   year: 2022
   authors_display: Elabid, Z.*, Chakraborty, T., Hadid, A.
@@ -1762,7 +1697,6 @@
   - Deep learning
 - id: bhattacharyya-2021-theta-autoregressive-neural-network-a-hybrid
   section: conference
-  position: 9
   status: published
   year: 2021
   authors_display: Bhattacharyya, A., Pattnaik, M., Chattopadhyay, S., Chakraborty, T.
@@ -1792,7 +1726,6 @@
   - Networks
 - id: chattopadhyay-2021-uncovering-patterns-in-heavy-tailed-networks
   section: conference
-  position: 10
   status: published
   year: 2021
   authors_display: Chattopadhyay, S., Chakraborty, T., Ghosh, K., Das, A. K.
@@ -1816,7 +1749,6 @@
   - Heavy tails
 - id: chakraborty-2022-nowcasting-of-covid-19-confirmed-cases
   section: book_chapter
-  position: 1
   status: published
   year: 2022
   authors_display: Chakraborty, T., Ghosh, I., Mahajan, T., Arora, T.
@@ -1844,7 +1776,6 @@
   - Forecasting
 - id: chakraborty-2022-loss-function
   section: book_chapter
-  position: 2
   status: published
   year: 2022
   authors_display: Chakraborty, T., Kumar, U.
@@ -1867,7 +1798,6 @@
   tags: []
 - id: panja-2022-data-dictionary
   section: book_chapter
-  position: 3
   status: published
   year: 2022
   authors_display: Panja, M., Chakraborty, T., Kumar, U.

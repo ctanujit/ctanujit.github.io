@@ -25,7 +25,6 @@
 <li class="publication-record{% if pub.section == 'submitted' and idx > preview_count %} is-submitted-extra{% endif %}"
     data-section="{{ pub.section }}"
     data-year="{{ pub.year | default: '' }}"
-    data-position="{{ pub.position | default: idx }}"
     data-areas="{{ areas_pipe | strip | escape }}"
     data-title="{{ pub.title | default: pub.citation | downcase | escape }}"
     data-search="{{ search_blob | downcase | strip | escape }}"

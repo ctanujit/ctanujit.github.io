@@ -644,7 +644,7 @@
 
 
       if (sort) {
-        sort.value = 'newest';
+        sort.value = 'default';
       }
 
 
